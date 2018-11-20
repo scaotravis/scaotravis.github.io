@@ -1,0 +1,21 @@
+---
+layout: post-index
+title:
+description: "Welcome to my homepage"
+tags: [Jekyll, theme, themes, responsive, blog, modern]
+comments: false
+image:
+  feature: abstract-6.jpg
+---
+
+{% for post in paginator.posts %}
+<article class="hentry">
+  <div class="entry-content">
+    {% if post.title contains "Welcome" %}
+      {{ post.content }}
+    {% endif %}
+  </div><!-- /.entry-content -->
+</article><!-- /.hentry -->
+{% endfor %}
+
+{% include pagination.html %}
