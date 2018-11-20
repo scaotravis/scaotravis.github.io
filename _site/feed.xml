@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-11-20T12:40:58-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Travis Cao</title><subtitle>UW-Madison</subtitle><entry><title type="html">Travis Cao</title><link href="http://localhost:4000/home" rel="alternate" type="text/html" title="Travis Cao" /><published>2018-11-19T00:00:00-06:00</published><updated>2018-11-19T00:00:00-06:00</updated><id>http://localhost:4000/homepage</id><content type="html" xml:base="http://localhost:4000/home">&lt;h2 id=&quot;welcome&quot;&gt;Welcome!&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-11-20T13:06:28-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Travis Cao</title><subtitle>UW-Madison</subtitle><entry><title type="html">Travis Cao</title><link href="http://localhost:4000/home" rel="alternate" type="text/html" title="Travis Cao" /><published>2018-11-19T00:00:00-06:00</published><updated>2018-11-19T00:00:00-06:00</updated><id>http://localhost:4000/homepage</id><content type="html" xml:base="http://localhost:4000/home">&lt;h2 id=&quot;welcome&quot;&gt;Welcome!&lt;/h2&gt;
 
 &lt;p&gt;My legal name is &lt;strong&gt;Shengyang Cao&lt;/strong&gt;; I go by Travis most of the time.&lt;/p&gt;
 
@@ -7,7 +7,7 @@
 &lt;p&gt;Below are some quick access links to help you navigate around my website:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://uwmadison.app.box.com/v/travis-cao-cv&quot;&gt;Curriculum vitae&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://localhost:4000/downloads/cv_shengyang_cao.pdf&quot;&gt;Curriculum vitae&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/scaotravis&quot;&gt;GitHub profile&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.linkedin.com/in/travis-cao/&quot;&gt;LinkedIn resumé&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><author><name></name></author><summary type="html">Welcome!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22abstract-6.jpg%22%7D" /></entry></feed>
