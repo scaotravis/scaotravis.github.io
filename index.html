@@ -3,19 +3,16 @@ layout: post-index
 title:
 description: "Welcome to my homepage"
 tags: [Jekyll, theme, themes, responsive, blog, modern]
-comments: false
-image:
-  feature: abstract-6.jpg
 ---
 
-{% for post in paginator.posts %}
-<article class="hentry">
-  <div class="entry-content">
-    {% if post.permalink == "home" %}
-      {{ post.content }}
-    {% endif %}
-  </div><!-- /.entry-content -->
-</article><!-- /.hentry -->
+{% for post in site.posts %}
+  {% if post.categories contains "homepage" %}
+  <article class="hentry">
+    <div class="entry-content">
+        {{ post.content }}
+      </div><!-- /.entry-content -->
+    </article><!-- /.hentry -->
+  {% endif %}
 {% endfor %}
 
 {% include pagination.html %}

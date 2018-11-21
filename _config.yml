@@ -18,7 +18,7 @@ owner:
   facebook:
   github:         scaotravis
   stackexchange:
-  linkedin:
+  linkedin:       travis-cao
   instagram:
   flickr:
   tumblr:
@@ -47,6 +47,17 @@ plugins:
 sass:
   sass_dir: _sass
   style: compressed
+
+# Default front matters
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      image:
+        feature: abstract-6.jpg
+      comments: false
+      share: false
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title/
