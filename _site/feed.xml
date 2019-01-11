@@ -1,30 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-11-20T20:47:51-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Travis Cao</title><subtitle>UW-Madison</subtitle><entry><title type="html">Research Projects</title><link href="http://localhost:4000/research" rel="alternate" type="text/html" title="Research Projects" /><published>2018-11-20T00:00:00-06:00</published><updated>2018-11-20T00:00:00-06:00</updated><id>http://localhost:4000/research</id><content type="html" xml:base="http://localhost:4000/research">&lt;p&gt;&lt;span style=&quot;color: #f2cf4a; font-size: .9em;&quot;&gt;&lt;a href=&quot;http://localhost:4000/&quot;&gt;[Back home]&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <description>Undergraduate senior at UW-Madison double majoring in economics and mathematics</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 11 Jan 2019 14:35:30 +0800</pubDate>
+    <lastBuildDate>Fri, 11 Jan 2019 14:35:30 +0800</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Research Projects</title>
+        <description>&lt;h3 id=&quot;projects-on-environmental-economics&quot;&gt;Projects on Environmental Economics&lt;/h3&gt;
 
-&lt;h1 id=&quot;projects-on-environmental-economics&quot;&gt;Projects on Environmental Economics&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/assets/pdfs/cao_fuel_economy.pdf&quot;&gt;&lt;strong&gt;Does Energy Efficiency Affect Demand: An Empirical Study on the Energy Paradox Within Automobile Industry (2018)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;does-energy-efficiency-affect-demand-an-empirical-study-on-the-energy-paradox-within-automobile-industry&quot;&gt;Does Energy Efficiency Affect Demand: An Empirical Study on the Energy Paradox Within Automobile Industry&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://localhost:4000/downloads/cao_fuel_economy.pdf&quot;&gt;[PDF]&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;This paper studies “the energy paradox” within automotive market, where the slow adoption of vehicles with better fuel economy is observed. We obtained survey data from California Energy Commission, used random coefficient logit model developed by Berry, Levinsohn, and Pakes (1995) to perform market demand estimation, and created an empirical willingness to pay (WTP) distribution for an additional miles per gallon (mpg) to investigate consumer valuation on fuel economy. Our result shows that only about 30% of the distribution has WTP more than $600 (which is calculated as a reasonable cutoff for one more mpg). With the majority unwilling to pay for an extra mpg, this suggests that consumers undervalue fuel economy at the market level, illustrating the paradox.&lt;/p&gt;
-
-&lt;hr style=&quot;height:2pt; visibility:hidden;&quot; /&gt;
+&lt;p&gt;This paper studies whether consumer undervaluation on energy factor can explain “the energy paradox” within automotive market, where slow adoption of vehicles with better fuel economy has been observed. We obtained survey data from California Energy Commission, used random coefﬁcient logit model developed by Berry, Levinsohn, and Pakes (1995) to perform market demand estimation, and created an empirical willingness to pay (WTP) distribution for an additional miles per gallon (mpg) to investigate consumer valuation. Our result shows that only about 30% of the distribution has WTP more than $600 (calculated as a reasonable cutoff for one more mpg). With the majority unwilling to pay for an extra mpg, this suggests that consumers undervalue fuel economy, illustrating the paradox.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&quot;uncertainty-in-lightbulb-failing-a-study-on-the-energy-paradox-within-the-us-residential-lighting-market&quot;&gt;Uncertainty in Lightbulb Failing: A Study on the Energy Paradox Within the U.S. Residential Lighting Market&lt;/h3&gt;
+&lt;hr style=&quot;height:2pt; visibility:hidden;&quot; /&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://localhost:4000/downloads/cao_lightbulb.pdf&quot;&gt;[PDF]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/assets/pdfs/cao_lightbulb.pdf&quot;&gt;&lt;strong&gt;Uncertainty in Lightbulb Failing: A Study on the Energy Paradox Within the U.S. Residential Lighting Market (2018)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;“The energy paradox”, which describes the rather slow adoption of energy-efficient products despite their savings potential, has been observed in the U.S. residential lighting market for LED products. With LED sales fall short of traditional incandescent bulbs, this paper looks at how uncertainty, specifically regarding lightbulb’s probability of failing, could explain the paradox. We deploy a discrete choice model to replicate consumer’s decision making, and then use Monte Carlo simulation to find income level of the consumer who is indifferent between buying incandescentand LED. With the presence of lightbulb failinguncertainty, we found that consumers who discount future by a little (with discount factor around 0.9) already prefer incandescent over LED for majority of times, resulting in the paradox.Predictions are made for average U.S. consumer’s purchasing behavior, and future studies are suggested to validify our theoretical framework.&lt;/p&gt;</content><author><name></name></author><summary type="html">[Back home]</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22abstract-6.jpg%22%7D" /></entry><entry><title type="html">Travis Cao</title><link href="http://localhost:4000/home" rel="alternate" type="text/html" title="Travis Cao" /><published>2018-11-19T00:00:00-06:00</published><updated>2018-11-19T00:00:00-06:00</updated><id>http://localhost:4000/homepage</id><content type="html" xml:base="http://localhost:4000/home">&lt;h2 id=&quot;welcome&quot;&gt;Welcome!&lt;/h2&gt;
+&lt;p&gt;“The energy paradox”, which describes the rather slow adoption of energy-efficient products despite their savings potential, has been observed in the U.S. residential lighting market for LED products. With LED sales fall short of traditional incandescent bulbs, this paper looks at how uncertainty, specifically regarding lightbulb’s probability of failing, could explain the paradox. We deploy a discrete choice model to replicate consumer’s decision making, and then use Monte Carlo simulation to find income level of the consumer who is indifferent between buying incandescentand LED. With the presence of lightbulb failinguncertainty, we found that consumers who discount future by a little (with discount factor around 0.9) already prefer incandescent over LED for majority of times, resulting in the paradox.Predictions are made for average U.S. consumer’s purchasing behavior, and future studies are suggested to validify our theoretical framework.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 11 Jan 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/research</link>
+        <guid isPermaLink="true">http://localhost:4000/research</guid>
+        
+        
+        <category>research</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome</title>
+        <description>&lt;p&gt;&lt;img alt=&quot;Profile Image&quot; src=&quot;/assets/images/avatar.jpg&quot; height=&quot;330&quot; width=&quot;330&quot; align=&quot;right&quot; hspace=&quot;20&quot; vspace=&quot;20&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;My legal name is &lt;strong&gt;Shengyang Cao&lt;/strong&gt;; I go by Travis most of the time.&lt;/p&gt;
+&lt;p&gt;My legal name is &lt;strong&gt;Shengyang Cao&lt;/strong&gt;; I go by &lt;strong&gt;Travis&lt;/strong&gt; most of the time.&lt;/p&gt;
 
-&lt;p&gt;I am an undergraduate senior pursuing B.A. degree in economics and mathematics at University of Wisconsin-Madison.&lt;/p&gt;
+&lt;p&gt;I am an undergraduate senior pursuing B.A. degree in economics and mathematics at University of Wisconsin-Madison. My research interests lie in the fields of environmental economics, public economics, econometrics, and applied microeconomics.&lt;/p&gt;
 
-&lt;p&gt;Below are some quick access links to help you navigate around my website:&lt;/p&gt;
+&lt;p&gt;Below are some quick access links. You can also use the menu bar at top to navigate around my website.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://localhost:4000/downloads/cv_shengyang_cao.pdf&quot;&gt;Curriculum vitae&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://localhost:4000/research&quot;&gt;Research projects&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Welcome!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22abstract-6.jpg%22%7D" /></entry></feed>
+  &lt;li&gt;&lt;a href=&quot;http://localhost:4000/assets/pdfs/cv_shengyang_cao.pdf&quot;&gt;Curriculum Vitae&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://localhost:4000/research.html&quot;&gt;Research projects&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/scaotravis/&quot;&gt;GitHub profile&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 28 Dec 2018 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/home</link>
+        <guid isPermaLink="true">http://localhost:4000/home</guid>
+        
+        
+        <category>homepage</category>
+        
+      </item>
+    
+  </channel>
+</rss>

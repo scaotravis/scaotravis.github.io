@@ -1,18 +1,22 @@
 ---
-layout: post-index
-title:
-description: "Welcome to my homepage"
-tags: [Jekyll, theme, themes, responsive, blog, modern]
+layout: default
+title: Home
 ---
 
-{% for post in site.posts %}
-  {% if post.categories contains "homepage" %}
-  <article class="hentry">
-    <div class="entry-content">
-        {{ post.content }}
-      </div><!-- /.entry-content -->
-    </article><!-- /.hentry -->
-  {% endif %}
-{% endfor %}
+{% if page.url == "/" %}
 
-{% include pagination.html %}
+<!-- Featured
+================================================== -->
+  {% for post in site.posts %}
+    {% if post.categories contains "homepage" %}
+      <div class="section-title">
+        <h2><span>{{ post.title }}</span></h2>
+      </div>
+
+      <div class="article-post">
+        {{ post.content }}
+      </div>
+    {% endif %}
+  {% endfor %}
+
+{% endif %}
