@@ -29,8 +29,6 @@
 <meta name="msapplication-TileColor" content="#2b5797">
 <meta name="theme-color" content="#ffffff">
 
-</head>
-
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129577188-1"></script>
 <script>
@@ -40,6 +38,8 @@
 
   gtag('config', 'UA-129577188-1');
 </script>
+
+</head>
 
 
 <body class="layout-page">
@@ -122,7 +122,27 @@
     </div>
     
     <div class="article-post">
-    <p><img alt="Profile Image" src="/assets/images/avatar.jpg" height="330" width="330" align="right" hspace="20" vspace="20" /></p>
+    <html>
+  <body>
+    <style>
+      @media only screen and (max-width: 600px) {
+        .attributes {
+          margin: 20px 20px;
+          float: center;
+        }
+      }
+      @media only screen and (min-width: 601px) {
+        .attributes {
+          margin: 20px 20px;
+          float: right;
+        }
+      }
+    </style>
+    <div class="attributes">
+      <img alt="Profile Image" src="/assets/images/avatar.jpg" height="330" width="330" />
+    </div>
+  </body>
+</html>
 
 <p>My legal name is <strong>Shengyang Cao</strong>; I usually go by <strong>Travis</strong>.</p>
 
