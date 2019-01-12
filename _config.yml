@@ -3,7 +3,7 @@ name: "Travis Cao"
 description: "Undergraduate senior at UW-Madison double majoring in economics and mathematics"
 meta_description: "Undergraduate senior at UW-Madison double majoring in economics and mathematics"
 logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
+favicon: 'favicon.ico'
 baseurl: ''
 google_analytics: 'UA-129577188-1'
 # disqus: 'demowebsite'
