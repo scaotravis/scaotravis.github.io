@@ -28,8 +28,8 @@ jekyll-archives:
   enabled:
     - categories
   layout: archive
-  permalinks:
-    category: '/category/:name/'
+  permalinks: 
+    category: /:categories/:title/
 
 # Pagination
 paginate: 6
