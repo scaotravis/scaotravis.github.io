@@ -9,7 +9,7 @@
 <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101166235);</script>
 <script async src="//static.getclicky.com/js"></script>
 
-<title>research | Travis Cao</title>
+<title>hoo | Travis Cao</title>
 
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -32,7 +32,7 @@
 </head>
 
 
-<body class="layout-archive">
+<body class="layout-page">
 
 <!-- Begin Menu Navigation
 ================================================== -->
@@ -105,82 +105,69 @@
 <!-- Content
 ================================================== -->
 <div class="main-content">
-    <!-- Begin List Posts
-================================================== -->
-<section class="recent-posts">
-<div class="section-title">
-    <h2>Archive of posts with <span>category 'research'</span></h2>
-</div>
-<div class="row listrecent">
-
-
-
-    <!-- begin post -->
-
-
-<div class="col-lg-4 col-md-6 mb-30px card-group">
-    <div class="card h-100">
-        <div class="maxthumb">
-            <a href="http://localhost:4000/hoo">
-                
-            </a>
-        </div>
-        <div class="card-body">
-            <h2 class="card-title"><a class="text-dark" href="http://localhost:4000/hoo">hoo</a></h2>
-            <h4 class="card-text">Horizon of Observation rENA Model for Multimodal Data Analysis
-
-</h4>            
-        </div>
-        <div class="card-footer bg-white">
-            <div class="wrapfooter">
-                
-                <span class="post-date">24 Feb 2019</span>
-                </span>
-                <span class="post-read-more"><a href="http://localhost:4000/hoo" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
-                <div class="clearfix"></div>
-            </div>
-        </div>
+    <section>
+    <div class="section-title">
+        <h2><span>hoo</span></h2>
     </div>
-</div>
-<!-- end post -->
+    
+    <div class="article-post">
+    <h1 id="horizon-of-observation-rena-model-for-multimodal-data-analysis">Horizon of Observation rENA Model for Multimodal Data Analysis</h1>
 
+<ul>
+  <li><a href="https://github.com/scaotravis/hoo">View on GitHub</a></li>
+  <li><a href="#what-is-hoo">What is hoo?</a></li>
+  <li><a href="#install-hoo-in-r">Install hoo in R</a></li>
+  <li><a href="#whats-new">What’s new</a></li>
+  <li><a href="#upcoming-features">Upcoming features</a></li>
+</ul>
 
+<h2 id="what-is-hoo">What is hoo?</h2>
+<p>hoo is an R package used for multimodal data analysis. It is used alongside <a href="https://cran.r-project.org/web/packages/rENA/index.html"><code class="highlighter-rouge">rENA</code></a>.</p>
 
-    <!-- begin post -->
+<p>hoo will create an appropriate ENA accumulated model that can be used by <code class="highlighter-rouge">rENA</code> to create ENA set; afterwards, you can use <code class="highlighter-rouge">rENA</code> plotting functions to generate points and network plots to analyze connections between players in the multimodal data.</p>
 
+<p>For more on how to interpret ENA models and networks, consult <a href="http://www.epistemicanalytics.org/">Epistemic Analytics Lab</a> at University of Wisconsin-Madison.</p>
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
-    <div class="card h-100">
-        <div class="maxthumb">
-            <a href="http://localhost:4000/research">
-                
-            </a>
-        </div>
-        <div class="card-body">
-            <h2 class="card-title"><a class="text-dark" href="http://localhost:4000/research">Research Projects</a></h2>
-            <h4 class="card-text">Projects on Environmental Economics
+<h2 id="install-hoo-in-r">Install hoo in R:</h2>
+<p>To install this repository in R as a package, run the following commands:</p>
+<pre><code class="language-{r}">install.packages("devtools")
+devtools::install_github("scaotravis/hoo@v3.2")
+require(hoo)
+</code></pre>
 
-</h4>            
-        </div>
-        <div class="card-footer bg-white">
-            <div class="wrapfooter">
-                
-                <span class="post-date">11 Jan 2019</span>
-                </span>
-                <span class="post-read-more"><a href="http://localhost:4000/research" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
-                <div class="clearfix"></div>
-            </div>
-        </div>
+<h2 id="whats-new">What’s new:</h2>
+
+<p><em>Verison 3.2</em> (January 29, 2019):</p>
+<ul>
+  <li>Now, all methods from <code class="highlighter-rouge">hoo</code> comes with prefix <code class="highlighter-rouge">hoo.</code>, which helps you distinguish methods called by hoo class.</li>
+</ul>
+
+<p><em>Version 3.1</em> (November 14, 2018):</p>
+<ul>
+  <li>Included function <code class="highlighter-rouge">hoo.accumulate.data</code> to directly generate ENA accumulated model for ENA set creation.</li>
+  <li>Reordered some arguments for a more logical ordering.</li>
+</ul>
+
+<p><em>Version 3.0</em> (November 11, 2018):</p>
+
+<ul>
+  <li>Included dataset <code class="highlighter-rouge">mock</code> for testing and example demonstration.</li>
+  <li><code class="highlighter-rouge">windowSize</code> for whole conversation data now takes value 1 (uses the same standard as <code class="highlighter-rouge">rENA</code>).</li>
+</ul>
+
+<h2 id="upcoming-features">Upcoming features:</h2>
+
+<ul>
+  <li><del>Directly generate appropriate ENA accumulated model for ENA set creation.</del> <strong>(Now available in v3.1)</strong></li>
+  <li>Use type <code class="highlighter-rouge">data.table</code> on dataset to increase performance.</li>
+  <li>Consider C or Python version of <code class="highlighter-rouge">hoo</code> to increase loop performance.</li>
+</ul>
+
     </div>
-</div>
-<!-- end post -->
-
-
-
-</div>
+    
+    
+    
 </section>
-
-
 </div>
 
 
