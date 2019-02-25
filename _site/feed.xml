@@ -5,8 +5,8 @@
     <description>Senior at UW-Madison double majoring in economics and mathematics</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 24 Feb 2019 18:16:08 -0600</pubDate>
-    <lastBuildDate>Sun, 24 Feb 2019 18:16:08 -0600</lastBuildDate>
+    <pubDate>Sun, 24 Feb 2019 18:18:54 -0600</pubDate>
+    <lastBuildDate>Sun, 24 Feb 2019 18:18:54 -0600</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -64,8 +64,8 @@ require(hoo)
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 24 Feb 2019 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/hoo</link>
-        <guid isPermaLink="true">http://localhost:4000/hoo</guid>
+        <link>http://localhost:4000/hoo/</link>
+        <guid isPermaLink="true">http://localhost:4000/hoo/</guid>
         
         
         <category>research</category>
@@ -89,8 +89,8 @@ require(hoo)
 &lt;p&gt;“The energy paradox”, which describes the rather slow adoption of energy-efficient products despite their savings potential, has been observed in the U.S. residential lighting market for LED products. With LED sales fall short of traditional incandescent bulbs, this paper looks at how uncertainty, specifically regarding lightbulb’s probability of failing, could explain the paradox. We deploy a discrete choice model to replicate consumer’s decision making, and then use Monte Carlo simulation to find income level of the consumer who is indifferent between buying incandescentand LED. With the presence of lightbulb failinguncertainty, we found that consumers who discount future by a little (with discount factor around 0.9) already prefer incandescent over LED for majority of times, resulting in the paradox.Predictions are made for average U.S. consumer’s purchasing behavior, and future studies are suggested to validify our theoretical framework.&lt;/p&gt;
 </description>
         <pubDate>Fri, 11 Jan 2019 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/research</link>
-        <guid isPermaLink="true">http://localhost:4000/research</guid>
+        <link>http://localhost:4000/research/</link>
+        <guid isPermaLink="true">http://localhost:4000/research/</guid>
         
         
         <category>research</category>
