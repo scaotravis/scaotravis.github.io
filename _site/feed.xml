@@ -5,8 +5,8 @@
     <description>Senior at UW-Madison double majoring in economics and mathematics</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 Mar 2019 17:19:35 -0500</pubDate>
-    <lastBuildDate>Mon, 18 Mar 2019 17:19:35 -0500</lastBuildDate>
+    <pubDate>Mon, 18 Mar 2019 17:24:05 -0500</pubDate>
+    <lastBuildDate>Mon, 18 Mar 2019 17:24:05 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -40,7 +40,7 @@ require(hoo)
 
 &lt;p&gt;&lt;em&gt;Verison 3.2&lt;/em&gt; (January 29, 2019):&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Now, all methods from &lt;code class=&quot;highlighter-rouge&quot;&gt;hoo&lt;/code&gt; comes with prefix &lt;code class=&quot;highlighter-rouge&quot;&gt;hoo.&lt;/code&gt;, which helps you distinguish methods called by hoo class.&lt;/li&gt;
+  &lt;li&gt;Now, all methods from hoo comes with prefix &lt;code class=&quot;highlighter-rouge&quot;&gt;hoo.&lt;/code&gt;, which helps you distinguish methods called by hoo class.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;em&gt;Version 3.1&lt;/em&gt; (November 14, 2018):&lt;/p&gt;
