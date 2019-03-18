@@ -5,8 +5,13 @@ Version: 1.0.22
 License: https://www.wowthemes.net/freebies-license/
 */
  .mainheading {
-     padding:1rem 0rem;
+     padding: 1rem 0rem;
+     font-family: "Lato";
 }
+ .lead {
+    font-family: "Lato";
+    font-weight: 400; 
+ }
  a {
      color: #444096;
      transition:all 0.2s;
@@ -22,7 +27,7 @@ License: https://www.wowthemes.net/freebies-license/
      border: #E3EDF3 1px solid;
      width: 100%;
      padding: 10px;
-     font-family: "Lato";
+     font-family: "Menlo";
      font-size: 14px;
      white-space: pre;
      overflow: auto;
@@ -80,6 +85,7 @@ License: https://www.wowthemes.net/freebies-license/
      .navbar-expand-lg .navbar-nav .nav-link {
          padding-right:0.8rem;
          padding-left:0.8rem;
+         font-family: "Lato"; 
     }
 }
  .listfeaturedtag {
@@ -224,7 +230,7 @@ License: https://www.wowthemes.net/freebies-license/
 .mainheading h1.sitetitle {
     font-family:"Lato";
     font-weight: 550;
-    margin-bottom:8px;
+    margin-bottom:10px;
 }
 
  .mainheading h1.posttitle {
@@ -241,6 +247,7 @@ License: https://www.wowthemes.net/freebies-license/
      margin-bottom:62px;
      position: relative;
      background: #fff;
+     font-family: "Lato"; 
 }
  .link-dark {
      color:rgba(0,0,0,.8);

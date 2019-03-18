@@ -5,8 +5,8 @@
     <description>Senior at UW-Madison double majoring in economics and mathematics</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 Mar 2019 15:23:16 -0500</pubDate>
-    <lastBuildDate>Mon, 18 Mar 2019 15:23:16 -0500</lastBuildDate>
+    <pubDate>Mon, 18 Mar 2019 16:47:43 -0500</pubDate>
+    <lastBuildDate>Mon, 18 Mar 2019 16:47:43 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -105,17 +105,17 @@ require(hoo)
         <description>&lt;html&gt;
   &lt;body&gt;
     &lt;style&gt;
-      @media only screen and (max-width: 520px) {
+      @media only screen and (max-width: 767px) {
         .attributes {
-          margin: 20px 20px;
+          margin: 30px 30px 30px 30px;
           float: center;
           height: auto;
           width: auto;
         }
       }
-      @media only screen and (min-width: 521px) {
+      @media only screen and (min-width: 768px) {
         .attributes {
-          margin: 20px 20px;
+          margin: 20px 0px 20px 20px;
           float: right;
           height: 320px;
           width: 320px;
