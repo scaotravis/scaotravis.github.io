@@ -5,8 +5,8 @@
     <description>Senior at UW-Madison double majoring in economics and mathematics</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 Mar 2019 12:30:11 -0500</pubDate>
-    <lastBuildDate>Mon, 18 Mar 2019 12:30:11 -0500</lastBuildDate>
+    <pubDate>Mon, 18 Mar 2019 15:23:16 -0500</pubDate>
+    <lastBuildDate>Mon, 18 Mar 2019 15:23:16 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -128,7 +128,7 @@ require(hoo)
   &lt;/body&gt;
 &lt;/html&gt;
 
-&lt;p&gt;My legal name is &lt;strong&gt;Shengyang Cao&lt;/strong&gt;; I usually go by &lt;strong&gt;Travis&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;My legal name is &lt;strong&gt;Shengyang Cao&lt;/strong&gt;; I prefer &lt;strong&gt;Travis&lt;/strong&gt; in informal correspondence.&lt;/p&gt;
 
 &lt;p&gt;I am an undergraduate senior pursuing B.A. degree in economics and mathematics at University of Wisconsin-Madison. My research interests lie in the fields of environmental economics, public economics, econometrics, and applied microeconomics.&lt;/p&gt;
 
