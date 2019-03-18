@@ -5,8 +5,8 @@
     <description>Senior at UW-Madison double majoring in economics and mathematics</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 Mar 2019 17:24:05 -0500</pubDate>
-    <lastBuildDate>Mon, 18 Mar 2019 17:24:05 -0500</lastBuildDate>
+    <pubDate>Mon, 18 Mar 2019 17:25:55 -0500</pubDate>
+    <lastBuildDate>Mon, 18 Mar 2019 17:25:55 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -61,7 +61,7 @@ require(hoo)
 &lt;ul&gt;
   &lt;li&gt;&lt;del&gt;Directly generate appropriate ENA accumulated model for ENA set creation.&lt;/del&gt; &lt;strong&gt;(Available since v3.1)&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;Use type &lt;code class=&quot;highlighter-rouge&quot;&gt;data.table&lt;/code&gt; on dataset to increase performance.&lt;/li&gt;
-  &lt;li&gt;Consider C or Python version of &lt;code class=&quot;highlighter-rouge&quot;&gt;hoo&lt;/code&gt; to increase loop performance.&lt;/li&gt;
+  &lt;li&gt;Consider C or Python version of hoo to increase loop performance.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 24 Feb 2019 00:00:00 -0600</pubDate>
