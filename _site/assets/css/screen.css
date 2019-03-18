@@ -222,8 +222,9 @@ License: https://www.wowthemes.net/freebies-license/
 }
 
 .mainheading h1.sitetitle {
-    font-family:"Open Sans";
-    margin-bottom:1rem;
+    font-family:"Lato";
+    font-weight: 550;
+    margin-bottom:8px;
 }
 
  .mainheading h1.posttitle {
