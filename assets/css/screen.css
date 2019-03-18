@@ -1,18 +1,18 @@
-/* 
-Template Name: Mediumish 
-Copyright: Sal, WowThemes.net, https://www.wowthemes.net 
-Version: 1.0.22 
-License: https://www.wowthemes.net/freebies-license/ 
+/*
+Template Name: Mediumish
+Copyright: Sal, WowThemes.net, https://www.wowthemes.net
+Version: 1.0.22
+License: https://www.wowthemes.net/freebies-license/
 */
  .mainheading {
      padding:1rem 0rem;
 }
  a {
-     color:#00ab6b;
+     color: #444096;
      transition:all 0.2s;
 }
  a:hover {
-     color: #038252;
+     color: #008da9;
      text-decoration:none;
 }
  pre {
@@ -22,7 +22,7 @@ License: https://www.wowthemes.net/freebies-license/
      border: #E3EDF3 1px solid;
      width: 100%;
      padding: 10px;
-     font-family: monospace, sans-serif;
+     font-family: "Lato";
      font-size: 14px;
      white-space: pre;
      overflow: auto;
@@ -220,9 +220,12 @@ License: https://www.wowthemes.net/freebies-license/
      max-height:30px;
      margin-right:5px;
 }
- .mainheading h1.sitetitle {
-     font-family:Righteous;
+
+.mainheading h1.sitetitle {
+    font-family:"Open Sans";
+    margin-bottom:1rem;
 }
+
  .mainheading h1.posttitle {
      font-weight:700;
      margin-bottom:1rem;
@@ -242,8 +245,8 @@ License: https://www.wowthemes.net/freebies-license/
      color:rgba(0,0,0,.8);
 }
  .article-post {
-     font-family:Merriweather;
-     font-size:1.1rem;
+     font-family: "Lato";
+     font-size:1.12rem;
      line-height:1.84;
      color:rgba(0,0,0,.8);
 }
@@ -534,11 +537,11 @@ License: https://www.wowthemes.net/freebies-license/
      margin-bottom: 1.5rem;
 }
  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+     font-family: "Source Sans Pro";
 }
  .article-post .h1, .article-post .h2, .article-post .h3, .article-post .h4, .article-post .h5, .article-post .h6, .article-post h1, .article-post h2, .article-post h3, .article-post h4, .article-post h5, .article-post h6 {
-     font-weight: 700;
-     margin-bottom: 1.5rem;
+     font-weight: 600;
+     margin-bottom: 1.1rem;
 }
  .article-post img.shadow {
      -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.30);
@@ -580,7 +583,7 @@ License: https://www.wowthemes.net/freebies-license/
  iframe {
     max-width:100%;
 }
-.transpdark {    
+.transpdark {
     background: rgba(0,0,0,0.75);
     color: #fff;
 }
@@ -602,7 +605,7 @@ License: https://www.wowthemes.net/freebies-license/
          margin:0;
     }
 }
-.jumbotron.fortags { 
+.jumbotron.fortags {
          margin-top: 3rem;
          padding:0;
          border-radius:0;
