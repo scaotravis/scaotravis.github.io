@@ -678,7 +678,7 @@ License: https://www.wowthemes.net/freebies-license/
     background: #f3f4f4;
  }
 
- a.sitetitlelink:link{
+ a.sitetitlelink{
     color: #212529;
     transition:all 0.2s;
  }
