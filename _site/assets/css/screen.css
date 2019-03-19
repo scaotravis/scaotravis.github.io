@@ -227,7 +227,7 @@ License: https://www.wowthemes.net/freebies-license/
      margin-right:5px;
 }
 
-.mainheading h1.sitetitle {
+ .mainheading h1.sitetitle {
     font-family:"Lato";
     font-weight: 550;
     margin-bottom:10px;
@@ -676,4 +676,13 @@ License: https://www.wowthemes.net/freebies-license/
     white-space: pre;
     overflow: auto;
     background: #f3f4f4;
+ }
+
+ a.sitetitlelink:link{
+    color: #212529;
+    transition:all 0.2s;
+ }
+ a.sitetitlelink:hover {
+    color: #4c4c4c;
+    text-decoration:none;
  }
