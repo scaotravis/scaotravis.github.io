@@ -5,7 +5,7 @@ Version: 1.0.22
 License: https://www.wowthemes.net/freebies-license/
 */
  .mainheading {
-     padding: 1rem 0rem;
+     padding: 10px 0rem;
      font-family: "Lato";
 }
  .lead {
@@ -243,8 +243,8 @@ License: https://www.wowthemes.net/freebies-license/
      padding-bottom:12px;
      font-size:0.8rem;
      color:rgba(0,0,0,.44);
-     margin-top:50px;
-     margin-bottom:62px;
+     margin-top:20px;
+     margin-bottom:35px;
      position: relative;
      background: #fff;
      font-family: "Lato"; 
@@ -255,7 +255,7 @@ License: https://www.wowthemes.net/freebies-license/
  .article-post {
      font-family: "Lato";
      font-size:1.12rem;
-     line-height:1.84;
+     line-height:1.8rem;
      color:rgba(0,0,0,.8);
 }
  blockquote {
