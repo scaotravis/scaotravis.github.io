@@ -243,11 +243,11 @@ License: https://www.wowthemes.net/freebies-license/
  .footer {
      border-top:1px solid rgba(0,0,0,.05)!important;
      padding-top:15px;
-     padding-bottom:12px;
+     padding-bottom:15px;
      font-size:0.8rem;
      color:rgba(0,0,0,.44);
      margin-top:25px;
-     margin-bottom:35px;
+     margin-bottom:25px;
      position: relative;
      background: #fff;
      font-family: "Lato"; 
@@ -260,6 +260,7 @@ License: https://www.wowthemes.net/freebies-license/
      font-size:1.12rem;
      line-height:1.9rem;
      color:rgba(0,0,0,.8);
+     margin-bottom: 25px; 
 }
  blockquote {
      border-left:4px solid #008da9;
