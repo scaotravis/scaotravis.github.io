@@ -23,12 +23,13 @@ License: https://www.wowthemes.net/freebies-license/
  pre {
      -moz-box-sizing: border-box;
      box-sizing: border-box;
-     margin: 0 0 1.75em 0;
+     margin: 0 0 1.2rem 0;
      border: #E3EDF3 1px solid;
      width: 100%;
      padding: 10px;
      font-family: "Menlo";
      font-size: 14px;
+     line-height: 1.6rem; 
      white-space: pre;
      overflow: auto;
      background: #f6f8fa;
@@ -68,7 +69,8 @@ License: https://www.wowthemes.net/freebies-license/
      margin-bottom:-1px;
 }
  .article-post ol, .article-post ul {
-     margin-bottom:1.5rem;
+     margin-top: 1rem; 
+     margin-bottom:1rem;
 }
  .article-post ol ol, .article-post ul ul {
      list-style: disc;
@@ -549,6 +551,7 @@ License: https://www.wowthemes.net/freebies-license/
 }
  .article-post .h1, .article-post .h2, .article-post .h3, .article-post .h4, .article-post .h5, .article-post .h6, .article-post h1, .article-post h2, .article-post h3, .article-post h4, .article-post h5, .article-post h6 {
      font-weight: 600;
+     margin-top: 1.4rem; 
      margin-bottom: 1.4rem;
 }
  .article-post img.shadow {
