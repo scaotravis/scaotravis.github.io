@@ -255,7 +255,7 @@ License: https://www.wowthemes.net/freebies-license/
  .article-post {
      font-family: "Lato";
      font-size:1.12rem;
-     line-height:1.8rem;
+     line-height:1.9rem;
      color:rgba(0,0,0,.8);
 }
  blockquote {
@@ -265,7 +265,7 @@ License: https://www.wowthemes.net/freebies-license/
      color:rgba(0,0,0,.5);
 }
  .article-post p,.article-post blockquote {
-     margin:0 0 1.5rem 0;
+     margin:0 0 1rem 0;
 }
  .featured-image {
      display:block;
@@ -549,7 +549,7 @@ License: https://www.wowthemes.net/freebies-license/
 }
  .article-post .h1, .article-post .h2, .article-post .h3, .article-post .h4, .article-post .h5, .article-post .h6, .article-post h1, .article-post h2, .article-post h3, .article-post h4, .article-post h5, .article-post h6 {
      font-weight: 600;
-     margin-bottom: 1.1rem;
+     margin-bottom: 1.4rem;
 }
  .article-post img.shadow {
      -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.30);

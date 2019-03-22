@@ -5,8 +5,8 @@
     <description>Senior at UW-Madison double majoring in economics and mathematics</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 21 Mar 2019 16:42:44 -0500</pubDate>
-    <lastBuildDate>Thu, 21 Mar 2019 16:42:44 -0500</lastBuildDate>
+    <pubDate>Thu, 21 Mar 2019 22:37:43 -0500</pubDate>
+    <lastBuildDate>Thu, 21 Mar 2019 22:37:43 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -78,15 +78,11 @@ require(hoo)
         <title>Research Projects</title>
         <description>&lt;h2 id=&quot;projects-on-environmental-economics&quot;&gt;Projects on Environmental Economics&lt;/h2&gt;
 
-&lt;hr style=&quot;height:.5pt; visibility:hidden;&quot; /&gt;
-
 &lt;p&gt;&lt;a href=&quot;http://localhost:4000/downloads/cao_fuel_economy.pdf&quot;&gt;&lt;strong&gt;Does Energy Efficiency Affect Demand: An Empirical Study on the Energy Paradox Within Automobile Industry (2018)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This paper studies whether consumer undervaluation on energy factor can explain “the energy paradox” within automotive market, where slow adoption of vehicles with better fuel economy has been observed. We obtained survey data from California Energy Commission, used random coefficient logit model developed by Berry, Levinsohn, and Pakes (1995) to perform market demand estimation, and created an empirical willingness to pay (WTP) distribution for an additional miles per gallon (mpg) to investigate consumer valuation. Our result shows that only about 30% of the distribution has WTP more than $600 (calculated as a reasonable cutoff for one more mpg). With the majority unwilling to pay for an extra mpg, this suggests that consumers undervalue fuel economy, illustrating the paradox.&lt;/p&gt;
 
 &lt;hr /&gt;
-
-&lt;hr style=&quot;height:.5pt; visibility:hidden;&quot; /&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://localhost:4000/downloads/cao_lightbulb.pdf&quot;&gt;&lt;strong&gt;Uncertainty in Lightbulb Failing: A Study on the Energy Paradox Within the U.S. Residential Lighting Market (2018)&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
