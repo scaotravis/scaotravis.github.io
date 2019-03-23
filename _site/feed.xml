@@ -5,8 +5,8 @@
     <description>Senior at UW-Madison double majoring in economics and mathematics</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 23 Mar 2019 18:31:33 -0500</pubDate>
-    <lastBuildDate>Sat, 23 Mar 2019 18:31:33 -0500</lastBuildDate>
+    <pubDate>Sat, 23 Mar 2019 18:35:37 -0500</pubDate>
+    <lastBuildDate>Sat, 23 Mar 2019 18:35:37 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -41,7 +41,7 @@ require(hoo)
 &lt;p&gt;&lt;em&gt;Version 3.3&lt;/em&gt; (March 23, 2019):&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Cleaned up redundant codes&lt;/li&gt;
-  &lt;li&gt;Included &lt;code class=&quot;highlighter-rouge&quot;&gt;hoo.mc.horizon()&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;hoo.mc.ena.accumulate.data()&lt;/code&gt; that utilizes &lt;code class=&quot;highlighter-rouge&quot;&gt;parallel&lt;/code&gt; package’s &lt;code class=&quot;highlighter-rouge&quot;&gt;mclapply()&lt;/code&gt; function to speed up performance, if your computer supports multi-core computation&lt;/li&gt;
+  &lt;li&gt;Included &lt;code class=&quot;highlighter-rouge&quot;&gt;hoo.mc.horizon()&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;hoo.mc.ena.accumulate.data()&lt;/code&gt; that utilize &lt;code class=&quot;highlighter-rouge&quot;&gt;parallel&lt;/code&gt; package’s &lt;code class=&quot;highlighter-rouge&quot;&gt;mclapply()&lt;/code&gt; function to speed up performance, if your computer supports multi-core computation&lt;/li&gt;
   &lt;li&gt;Attempted to increase performance through converting data type to &lt;code class=&quot;highlighter-rouge&quot;&gt;data.table&lt;/code&gt; with no avail (see more in &lt;a href=&quot;#upcoming-features&quot;&gt;Upcoming features&lt;/a&gt; section)&lt;/li&gt;
 &lt;/ul&gt;
 
