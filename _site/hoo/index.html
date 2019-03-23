@@ -156,11 +156,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <h2 id="install-hoo-in-r">Install hoo in R</h2>
 <p>To install this repository in R as a package, run the following commands:</p>
 <pre><code class="language-{r}">install.packages("devtools")
-devtools::install_github("scaotravis/hoo@v3.2")
+devtools::install_github("scaotravis/hoo@v3.3")
 require(hoo)
 </code></pre>
 
 <h2 id="whats-new">What’s new</h2>
+
+<p><em>Version 3.3</em> (March 23, 2019):</p>
+<ul>
+  <li>Cleaned up redundant codes</li>
+  <li>Included <code class="highlighter-rouge">hoo.mc.horizon()</code> and <code class="highlighter-rouge">hoo.mc.ena.accumulate.data()</code> that utilizes <code class="highlighter-rouge">parallel</code> package’s <code class="highlighter-rouge">mclapply()</code> function to speed up performance, if your computer supports multi-core computation</li>
+  <li>Attempted to increase performance through converting data type to <code class="highlighter-rouge">data.table</code> with no avail (see more in <a href="#upcoming-features">Upcoming features</a> section)</li>
+</ul>
 
 <p><em>Verison 3.2</em> (January 29, 2019):</p>
 <ul>
@@ -169,7 +176,7 @@ require(hoo)
 
 <p><em>Version 3.1</em> (November 14, 2018):</p>
 <ul>
-  <li>Included function <code class="highlighter-rouge">hoo.ena.accumulate.data</code> to directly generate ENA accumulated model for ENA set creation.</li>
+  <li>Included function <code class="highlighter-rouge">hoo.ena.accumulate.data()</code> to directly generate ENA accumulated model for ENA set creation.</li>
   <li>Reordered some arguments for a more logical ordering.</li>
 </ul>
 
@@ -184,10 +191,9 @@ require(hoo)
 
 <ul>
   <li><del>Directly generate appropriate ENA accumulated model for ENA set creation.</del> <strong>(Available since v3.1)</strong></li>
-  <li>Use type <code class="highlighter-rouge">data.table</code> on dataset to increase performance.</li>
-  <li>Consider C or Python version of hoo to increase loop performance.</li>
+  <li><del>Use type <code class="highlighter-rouge">data.table</code> on dataset to increase performance.</del> (Testing in v3.3 shows that using <code class="highlighter-rouge">data.table</code> along with <code class="highlighter-rouge">lapply()</code> actually slows performance. The current way <code class="highlighter-rouge">hoo.horizon()</code> works is by filling in a fixed-size <code class="highlighter-rouge">data.frame</code> with the computed adjacency vector, which is already of great performance. Hence, further performance improvement will rely on writing core looping codes in C or other high-performance compiled language)</li>
+  <li>Consider C version of hoo to increase loop performance.</li>
 </ul>
-
 
     </div>
     

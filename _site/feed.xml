@@ -5,8 +5,8 @@
     <description>Senior at UW-Madison double majoring in economics and mathematics</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 21 Mar 2019 23:15:51 -0500</pubDate>
-    <lastBuildDate>Thu, 21 Mar 2019 23:15:51 -0500</lastBuildDate>
+    <pubDate>Sat, 23 Mar 2019 18:31:33 -0500</pubDate>
+    <lastBuildDate>Sat, 23 Mar 2019 18:31:33 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -32,11 +32,18 @@
 &lt;h2 id=&quot;install-hoo-in-r&quot;&gt;Install hoo in R&lt;/h2&gt;
 &lt;p&gt;To install this repository in R as a package, run the following commands:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;language-{r}&quot;&gt;install.packages(&quot;devtools&quot;)
-devtools::install_github(&quot;scaotravis/hoo@v3.2&quot;)
+devtools::install_github(&quot;scaotravis/hoo@v3.3&quot;)
 require(hoo)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id=&quot;whats-new&quot;&gt;What’s new&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Version 3.3&lt;/em&gt; (March 23, 2019):&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Cleaned up redundant codes&lt;/li&gt;
+  &lt;li&gt;Included &lt;code class=&quot;highlighter-rouge&quot;&gt;hoo.mc.horizon()&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;hoo.mc.ena.accumulate.data()&lt;/code&gt; that utilizes &lt;code class=&quot;highlighter-rouge&quot;&gt;parallel&lt;/code&gt; package’s &lt;code class=&quot;highlighter-rouge&quot;&gt;mclapply()&lt;/code&gt; function to speed up performance, if your computer supports multi-core computation&lt;/li&gt;
+  &lt;li&gt;Attempted to increase performance through converting data type to &lt;code class=&quot;highlighter-rouge&quot;&gt;data.table&lt;/code&gt; with no avail (see more in &lt;a href=&quot;#upcoming-features&quot;&gt;Upcoming features&lt;/a&gt; section)&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;&lt;em&gt;Verison 3.2&lt;/em&gt; (January 29, 2019):&lt;/p&gt;
 &lt;ul&gt;
@@ -45,7 +52,7 @@ require(hoo)
 
 &lt;p&gt;&lt;em&gt;Version 3.1&lt;/em&gt; (November 14, 2018):&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Included function &lt;code class=&quot;highlighter-rouge&quot;&gt;hoo.ena.accumulate.data&lt;/code&gt; to directly generate ENA accumulated model for ENA set creation.&lt;/li&gt;
+  &lt;li&gt;Included function &lt;code class=&quot;highlighter-rouge&quot;&gt;hoo.ena.accumulate.data()&lt;/code&gt; to directly generate ENA accumulated model for ENA set creation.&lt;/li&gt;
   &lt;li&gt;Reordered some arguments for a more logical ordering.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -60,10 +67,9 @@ require(hoo)
 
 &lt;ul&gt;
   &lt;li&gt;&lt;del&gt;Directly generate appropriate ENA accumulated model for ENA set creation.&lt;/del&gt; &lt;strong&gt;(Available since v3.1)&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Use type &lt;code class=&quot;highlighter-rouge&quot;&gt;data.table&lt;/code&gt; on dataset to increase performance.&lt;/li&gt;
-  &lt;li&gt;Consider C or Python version of hoo to increase loop performance.&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;Use type &lt;code class=&quot;highlighter-rouge&quot;&gt;data.table&lt;/code&gt; on dataset to increase performance.&lt;/del&gt; (Testing in v3.3 shows that using &lt;code class=&quot;highlighter-rouge&quot;&gt;data.table&lt;/code&gt; along with &lt;code class=&quot;highlighter-rouge&quot;&gt;lapply()&lt;/code&gt; actually slows performance. The current way &lt;code class=&quot;highlighter-rouge&quot;&gt;hoo.horizon()&lt;/code&gt; works is by filling in a fixed-size &lt;code class=&quot;highlighter-rouge&quot;&gt;data.frame&lt;/code&gt; with the computed adjacency vector, which is already of great performance. Hence, further performance improvement will rely on writing core looping codes in C or other high-performance compiled language)&lt;/li&gt;
+  &lt;li&gt;Consider C version of hoo to increase loop performance.&lt;/li&gt;
 &lt;/ul&gt;
-
 </description>
         <pubDate>Sun, 24 Feb 2019 00:00:00 -0600</pubDate>
         <link>http://localhost:4000/hoo/</link>
