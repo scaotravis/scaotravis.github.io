@@ -5,8 +5,8 @@
     <description>Senior at UW-Madison double majoring in economics and mathematics</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 24 Mar 2019 13:42:31 -0500</pubDate>
-    <lastBuildDate>Sun, 24 Mar 2019 13:42:31 -0500</lastBuildDate>
+    <pubDate>Sun, 24 Mar 2019 13:54:09 -0500</pubDate>
+    <lastBuildDate>Sun, 24 Mar 2019 13:54:09 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -32,13 +32,13 @@
 &lt;h2 id=&quot;install-hoo-in-r&quot;&gt;Install hoo in R&lt;/h2&gt;
 &lt;p&gt;To install this repository in R as a package, run the following commands:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;language-{r}&quot;&gt;install.packages(&quot;devtools&quot;)
-devtools::install_github(&quot;scaotravis/hoo@v3.4.1&quot;)
+devtools::install_github(&quot;scaotravis/hoo@v3.4.2&quot;)
 require(hoo)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id=&quot;whats-new&quot;&gt;What’s new&lt;/h2&gt;
 
-&lt;p&gt;&lt;em&gt;Version 3.4.1&lt;/em&gt; (March 24, 2019):&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Version 3.4.2&lt;/em&gt; (March 24, 2019):&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Cleaned up redundant codes.&lt;/li&gt;
   &lt;li&gt;Included &lt;code class=&quot;highlighter-rouge&quot;&gt;hoo.horizon.DT()&lt;/code&gt; method that utilizes data.table structure and &lt;code class=&quot;highlighter-rouge&quot;&gt;lapply()&lt;/code&gt; function in attempt to increase performance.&lt;/li&gt;
@@ -68,7 +68,7 @@ require(hoo)
 
 &lt;ul&gt;
   &lt;li&gt;&lt;del&gt;Directly generate appropriate ENA accumulated model for ENA set creation.&lt;/del&gt; &lt;strong&gt;(Available since v3.1)&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;del&gt;Use type data.table on dataset to increase performance.&lt;/del&gt; &lt;strong&gt;(Prototype available in v3.4.1)&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;Use type data.table on dataset to increase performance.&lt;/del&gt; &lt;strong&gt;(Prototype available in v3.4.2)&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;Consider C version of hoo to increase loop performance.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
