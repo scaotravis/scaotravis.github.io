@@ -678,6 +678,7 @@ License: https://www.wowthemes.net/freebies-license/
     padding: 3px;
     font-family: "Menlo";
     font-size: 14px;
+    line-height: 0rem; 
     white-space: pre;
     overflow: auto;
     background: #f3f4f4;
