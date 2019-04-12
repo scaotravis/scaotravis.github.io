@@ -5,8 +5,8 @@
     <description>Senior at UW-Madison double majoring in economics and mathematics</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 25 Mar 2019 14:56:39 -0500</pubDate>
-    <lastBuildDate>Mon, 25 Mar 2019 14:56:39 -0500</lastBuildDate>
+    <pubDate>Fri, 12 Apr 2019 10:42:36 -0500</pubDate>
+    <lastBuildDate>Fri, 12 Apr 2019 10:42:36 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -32,11 +32,16 @@
 &lt;h2 id=&quot;install-hoo-in-r&quot;&gt;Install hoo in R&lt;/h2&gt;
 &lt;p&gt;To install this repository in R as a package, run the following commands:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;language-{r}&quot;&gt;install.packages(&quot;devtools&quot;)
-devtools::install_github(&quot;scaotravis/hoo@v3.4.2&quot;)
+devtools::install_github(&quot;scaotravis/hoo@v3.4.3&quot;)
 require(hoo)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id=&quot;whats-new&quot;&gt;What’s new&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Version 3.4.3&lt;/em&gt; (April 12, 2019):&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;When replacing the adjacency vectors created by &lt;code class=&quot;highlighter-rouge&quot;&gt;rENA::ena.accumulate.data()&lt;/code&gt; with hoo generated adjacency vectors, hoo now uses a more robust &lt;code class=&quot;highlighter-rouge&quot;&gt;grepl()&lt;/code&gt; assisted subset method to avoid erroneous replacement.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;&lt;em&gt;Version 3.4.2&lt;/em&gt; (March 24, 2019):&lt;/p&gt;
 &lt;ul&gt;
