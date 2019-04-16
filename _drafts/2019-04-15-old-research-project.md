@@ -1,0 +1,5 @@
+---
+
+[**Uncertainty in Lightbulb Failing: A Study on the Energy Paradox Within the U.S. Residential Lighting Market (2018)**]({{ site.url }}/downloads/cao_lightbulb.pdf)
+
+“The energy paradox”, which describes the rather slow adoption of energy-efficient products despite their savings potential, has been observed in the U.S. residential lighting market for LED products. With LED sales fall short of traditional incandescent bulbs, this paper looks at how uncertainty, specifically regarding lightbulb’s probability of failing, could explain the paradox. We deploy a discrete choice model to replicate consumer’s decision making, and then use Monte Carlo simulation to find income level of the consumer who is indifferent between buying incandescentand LED. With the presence of lightbulb failinguncertainty, we found that consumers who discount future by a little (with discount factor around 0.9) already prefer incandescent over LED for majority of times, resulting in the paradox.Predictions are made for average U.S. consumer’s purchasing behavior, and future studies are suggested to validify our theoretical framework.
