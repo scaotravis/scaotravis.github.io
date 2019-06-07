@@ -773,4 +773,7 @@ License: https://www.wowthemes.net/freebies-license/
     .container.pr-0 {
      background: black; 
     }
+    .navbar-toggler-icon {
+     filter: invert(100%); 
+    }
 }
