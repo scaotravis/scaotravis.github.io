@@ -691,5 +691,86 @@ License: https://www.wowthemes.net/freebies-license/
  }
  a.sitetitlelink:hover {
     color: #4c4c4c;
-    text-decoration:none;
+    text-decoration: none;
  }
+ @media (prefers-color-scheme: dark) {
+    /* Overrides for Dark Mode. */
+    body {
+     color: #f2f2f2;
+     background: black;
+    }
+    .lead {
+     color: #f2f2f2; 
+    }
+    a {
+     color: #7995c4;
+     transition:all 0.2s;
+    }
+    a:hover {
+     color: #c5f7f4;
+     text-decoration:none;
+    }
+    a.sitetitlelink{
+     color: #afafaf;
+     transition:all 0.2s;
+    }
+    a.sitetitlelink:hover {
+     color: #d0d4d8;
+     text-decoration:none;
+    }
+    .article-post {
+     color: #afafaf;
+    }
+    .section-title h2 {
+     border-bottom:1px solid #7a7a7a;
+     margin-bottom:25px;
+     font-weight:700;
+     font-size:1.4rem;
+     margin-bottom:27px;
+     color: #afafaf;
+    }
+    .footer {
+     border-top:1px solid #474747 !important;
+     padding-top:15px;
+     padding-bottom:15px;
+     font-size:0.8rem;
+     color:rgba(0,0,0,.44);
+     margin-top:25px;
+     margin-bottom:25px;
+     position: relative;
+     background: #fff;
+     font-family: "Lato"; 
+     color: #a8a8a8;
+     background: black; 
+    }
+    .navbar-brand {
+     background: black; 
+    }
+    .collapse {
+     background: black; 
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+     padding-right:0.8rem;
+     padding-left:0.8rem;
+     font-family: "Lato"; 
+     color: #878787;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link:hover {
+     padding-right:0.8rem;
+     padding-left:0.8rem;
+     font-family: "Lato"; 
+     color: #dbdbdb;
+    }
+    .navbar-expand-lg .navbar-nav .active .nav-link {
+     padding-right:0.8rem;
+     padding-left:0.8rem;
+     font-family: "Lato"; 
+     color: #dbdbdb;
+    }
+    .container {
+     background: black; 
+    }
+    .container.pr-0 {
+     background: black; 
+    }
+}
