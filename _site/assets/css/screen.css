@@ -773,4 +773,35 @@ License: https://www.wowthemes.net/freebies-license/
      background: black; 
      filter: invert(90%); 
     } 
+    pre {
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+     margin: 0 0 1.2rem 0;
+     border: #7f7f7f 1px solid;
+     width: 100%;
+     padding: 10px;
+     font-family: "Menlo";
+     color: #f7f7f7;
+     font-size: 14px;
+     line-height: 1.6rem; 
+     white-space: pre;
+     overflow: auto;
+     background: #474747;
+     border-radius: 3px;
+    }
+    .highlighter-rouge {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 3px;
+    color: #f7f7f7;
+    border: #7f7f7f 1px solid;
+    width: 100%;
+    padding: 3px;
+    font-family: "Menlo";
+    font-size: 14px;
+    line-height: 0rem; 
+    white-space: pre;
+    overflow: auto;
+    background: #474747;
+    }
 }
