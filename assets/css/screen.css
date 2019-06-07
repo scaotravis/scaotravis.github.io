@@ -745,9 +745,11 @@ License: https://www.wowthemes.net/freebies-license/
     }
     .navbar-brand {
      background: black; 
+     filter: invert(100%); 
     }
     .collapse {
      background: black; 
+     filter: invert(100%); 
     }
     .navbar-expand-lg .navbar-nav .nav-link {
      padding-right:0.8rem;
@@ -767,13 +769,8 @@ License: https://www.wowthemes.net/freebies-license/
      font-family: "Lato"; 
      color: #dbdbdb;
     }
-    .container {
+    .navbar {
      background: black; 
-    }
-    .container.pr-0 {
-     background: black; 
-    }
-    .navbar-toggler-icon {
-     filter: invert(100%); 
-    }
+     filter: invert(90%); 
+    } 
 }
