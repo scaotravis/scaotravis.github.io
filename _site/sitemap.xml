@@ -13,7 +13,14 @@
 <lastmod>2019-02-24T00:00:00+08:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/teaching/</loc>
+<lastmod>2019-07-09T00:00:00+08:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/category/:title/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/category/:title/</loc>

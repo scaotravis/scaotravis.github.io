@@ -94,15 +94,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <a class="nav-link" href="{{ site.baseurl }}/downloads/cv_shengyang_cao.pdf">CV</a>
                 </li>
 
+                {% if page.url contains "/research/" %}
+                <li class="nav-item active">
+                {% else %}
+                <li class="nav-item">
+                {% endif %}
+                <a class="nav-link" href="{{ site.baseurl }}/research/">Research</a>
+                </li>
+
                 <div class="dropdown">
-                    {% if page.url contains "/research/" %}
+                    {% if page.url contains "/teaching/" %}
                     <li class="nav-item active">
                     {% else %}
                     <li class="nav-item">
                     {% endif %}
-                        <a class="nav-link" href="{{ site.baseurl }}/research/">Research <i class="fa fa-caret-down"></i></a>
+                        <a class="nav-link" href="{{ site.baseurl }}/teaching/">Teaching <i class="fa fa-caret-down"></i></a>
                         <div class="dropdown-content">
-                            <a href="{{ site.baseurl }}/research/">Environmental</a>
+                            <a href=#>TBD</a>
                         </div>
                     </li>
                 </div>
