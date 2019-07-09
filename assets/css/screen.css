@@ -712,7 +712,7 @@ License: https://www.wowthemes.net/freebies-license/
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: #7f7f7f;
+  color: #999999;
   padding: 8px 12px;
   text-decoration: none;
   display: block;
@@ -855,7 +855,7 @@ License: https://www.wowthemes.net/freebies-license/
     }
     /* Links inside the dropdown */
     .dropdown-content a {
-      color: #878787;
+      color: #787878;
       padding: 8px 12px;
       text-decoration: none;
       display: block;

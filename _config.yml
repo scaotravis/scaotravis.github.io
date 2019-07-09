@@ -22,14 +22,13 @@ authors:
 plugins:
   - jekyll-paginate
   - jekyll-archives
+permalink: /:categories/:title/
 
 # Archives
 jekyll-archives:
   enabled:
     - categories
   layout: archive
-  permalinks:
-    category: '/category/:title/'
 
 # Pagination
 paginate: 6

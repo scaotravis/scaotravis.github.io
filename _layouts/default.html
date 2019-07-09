@@ -114,6 +114,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <a class="nav-link" href="{{ site.baseurl }}/research/">Research</a>
                 </li>
 
+                <li class="nav-item">
+                <a class="nav-link" href="https://github.com/scaotravis/">GitHub</a>
+                </li>
+
                 <div class="dropdown">
                     {% if page.url contains "/teaching/" %}
                     <li class="nav-item active">
@@ -122,14 +126,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     {% endif %}
                         <a class="nav-link" href="{{ site.baseurl }}/teaching/">Teaching <i class="fa fa-caret-down"></i></a>
                         <div class="dropdown-content">
-                            <a href=#>TBD</a>
+                            <a href="{{ site.baseurl }}/teaching/">TBD</a>
                         </div>
                     </li>
                 </div>
 
-                <li class="nav-item">
-                <a class="nav-link" href="https://github.com/scaotravis/">GitHub Profile</a>
-                </li>
+                <div class="dropdown">
+                    {% if page.url contains "/non-academic/" %}
+                    <li class="nav-item active">
+                    {% else %}
+                    <li class="nav-item">
+                    {% endif %}
+                        <a class="nav-link" href="{{ site.baseurl }}/non-academic/">Non-academic <i class="fa fa-caret-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="{{ site.baseurl }}/non-academic/crepes/">Crepes</a>
+                            <a href="{{ site.baseurl }}/non-academic/">Placeholder</a>
+                        </div>
+                    </li>
+                </div>
 
             </ul>
 
