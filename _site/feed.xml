@@ -5,8 +5,8 @@
     <description>Economics Ph.D. student at Wisconsin</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 07 Jun 2019 10:21:46 -0500</pubDate>
-    <lastBuildDate>Fri, 07 Jun 2019 10:21:46 -0500</lastBuildDate>
+    <pubDate>Tue, 09 Jul 2019 14:31:24 +0800</pubDate>
+    <lastBuildDate>Tue, 09 Jul 2019 14:31:24 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -87,7 +87,7 @@ require(hoo)
   &lt;li&gt;Consider C version of hoo to increase loop performance.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Sun, 24 Feb 2019 00:00:00 -0600</pubDate>
+        <pubDate>Sun, 24 Feb 2019 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/hoo/</link>
         <guid isPermaLink="true">http://localhost:4000/hoo/</guid>
         
@@ -104,7 +104,7 @@ require(hoo)
 
 &lt;p&gt;This paper studies whether consumer undervaluation on energy factor can explain “the energy paradox” within automotive market, where slow adoption of vehicles with better fuel economy has been observed. We obtained survey data from California Energy Commission, used random coefficient logit model developed by Berry, Levinsohn, and Pakes (1995) to perform market demand estimation, and created an empirical willingness to pay (WTP) distribution for an additional miles per gallon (mpg) to investigate consumer valuation. Our result shows that only about 30% of the distribution has WTP more than $600 (calculated as a reasonable cutoff for one more mpg). With the majority unwilling to pay for an extra mpg, this suggests that consumers undervalue fuel economy, illustrating the paradox.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 11 Jan 2019 00:00:00 -0600</pubDate>
+        <pubDate>Fri, 11 Jan 2019 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/research/</link>
         <guid isPermaLink="true">http://localhost:4000/research/</guid>
         
@@ -153,7 +153,7 @@ require(hoo)
   &lt;li&gt;&lt;a href=&quot;https://github.com/scaotravis/&quot;&gt;GitHub profile&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Fri, 28 Dec 2018 00:00:00 -0600</pubDate>
+        <pubDate>Fri, 28 Dec 2018 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/home</link>
         <guid isPermaLink="true">http://localhost:4000/home</guid>
         

@@ -693,6 +693,39 @@ License: https://www.wowthemes.net/freebies-license/
     color: #4c4c4c;
     text-decoration: none;
  }
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
+  z-index: 0;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 8px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
  @media (prefers-color-scheme: dark) {
     /* Overrides for Dark Mode. */
     body {
@@ -803,5 +836,31 @@ License: https://www.wowthemes.net/freebies-license/
     white-space: pre;
     overflow: auto;
     background: #474747;
+    }
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
+      z-index: 0;
+    }
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      color: #afafaf;
+      padding: 8px 12px;
+      text-decoration: none;
+      display: block;
+    }
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+        color: #d0d4d8;
+        background-color: #424242;
+    }
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+      display: block;
+      background-color: #191919;
     }
 }
