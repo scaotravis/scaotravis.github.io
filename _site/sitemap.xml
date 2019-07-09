@@ -13,7 +13,7 @@
 <lastmod>2019-02-24T00:00:00+08:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/non-academic/crepes/</loc>
+<loc>http://localhost:4000/non-academic/recipes/crepes/</loc>
 <lastmod>2019-07-09T00:00:00+08:00</lastmod>
 </url>
 <url>
@@ -32,6 +32,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/category/research/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/category/non-academic-recipes/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/category/non-academic/</loc>

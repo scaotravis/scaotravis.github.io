@@ -5,8 +5,8 @@
     <description>Economics Ph.D. student at Wisconsin</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 09 Jul 2019 18:31:07 +0800</pubDate>
-    <lastBuildDate>Tue, 09 Jul 2019 18:31:07 +0800</lastBuildDate>
+    <pubDate>Tue, 09 Jul 2019 20:37:09 +0800</pubDate>
+    <lastBuildDate>Tue, 09 Jul 2019 20:37:09 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -26,7 +26,13 @@
     
       <item>
         <title>Non-academic Content</title>
-        <description>
+        <description>&lt;h2 id=&quot;recipes&quot;&gt;Recipes&lt;/h2&gt;
+
+&lt;p&gt;I find cooking very soothing; it helps me relax and enables me to be better focused afterwards. Below is a list of recipes that I like &amp;amp; not directly taken from the internet (i.e. I developed my own) &amp;amp; I feel like sharing, so give them a try if you want to. Hope you’d enjoy!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://localhost:4000/non-academic/recipes/crepes&quot;&gt;French Crepes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Tue, 09 Jul 2019 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/non-academic/</link>
@@ -39,14 +45,54 @@
     
       <item>
         <title>Crepes</title>
-        <description>
+        <description>&lt;h2 id=&quot;french-crepes-recipe&quot;&gt;French Crepes Recipe&lt;/h2&gt;
+
+&lt;p&gt;I developed this French crepes recipe based on &lt;a href=&quot;https://youtu.be/ABfDv9OJuCI&quot;&gt;this YouTube video&lt;/a&gt;. The recipe is good for 3 to 4 servings.&lt;/p&gt;
+
+&lt;h3 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h3&gt;
+&lt;p&gt;Wet ingredients:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;2 cups of 2% milk&lt;/li&gt;
+  &lt;li&gt;3 large eggs&lt;/li&gt;
+  &lt;li&gt;2 tablespoons of melted butter&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Dry ingredients:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;1 cup of all-purpose flour&lt;/li&gt;
+  &lt;li&gt;2 teaspoons of sugar&lt;/li&gt;
+  &lt;li&gt;1/4 teaspoon of salt&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For serving:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Nutella and strawberries to your liking&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;directions&quot;&gt;Directions&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Crack 3 large eggs into a large mixing bowl, then add in 2 cups of milk. Mix until the liquid runs smooth.&lt;/li&gt;
+  &lt;li&gt;Add 2 tablespoons of melted butter to the mixture. Mix until well incorporated.&lt;/li&gt;
+  &lt;li&gt;Add 2 teaspoons of sugar and 1/4 teaspoon of salt to the wet mixture. Whisk until sugar and salt are completely dissolved.&lt;/li&gt;
+  &lt;li&gt;Use a sieve, gradually adding in 1 cup of all-purpose flour. Do not sift in all the flour at once. Use a rubber spatula or a wired whisk to incorpate the flour. Keep mixing until there are no visible lumps in the batter.&lt;/li&gt;
+  &lt;li&gt;Bring another large mixing bowl, and gradually sift the batter in. For small lumps, gently use a rubber spatula to run in a circular motion on the sieve, until most of the lumps have passed through.&lt;/li&gt;
+  &lt;li&gt;If there are large chucks of lumps, dump all lumps back into the mixing ball. Reincorporate the batter and repeat the last step.&lt;/li&gt;
+  &lt;li&gt;After sifting through all batter, cover the bowl with cling film, and let the batter rest for about 20 minutes.&lt;/li&gt;
+  &lt;li&gt;To cook the crepe, wait for your non-stick pan to get hot, then lightly coat the pan with some butter. Pour approximately one soup ladle amount of batter to the pan, and quickly swirl the pan around so that the bottom of the pan is evenly coated with the batter.&lt;/li&gt;
+  &lt;li&gt;You will know when the under part is cooked when you swirl the pan around and the crepe can easily detach from the pan. To flip the crepe, feel free to use a wide spatula and grab from the cooked side; if you feel like being challenged, try swing the pan up and down in 45 degree angles to flip.&lt;/li&gt;
+  &lt;li&gt;After flipping, cook the other side for about 30 seconds. Remove crepe from the pan and set aside.&lt;/li&gt;
+  &lt;li&gt;Now repeat until you use up all the batter.&lt;/li&gt;
+  &lt;li&gt;Before serving, if you coat the pan with too much butter and the crepes themselves become slightly greasy, feel free to take two paper towels, and put a crepe in between them to get rid of excess butter.&lt;/li&gt;
+  &lt;li&gt;When serving crepes, I recommend putting on a generous amount of Nutella on the bottom half of the crepe, then slice one strawberry into 3 to 4 thin pieces and put them on the bottom left quarter of your crepe. When folding, pick up the right edge and fold along the vertical line first, so that the top part has no filling and the bottom part are strawberry slices sandwiched between Nutella. Then, fold along the horizontal line, so that your crepe is now 1/4 of its original circular size.&lt;/li&gt;
+  &lt;li&gt;If you would like to dust some powdered sugar on top, feel free to do so. All that is left is to enjoy!&lt;/li&gt;
+&lt;/ol&gt;
 </description>
         <pubDate>Tue, 09 Jul 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/non-academic/crepes/</link>
-        <guid isPermaLink="true">http://localhost:4000/non-academic/crepes/</guid>
+        <link>http://localhost:4000/non-academic/recipes/crepes/</link>
+        <guid isPermaLink="true">http://localhost:4000/non-academic/recipes/crepes/</guid>
         
         
-        <category>non-academic</category>
+        <category>non-academic/recipes</category>
         
       </item>
     

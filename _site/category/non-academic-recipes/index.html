@@ -42,14 +42,14 @@ $(function(){
 </script>
 <!-- End Active Link Highlighter -->
 
-<title>{{ page.title }} | {{site.name}}</title>
-{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+<title>non-academic/recipes | Travis Cao</title>
+
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
-<link href="{{ site.baseurl }}/assets/css/screen.css" rel="stylesheet">
-<link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
+<link href="/assets/css/screen.css" rel="stylesheet">
+<link href="/assets/css/main.css" rel="stylesheet">
 
 <!-- Favicon -->
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -64,8 +64,8 @@ $(function(){
 
 </head>
 
-{% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
-<body class="{{ layout }}">
+
+<body class="layout-archive">
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJZT232"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -78,8 +78,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="container pr-0">
 
     <!-- Begin Logo -->
-    <a class="navbar-brand" href="{{ site.baseurl }}/">
-    <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+    <a class="navbar-brand" href="/">
+    <img src="/assets/images/logo.png" alt="Travis Cao">
     </a>
     <!-- End Logo -->
 
@@ -94,24 +94,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
             <ul class="navbar-nav ml-auto">
 
-                {% if page.url == "/" %}
-                <li class="nav-item active">
-                {% else %}
+                
                 <li class="nav-item">
-                {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/">Home</a>    
+                
+                <a class="nav-link" href="/">Home</a>    
                 </li>   
 
                 <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/downloads/cv_shengyang_cao.pdf">CV</a>
+                <a class="nav-link" href="/downloads/cv_shengyang_cao.pdf">CV</a>
                 </li>
 
-                {% if page.url contains "/research/" %}
-                <li class="nav-item active">
-                {% else %}
+                
                 <li class="nav-item">
-                {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/research/">Research</a>
+                
+                <a class="nav-link" href="/research/">Research</a>
                 </li>
 
                 <li class="nav-item">
@@ -119,27 +115,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </li>
 
                 <div class="dropdown">
-                    {% if page.url contains "/teaching/" %}
-                    <li class="nav-item active">
-                    {% else %}
+                    
                     <li class="nav-item">
-                    {% endif %}
-                        <a class="nav-link" href="{{ site.baseurl }}/teaching/">Teaching <i class="fa fa-caret-down"></i></a>
+                    
+                        <a class="nav-link" href="/teaching/">Teaching <i class="fa fa-caret-down"></i></a>
                         <div class="dropdown-content">
-                            <a href="{{ site.baseurl }}/teaching/">TBD</a>
+                            <a href="/teaching/">TBD</a>
                         </div>
                     </li>
                 </div>
 
                 <div class="dropdown">
-                    {% if page.url contains "/non-academic/" %}
-                    <li class="nav-item active">
-                    {% else %}
+                    
                     <li class="nav-item">
-                    {% endif %}
-                        <a class="nav-link" href="{{ site.baseurl }}/non-academic/">Non-academic <i class="fa fa-caret-down"></i></a>
+                    
+                        <a class="nav-link" href="/non-academic/">Non-academic <i class="fa fa-caret-down"></i></a>
                         <div class="dropdown-content">
-                            <a href="{{ site.baseurl }}/non-academic/recipes/crepes/">Crepes</a>
+                            <a href="/non-academic/recipes/crepes/">Crepes</a>
                         </div>
                     </li>
                 </div>
@@ -161,9 +153,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- Site Title
 ================================================== -->
 <div class="mainheading">
-    <h1 class="sitetitle"><a class="sitetitlelink" href="{{ site.baseurl }}/">{{ site.name }}</h1>
+    <h1 class="sitetitle"><a class="sitetitlelink" href="/">Travis Cao</h1>
     <p class="lead">
-         {{ site.description }}
+         Economics Ph.D. student at Wisconsin
     </a></p>
 </div>
 
@@ -172,7 +164,51 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- Content
 ================================================== -->
 <div class="main-content">
-    {{ content }}
+    <!-- Begin List Posts
+================================================== -->
+<section class="recent-posts">
+<div class="section-title">
+    <h2>Archive of posts with <span>category 'non-academic/recipes'</span></h2>
+</div>
+<div class="row listrecent">
+
+
+
+    <!-- begin post -->
+
+
+<div class="col-lg-4 col-md-6 mb-30px card-group">
+    <div class="card h-100">
+        <div class="maxthumb">
+            <a href="http://localhost:4000/non-academic/recipes/crepes/">
+                
+            </a>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title"><a class="text-dark" href="http://localhost:4000/non-academic/recipes/crepes/">Crepes</a></h2>
+            <h4 class="card-text">French Crepes Recipe
+
+</h4>            
+        </div>
+        <div class="card-footer bg-white">
+            <div class="wrapfooter">
+                
+                <span class="post-date">09 Jul 2019</span>
+                </span>
+                <span class="post-read-more"><a href="http://localhost:4000/non-academic/recipes/crepes/" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
+
+
+
+</div>
+</section>
+
+
 </div>
 
 
@@ -182,7 +218,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-6 text-center text-lg-left">
-                 Copyright © {{ site.time | date: "%Y" }} Shengyang Cao
+                 Copyright © 2019 Shengyang Cao
             </div>
             <div class="col-md-6 col-sm-6 text-center text-lg-right">
                 Made with <a target="_blank" href="https://jekyllrb.com/">Jekyll</a> based on the <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll/">Mediumish Theme</a>
@@ -200,16 +236,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 
-<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+<script src="/assets/js/jquery.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-<script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script>
+<script src="/assets/js/ie10-viewport-bug-workaround.js"></script>
 
-<script src="{{ site.baseurl }}/assets/js/mediumish.js"></script>
+<script src="/assets/js/mediumish.js"></script>
 
-<script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
+<script id="dsq-count-scr" src="//.disqus.com/count.js"></script>
 </body>
 </html>
