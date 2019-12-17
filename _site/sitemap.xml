@@ -25,6 +25,10 @@
 <lastmod>2019-07-09T00:00:00-05:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/teaching/sp20-101</loc>
+<lastmod>2019-07-09T00:00:00-05:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
@@ -41,6 +45,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/category/teaching/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page2/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/downloads/cao_fuel_economy.pdf</loc>

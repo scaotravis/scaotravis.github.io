@@ -5,13 +5,36 @@
     <description>Economics Ph.D. student at Wisconsin</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 13 Dec 2019 10:49:20 -0600</pubDate>
-    <lastBuildDate>Fri, 13 Dec 2019 10:49:20 -0600</lastBuildDate>
+    <pubDate>Tue, 17 Dec 2019 16:42:11 -0600</pubDate>
+    <lastBuildDate>Tue, 17 Dec 2019 16:42:11 -0600</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>Teaching</title>
+        <description>&lt;h2 id=&quot;econ-101-principles-of-microeconomics-spring-2020&quot;&gt;Econ 101: Principles of Microeconomics (Spring 2020)&lt;/h2&gt;
+
+&lt;p&gt;Course Instructor: David Johnson&lt;/p&gt;
+
+&lt;h4 id=&quot;office-hours&quot;&gt;Office Hours&lt;/h4&gt;
+
+&lt;p&gt;@ 7218 Social Sciences (7th floor TA resource room)&lt;/p&gt;
+
+&lt;h4 id=&quot;final-exam&quot;&gt;Final Exam&lt;/h4&gt;
+&lt;p&gt;May 3 (Sun), 12:25 - 2:25pm&lt;/p&gt;
+</description>
+        <pubDate>Tue, 09 Jul 2019 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/teaching/sp20-101</link>
+        <guid isPermaLink="true">http://localhost:4000/teaching/sp20-101</guid>
+        
+        
+        <category>teaching</category>
+        
+      </item>
+    
+      <item>
+        <title>Teaching</title>
         <description>&lt;h2 id=&quot;econ-101-principles-of-microeconomics-fall-2019&quot;&gt;Econ 101: Principles of Microeconomics (Fall 2019)&lt;/h2&gt;
+&lt;p&gt;Course Instructor: David Johnson&lt;/p&gt;
 
 &lt;h4 id=&quot;office-hours&quot;&gt;Office Hours&lt;/h4&gt;
 
@@ -240,7 +263,7 @@ require(hoo)
 
 &lt;p&gt;My legal name is &lt;strong&gt;Shengyang Cao&lt;/strong&gt;; I go by &lt;strong&gt;Travis&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;I am a first-year economics Ph.D. student at University of Wisconsin-Madison. This semester (Fall 2019) I am one of the teaching assistants for Prof. Johnson’s Economics 101 (Principles of Microeconomics) course.&lt;/p&gt;
+&lt;p&gt;I am a first-year economics Ph.D. student at University of Wisconsin-Madison. This semester (Spring 2020) I am one of the teaching assistants for Prof. Johnson’s Economics 101 (Principles of Microeconomics) course.&lt;/p&gt;
 
 &lt;p&gt;Below are some quick access links. You can also use the menu bar at top to navigate around my website.&lt;/p&gt;
 
