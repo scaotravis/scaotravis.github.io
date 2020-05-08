@@ -5,8 +5,8 @@
     <description>Econ Ph.D. student at UW-Madison</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 07 May 2020 20:40:12 -0500</pubDate>
-    <lastBuildDate>Thu, 07 May 2020 20:40:12 -0500</lastBuildDate>
+    <pubDate>Fri, 08 May 2020 11:18:45 -0500</pubDate>
+    <lastBuildDate>Fri, 08 May 2020 11:18:45 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -280,7 +280,7 @@ require(hoo)
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://localhost:4000/downloads/cv_shengyang_cao.pdf&quot;&gt;Curriculum Vitae&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://localhost:4000/research/&quot;&gt;Research projects&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://localhost:4000/teaching/sp20-101&quot;&gt;Econ 101 for Spring 2020&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/scaotravis/&quot;&gt;GitHub profile&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
