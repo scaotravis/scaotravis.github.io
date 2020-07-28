@@ -17,12 +17,12 @@ var documents = [{
     }, {
     "id": 3,
     "url": "http://localhost:4000/teaching/sp20-101",
-    "title": "Teaching",
+    "title": "Econ 101 (Spring 2020)",
     "body": "2019/07/09 - Econ 101: Principles of Microeconomics (Spring 2020): End of semester TA performance evaluation available here Course Instructor: David Johnson Lectures: Mondays and Wednesdays, 8:25 - 9:40am Office Hours:  Tuesdays, 2:30 - 3:30pm Wednesdays, 2:30 - 3:30pm If you can’t attend either, feel free to send me an email to make an appointmentFinal Exam: May 3 (Sun) "
     }, {
     "id": 4,
     "url": "http://localhost:4000/teaching/fa19-101",
-    "title": "Teaching",
+    "title": "Econ 101 (Fall 2019)",
     "body": "2019/07/09 - Econ 101: Principles of Microeconomics (Fall 2019): End of semester TA performance evaluation available here Course Instructor: David Johnson Lectures: Mondays and Wednesdays, 8:25 - 9:40am @ Bascom 272 Office Hours: @ 7218 Social Sciences (7th floor TA resource room)  Tuesdays, 9:15 - 10:15am Thursdays, 2:00 - 3:00pm If you can’t attend either, feel free to send me an email to make an appointmentFinal Exam: Dec 13 (Fri), 7:45 - 9:45am "
     }, {
     "id": 5,
@@ -36,8 +36,8 @@ var documents = [{
     "body": "2019/01/11 - Project on Environmental Economics: Does Energy Efficiency Affect Demand: An Empirical Study on the Energy Paradox Within Automobile Industry (2018) This paper studies whether consumer undervaluation on energy factor can explain “the energy paradox” within automotive market, where slow adoption of vehicles with better fuel economy has been observed. We obtained survey data from California Energy Commission, used random coefficient logit model developed by Berry, Levinsohn, and Pakes (1995) to perform market demand estimation, and created an empirical willingness to pay (WTP) distribution for an additional miles per gallon (mpg) to investigate consumer valuation. Our result shows that only about 30% of the distribution has WTP more than $600 (calculated as a reasonable cutoff for one more mpg). With the majority unwilling to pay for an extra mpg, this suggests that consumers undervalue fuel economy, illustrating the paradox. "
     }, {
     "id": 7,
-    "url": "http://localhost:4000/home",
-    "title": "Welcome",
+    "url": "http://localhost:4000/welcome/home/",
+    "title": "Home",
     "body": "2018/12/28 -            My legal name is Shengyang Cao; I go by Travis. I am a second-year economics Ph. D. student at University of Wisconsin-Madison. My fields of interest include econometrics and industrial organization. Prior to my doctorate study, I double majored in economics and mathematics also at UW-Madison and graduated with Comprehensive Honors and Distinction. Some quick access links:  Curriculum Vitae Econ 101 for Spring 2020 GitHub profile"
     }];
 
