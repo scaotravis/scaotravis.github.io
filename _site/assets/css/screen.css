@@ -16,7 +16,6 @@ License: https://www.wowthemes.net/freebies-license/
  }
  a {
      color: #4a70c2;
-     transition:all 0.2s;
 }
  a:hover {
      color: #655eff;
@@ -733,6 +732,12 @@ License: https://www.wowthemes.net/freebies-license/
   display: block;
 }
 
+/* search box */
+.lunrsearchresult .title {color: #d9230f;}
+.lunrsearchresult .url {color: silver;}
+.lunrsearchresult a {display: block; color: #777;}
+.lunrsearchresult a:hover .title {text-decoration: underline;}
+
  @media (prefers-color-scheme: dark) {
     /* Overrides for Dark Mode. */
     body {
@@ -873,4 +878,12 @@ License: https://www.wowthemes.net/freebies-license/
       display: block;
       background-color: #0f0f0f;
     }
+    /* search box in dark mode */
+    .modal-content {
+      background-color: #2e2e2e;
+    }
+    .lunrsearchresult .title {color: #7995c4;}
+    .lunrsearchresult a:hover .title {text-decoration: underline; color: #9aafd1; }
+    .lunrsearchresult .url {color: #757575;}
+    .lunrsearchresult a {display: block; color: #afafaf;}
 }

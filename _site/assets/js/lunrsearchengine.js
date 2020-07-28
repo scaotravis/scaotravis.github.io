@@ -1,0 +1,109 @@
+
+var documents = [{
+    "id": 0,
+    "url": "http://localhost:4000/404.html",
+    "title": "Perhaps you are lost...",
+    "body": "Whoops, nothing to see here. Click here to return home. Or, use the menu bar at top to navigate around my site. "
+    }, {
+    "id": 1,
+    "url": "http://localhost:4000/",
+    "title": "Home",
+    "body": " &lt;div class= section-title &gt;  &lt;h2&gt;&lt;span&gt;Welcome&lt;/span&gt;&lt;/h2&gt; &lt;/div&gt; &lt;div class= article-post &gt;  &lt;html&gt;          &lt;/html&gt; My legal name is Shengyang Cao; I go by Travis. I am a second-year economics Ph. D. student at University of Wisconsin-Madison. My fields of interest include econometrics and industrial organization. Prior to my doctorate study, I double majored in economics and mathematics also at UW-Madison and graduated with Comprehensive Honors and Distinction. Some quick access links:  Curriculum Vitae Econ 101 for Spring 2020 GitHub profile &lt;/div&gt;"
+    }, {
+    "id": 2,
+    "url": "http://localhost:4000/robots.txt",
+    "title": "",
+    "body": "      Sitemap: {{ “sitemap. xml”   absolute_url }}   "
+    }, {
+    "id": 3,
+    "url": "http://localhost:4000/teaching/sp20-101",
+    "title": "Teaching",
+    "body": "2019/07/09 - Econ 101: Principles of Microeconomics (Spring 2020): End of semester TA performance evaluation available here Course Instructor: David Johnson Lectures: Mondays and Wednesdays, 8:25 - 9:40am Office Hours:  Tuesdays, 2:30 - 3:30pm Wednesdays, 2:30 - 3:30pm If you can’t attend either, feel free to send me an email to make an appointmentFinal Exam: May 3 (Sun) "
+    }, {
+    "id": 4,
+    "url": "http://localhost:4000/teaching/fa19-101",
+    "title": "Teaching",
+    "body": "2019/07/09 - Econ 101: Principles of Microeconomics (Fall 2019): End of semester TA performance evaluation available here Course Instructor: David Johnson Lectures: Mondays and Wednesdays, 8:25 - 9:40am @ Bascom 272 Office Hours: @ 7218 Social Sciences (7th floor TA resource room)  Tuesdays, 9:15 - 10:15am Thursdays, 2:00 - 3:00pm If you can’t attend either, feel free to send me an email to make an appointmentFinal Exam: Dec 13 (Fri), 7:45 - 9:45am "
+    }, {
+    "id": 5,
+    "url": "http://localhost:4000/hoo/",
+    "title": "hoo",
+    "body": "2019/02/24 - [View hoo on GitHub] Horizon of Observation rENA Model for Multimodal Data Analysis What is hoo? Install hoo in R What’s new Upcoming featuresWhat is hoo?: hoo is an R package used for multimodal data analysis. It is used alongside rENA. hoo creates an appropriate ENA accumulated model that can be used by rENA to produce ENA set. You can call rENA plotting functions on such ENA set to generate points and network plots to analyze connections between player interactions. For more on how to interpret ENA model and plotted network, consult Epistemic Analytics Lab at University of Wisconsin-Madison. Install hoo in R: To install this repository in R as a package, run the following commands: install. packages( devtools )devtools::install_github( scaotravis/hoo@v3. 4. 5 )library(hoo)What’s new: Version 3. 4. 5 (May 29, 2019):  Included parameter referenceMode to customize what mode of data the reference line should be when calculating connections within a moving stanza window (defaults to include all modes of data). Version 3. 4. 4 (May 15, 2019):  Fixed a wording issue in hoo. ena. accumulate. data() help document. Version 3. 4. 3 (April 12, 2019):  When replacing the adjacency vectors created by rENA::ena. accumulate. data() with hoo generated adjacency vectors, hoo now uses a more robust grepl() assisted subset method to avoid erroneous replacement. Version 3. 4. 2 (March 24, 2019):  Cleaned up redundant codes.  Included hoo. horizon. DT() method that utilizes data. table structure and lapply() function in attempt to increase performance. Version 3. 3 (March 23, 2019) (pulled on March 24 due to performance decrease) Verison 3. 2 (January 29, 2019):  Now, all methods from hoo comes with prefix hoo. , which helps you distinguish methods called by hoo class. Version 3. 1 (November 14, 2018):  Included function hoo. ena. accumulate. data() to directly generate ENA accumulated model for ENA set creation.  Reordered some arguments for a more logical ordering. Version 3. 0 (November 11, 2018):  Included dataset mock for testing and example demonstration.  windowSize for whole conversation data now takes value 1 (uses the same standard as rENA). Upcoming features:  Directly generate appropriate ENA accumulated model for ENA set creation. (Available since v3. 1) Use type data. table on dataset to increase performance. (Prototype available in v3. 4. 2) Consider C version of hoo to increase loop performance. "
+    }, {
+    "id": 6,
+    "url": "http://localhost:4000/research/",
+    "title": "Research Projects",
+    "body": "2019/01/11 - Project on Environmental Economics: Does Energy Efficiency Affect Demand: An Empirical Study on the Energy Paradox Within Automobile Industry (2018) This paper studies whether consumer undervaluation on energy factor can explain “the energy paradox” within automotive market, where slow adoption of vehicles with better fuel economy has been observed. We obtained survey data from California Energy Commission, used random coefficient logit model developed by Berry, Levinsohn, and Pakes (1995) to perform market demand estimation, and created an empirical willingness to pay (WTP) distribution for an additional miles per gallon (mpg) to investigate consumer valuation. Our result shows that only about 30% of the distribution has WTP more than $600 (calculated as a reasonable cutoff for one more mpg). With the majority unwilling to pay for an extra mpg, this suggests that consumers undervalue fuel economy, illustrating the paradox. "
+    }, {
+    "id": 7,
+    "url": "http://localhost:4000/home",
+    "title": "Welcome",
+    "body": "2018/12/28 -            My legal name is Shengyang Cao; I go by Travis. I am a second-year economics Ph. D. student at University of Wisconsin-Madison. My fields of interest include econometrics and industrial organization. Prior to my doctorate study, I double majored in economics and mathematics also at UW-Madison and graduated with Comprehensive Honors and Distinction. Some quick access links:  Curriculum Vitae Econ 101 for Spring 2020 GitHub profile"
+    }];
+
+var idx = lunr(function () {
+    this.ref('id')
+    this.field('title')
+    this.field('body')
+
+    documents.forEach(function (doc) {
+        this.add(doc)
+    }, this)
+});
+function lunr_search(term) {
+    document.getElementById('lunrsearchresults').innerHTML = '<ul></ul>';
+    if(term) {
+        document.getElementById('lunrsearchresults').innerHTML = "<p>Search results for '" + term + "'</p>" + document.getElementById('lunrsearchresults').innerHTML;
+        //put results on the screen.
+        var results = idx.search(term);
+        if(results.length>0){
+            //console.log(idx.search(term));
+            //if results
+            for (var i = 0; i < results.length; i++) {
+                // more statements
+                var ref = results[i]['ref'];
+                var url = documents[ref]['url'];
+                var title = documents[ref]['title'];
+                var body = documents[ref]['body'].substring(0,160)+'...';
+                document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'><span class='title'>" + title + "</span><br /><span class='body'>"+ body +"</span><br /><span class='url'>"+ url +"</span></a></li>";
+            }
+        } else {
+            document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = "<li class='lunrsearchresult'>No results found...</li>";
+        }
+    }
+    return false;
+}
+
+function lunr_search(term) {
+    $('#lunrsearchresults').show( 400 );
+    $( "body" ).addClass( "modal-open" );
+    
+    document.getElementById('lunrsearchresults').innerHTML = '<div id="resultsmodal" class="modal fade show d-block"  tabindex="-1" role="dialog" aria-labelledby="resultsmodal"> <div class="modal-dialog shadow-lg" role="document"> <div class="modal-content"> <div class="modal-header" id="modtit"> <button type="button" class="close" id="btnx" data-dismiss="modal" aria-label="Close"> &times; </button> </div> <div class="modal-body"> <ul class="mb-0"> </ul>    </div> <div class="modal-footer"><button id="btnx" type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button></div></div> </div></div>';
+    if(term) {
+        document.getElementById('modtit').innerHTML = "<h5 class='modal-title'>Search results for '" + term + "'</h5>" + document.getElementById('modtit').innerHTML;
+        //put results on the screen.
+        var results = idx.search(term);
+        if(results.length>0){
+            //console.log(idx.search(term));
+            //if results
+            for (var i = 0; i < results.length; i++) {
+                // more statements
+                var ref = results[i]['ref'];
+                var url = documents[ref]['url'];
+                var title = documents[ref]['title'];
+                var body = documents[ref]['body'].substring(0,160)+'...';
+                document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'><span class='title'>" + title + "</span><br /><small><span class='body'>"+ body +"</span><br /><span class='url'>"+ url +"</span></small></a></li>";
+            }
+        } else {
+            document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = "<li class='lunrsearchresult'>Sorry, no results found. Close & try a different search!</li>";
+        }
+    }
+    return false;
+}
+    
+$(function() {
+    $("#lunrsearchresults").on('click', '#btnx', function () {
+        $('#lunrsearchresults').hide( 5 );
+        $( "body" ).removeClass( "modal-open" );
+    });
+});
