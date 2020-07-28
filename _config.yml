@@ -4,8 +4,6 @@ description: "Econ Ph.D. student at UW-Madison"
 meta_description: "Econ Ph.D. student at UW-Madison"
 logo: 'assets/images/logo.png'
 baseurl: ''
-# disqus: 'demowebsite'
-# mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 
 # Authors
 authors:
@@ -15,9 +13,7 @@ authors:
     gravatar: 'assets/images/avatar.jpg'
     email: scaotravis@gmail.com
     web: https://scaotravis.github.io
-    # twitter: https://twitter.com/wowthemesnet
-    # description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-
+    
 # Plugins
 plugins:
   - jekyll-paginate
@@ -29,10 +25,6 @@ jekyll-archives:
   enabled:
     - categories
   layout: archive
-
-# Pagination
-paginate: 6
-paginate_path: /page:num/
 
 # Other
 markdown: kramdown
