@@ -5,8 +5,8 @@
     <description>Econ Ph.D. student at UW-Madison</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 29 Jul 2020 15:36:18 -0500</pubDate>
-    <lastBuildDate>Wed, 29 Jul 2020 15:36:18 -0500</lastBuildDate>
+    <pubDate>Wed, 29 Jul 2020 16:41:05 -0500</pubDate>
+    <lastBuildDate>Wed, 29 Jul 2020 16:41:05 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -158,23 +158,6 @@ library(hoo)
       </item>
     
       <item>
-        <title>Research Projects</title>
-        <description>&lt;h2 id=&quot;project-on-environmental-economics&quot;&gt;Project on Environmental Economics&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Does Energy Efficiency Affect Demand: An Empirical Study on the Energy Paradox Within Automobile Industry (2018)&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;This paper studies whether consumer undervaluation on energy factor can explain “the energy paradox” within automotive market, where slow adoption of vehicles with better fuel economy has been observed. We obtained survey data from California Energy Commission, used random coefficient logit model developed by Berry, Levinsohn, and Pakes (1995) to perform market demand estimation, and created an empirical willingness to pay (WTP) distribution for an additional miles per gallon (mpg) to investigate consumer valuation. Our result shows that only about 30% of the distribution has WTP more than $600 (calculated as a reasonable cutoff for one more mpg). With the majority unwilling to pay for an extra mpg, this suggests that consumers undervalue fuel economy, illustrating the paradox.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 11 Jan 2019 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/research/</link>
-        <guid isPermaLink="true">http://localhost:4000/research/</guid>
-        
-        
-        <category>Research</category>
-        
-      </item>
-    
-      <item>
         <title>Home</title>
         <description>&lt;html&gt;
   &lt;body&gt;
@@ -217,8 +200,8 @@ library(hoo)
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 28 Dec 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/welcome/home/</link>
-        <guid isPermaLink="true">http://localhost:4000/welcome/home/</guid>
+        <link>http://localhost:4000/</link>
+        <guid isPermaLink="true">http://localhost:4000/</guid>
         
         
         <category>Welcome</category>
