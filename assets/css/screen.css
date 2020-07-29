@@ -886,4 +886,10 @@ License: https://www.wowthemes.net/freebies-license/
     .lunrsearchresult a:hover .title {text-decoration: underline; color: #9aafd1; }
     .lunrsearchresult .url {color: #757575;}
     .lunrsearchresult a {display: block; color: #afafaf;}
+    input#lunrsearch.form-control.text-small.launch-modal-search {
+      filter: invert(90%);
+    }
+    button#btnx.close {
+      filter: invert(90%);
+    }
 }
