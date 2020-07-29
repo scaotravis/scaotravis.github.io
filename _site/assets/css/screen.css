@@ -736,10 +736,14 @@ License: https://www.wowthemes.net/freebies-license/
 .modal-content {
   font-family: "Lato";
 }
-.lunrsearchresult .title {color: #d9230f;}
-.lunrsearchresult .url {color: silver;}
+.lunrsearchresult .title {color: #4a70c2;}
+.lunrsearchresult a:hover .title {
+  text-decoration: underline; 
+  color: #655eff;
+}
 .lunrsearchresult a {display: block; color: #777;}
-.lunrsearchresult a:hover .title {text-decoration: underline;}
+.lunrsearchresult a:hover {display: block; color: #212529;}
+.lunrsearchresult .url {color: silver;}
 input#lunrsearch.form-control.text-small.launch-modal-search {
   font-family: "Lato";
   font-size: 13px; 
@@ -893,9 +897,19 @@ input#lunrsearch.form-control.text-small.launch-modal-search {
     .lunrsearchresult .title {
       color: #7995c4;
     }
-    .lunrsearchresult a:hover .title {text-decoration: underline; color: #9aafd1; }
+    .lunrsearchresult a:hover .title {
+      text-decoration: underline; 
+      color: #9aafd1; 
+    }
+    .lunrsearchresult a {
+      display: block; 
+      color: #afafaf;
+    }
+    .lunrsearchresult a:hover {
+      display: block; 
+      color: #e0e0e0;
+    }
     .lunrsearchresult .url {color: #757575;}
-    .lunrsearchresult a {display: block; color: #afafaf;}
     input#lunrsearch.form-control.text-small.launch-modal-search {
       filter: invert(90%);
       font-family: "Lato";
