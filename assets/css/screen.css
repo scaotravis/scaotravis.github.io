@@ -1111,9 +1111,9 @@ button#btnx.btn.btn-danger.btn-sm:hover {
         filter: invert(100%);
     }
     button#btnx.btn.btn-danger.btn-sm {
-        background-color: black; 
-        border-color: black; 
-        color: #afafaf;
+        background-color: #737373; 
+        border-color: #737373; 
+        color: white;
     }
     button#btnx.btn.btn-danger.btn-sm:hover {
         background-color: black; 
