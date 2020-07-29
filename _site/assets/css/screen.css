@@ -926,14 +926,14 @@ input#lunrsearch.form-control.text-small.launch-modal-search {
     font-size: 13px;
 }
 button#btnx.btn.btn-danger.btn-sm {
-    background-color: #4a70c2; 
+    background-color: white; 
     border-color: #4a70c2; 
-    color: white;
+    color: black;
 }
 button#btnx.btn.btn-danger.btn-sm:hover {
     background-color: #4a70c2; 
     border-color: #4a70c2; 
-    color: #e0e0e0;
+    color: white;
 }
 
 @media (prefers-color-scheme: dark) {
