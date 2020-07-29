@@ -926,6 +926,7 @@ input#lunrsearch.form-control.text-small.launch-modal-search {
     font-size: 13px;
 }
 
+
 @media (prefers-color-scheme: dark) {
     /* Overrides for Dark Mode. */
     body {
@@ -1096,5 +1097,15 @@ input#lunrsearch.form-control.text-small.launch-modal-search {
     }
     button#btnx.close {
         filter: invert(90%);
+    }
+    button#btnx.btn.btn-danger.btn-sm {
+        background-color: black; 
+        border-color: black; 
+        color: #afafaf;
+    }
+    button#btnx.btn.btn-danger.btn-sm:hover {
+        background-color: black; 
+        border-color: black; 
+        color: #e0e0e0;
     }
 }
