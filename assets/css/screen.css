@@ -1107,6 +1107,9 @@ button#btnx.btn.btn-danger.btn-sm:hover {
     button#btnx.close {
         filter: invert(90%);
     }
+    button#btnx.close:hover {
+        filter: invert(100%);
+    }
     button#btnx.btn.btn-danger.btn-sm {
         background-color: black; 
         border-color: black; 
