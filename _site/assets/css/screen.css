@@ -986,14 +986,10 @@ button#btnx.btn.btn-danger.btn-sm:hover {
         color: #848484;
         background: black;
     }
-    .navbar-brand {
-        background: black;
-        filter: invert(100%);
-    }
-    .collapse {
-        background: black;
-        filter: invert(100%);
-    }
+    /* navigation bar */
+    .navbar {
+ 		background-color: #1a1a1a !important; 
+	}
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 0.8rem;
         padding-left: 0.8rem;
@@ -1012,9 +1008,8 @@ button#btnx.btn.btn-danger.btn-sm:hover {
         font-family: "Lato";
         color: #dbdbdb;
     }
-    .navbar {
-        background: black;
-        filter: invert(90%);
+    span.navbar-toggler-icon {
+    	filter: invert(90%);
     }
     pre {
         -moz-box-sizing: border-box;
@@ -1078,8 +1073,9 @@ button#btnx.btn.btn-danger.btn-sm:hover {
     }
     /* search box in dark mode */
     .modal-content {
-        background-color: #2e2e2e;
+    	background-color: #2e2e2e; 
         font-family: "Lato";
+        overflow: auto;
     }
     .lunrsearchresult .title {
         color: #7995c4;
@@ -1102,7 +1098,7 @@ button#btnx.btn.btn-danger.btn-sm:hover {
     input#lunrsearch.form-control.text-small.launch-modal-search {
         font-family: "Lato";
         font-size: 13px;
-        background-color: #1c1c1c;
+        background-color: #303030;
         color: #f2f2f2;
     }
     input#lunrsearch.form-control.text-small.launch-modal-search::placeholder {
@@ -1137,5 +1133,8 @@ button#btnx.btn.btn-danger.btn-sm:hover {
         background-color: black; 
         border-color: black; 
         color: #e0e0e0;
+    }
+    .modal-header {
+    	color: #f2f2f2;
     }
 }
