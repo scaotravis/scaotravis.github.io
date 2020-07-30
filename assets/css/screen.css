@@ -1100,9 +1100,27 @@ button#btnx.btn.btn-danger.btn-sm:hover {
         color: #757575;
     }
     input#lunrsearch.form-control.text-small.launch-modal-search {
-        filter: invert(90%);
         font-family: "Lato";
         font-size: 13px;
+        background-color: #1c1c1c;
+        color: #f2f2f2;
+    }
+    input#lunrsearch.form-control.text-small.launch-modal-search::placeholder {
+        font-family: "Lato";
+        font-size: 13px;
+        color: #757575;
+    }
+    /* Edge browser placeholder field */
+    input#lunrsearch.form-control.text-small.launch-modal-search::-webkit-input-placeholder {
+        font-family: "Lato";
+        font-size: 13px;
+        color: #757575;
+    }
+    /* Internet Explorer 10-11 placeholder field */
+    input#lunrsearch.form-control.text-small.launch-modal-search:-ms-input-placeholder {
+        font-family: "Lato";
+        font-size: 13px;
+        color: #757575;
     }
     button#btnx.close {
         filter: invert(90%);
