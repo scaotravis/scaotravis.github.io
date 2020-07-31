@@ -924,12 +924,15 @@ a.sitetitlelink:hover {
 input#lunrsearch.form-control.text-small.launch-modal-search {
     font-family: "Lato";
     font-size: 13px;
+    border-color: #a3a3a3; 
 }
+
 button#btnx.btn.btn-danger.btn-sm {
     background-color: #4a70c2; 
     border-color: #4a70c2; 
     color: white;
 }
+
 button#btnx.btn.btn-danger.btn-sm:hover {
     background-color: #6b86c2; 
     border-color: #6b86c2; 
