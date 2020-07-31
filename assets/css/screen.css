@@ -1014,6 +1014,9 @@ button#btnx.btn.btn-danger.btn-sm:hover {
     span.navbar-toggler-icon {
     	filter: invert(90%);
     }
+    button.navbar-toggler {
+        border-width: 0px; /* Remove broder of navbar toggler in dark mode */
+    }
     pre {
         -moz-box-sizing: border-box;
         box-sizing: border-box;
