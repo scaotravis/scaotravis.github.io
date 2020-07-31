@@ -1069,7 +1069,7 @@ button#btnx.btn.btn-danger.btn-sm:hover {
     /* Show the dropdown menu on hover */
     .dropdown:hover .dropdown-content {
         display: block;
-        background-color: #0f0f0f;
+        background-color: #262626;
     }
     /* search box in dark mode */
     .modal-content {
