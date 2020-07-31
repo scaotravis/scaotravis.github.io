@@ -1102,6 +1102,7 @@ button#btnx.btn.btn-danger.btn-sm:hover {
         font-size: 13px;
         background-color: #303030;
         color: #f2f2f2;
+        border-color: #303030; 
     }
     input#lunrsearch.form-control.text-small.launch-modal-search::placeholder {
         font-family: "Lato";
