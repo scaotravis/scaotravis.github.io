@@ -8,12 +8,12 @@ var documents = [{
     "id": 1,
     "url": "http://localhost:4000/teaching/sp20-101",
     "title": "Teaching - Econ 101 (Spring 2020)",
-    "body": "Econ 101: Principles of Microeconomics (Spring 2020): End of semester TA performance evaluation available here Course Instructor: David Johnson Lectures: Monday and Wednesday, 8:25 - 9:40am Office Hours:  Tuesdays, 2:30 - 3:30pm Wednesdays, 2:30 - 3:30pm If you can’t attend either, feel free to send me an email to make an appointmentFinal Exam: May 3 (Sun) "
+    "body": "Econ 101: Principles of Microeconomics (Spring 2020): End of semester TA performance evaluation available here Course Instructor: David Johnson Lectures: Monday and Wednesday, 8:25 - 9:40am Office Hours:  Tuesday, 2:30 - 3:30pm Wednesday, 2:30 - 3:30pm If you can’t attend either, feel free to send me an email to make an appointmentFinal Exam: May 3 (Sun) "
     }, {
     "id": 2,
     "url": "http://localhost:4000/teaching/fa19-101",
     "title": "Teaching - Econ 101 (Fall 2019)",
-    "body": "Econ 101: Principles of Microeconomics (Fall 2019): End of semester TA performance evaluation available here Course Instructor: David Johnson Lectures: Monday and Wednesday, 8:25 - 9:40am @ Bascom 272 Office Hours: @ 7218 Social Sciences (7th floor TA resource room)  Tuesdays, 9:15 - 10:15am Thursdays, 2:00 - 3:00pm If you can’t attend either, feel free to send me an email to make an appointmentFinal Exam: Dec 13 (Fri), 7:45 - 9:45am "
+    "body": "Econ 101: Principles of Microeconomics (Fall 2019): End of semester TA performance evaluation available here Course Instructor: David Johnson Lectures: Monday and Wednesday, 8:25 - 9:40am @ Bascom 272 Office Hours: @ 7218 Social Sciences (7th floor TA resource room)  Tuesday, 9:15 - 10:15am Thursday, 2:00 - 3:00pm If you can’t attend either, feel free to send me an email to make an appointmentFinal Exam: Dec 13 (Fri), 7:45 - 9:45am "
     }, {
     "id": 3,
     "url": "http://localhost:4000/hoo/",
