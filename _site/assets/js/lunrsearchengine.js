@@ -3,7 +3,7 @@ var documents = [{
     "id": 0,
     "url": "http://localhost:4000/teaching/fa20-522",
     "title": "Teaching - Econ 522 (Fall 2020)",
-    "body": "Econ 522: Law and Economics (Fall 2020): Course Instructor: Prof. Dan Quint Lectures: Tuesday and Thursday, 2:30-3:45pm (online) Office Hours: TBA "
+    "body": "Econ 522: Law and Economics (Fall 2020): Course Instructor: Prof. Dan Quint Lectures: Tuesday and Thursday, 2:30 - 3:45pm (online) Office Hours: TBA "
     }, {
     "id": 1,
     "url": "http://localhost:4000/teaching/sp20-101",
