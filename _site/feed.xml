@@ -5,8 +5,8 @@
     <description>Econ Ph.D. student at UW-Madison</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 01 Sep 2020 16:41:18 -0500</pubDate>
-    <lastBuildDate>Tue, 01 Sep 2020 16:41:18 -0500</lastBuildDate>
+    <pubDate>Wed, 02 Sep 2020 10:33:08 -0500</pubDate>
+    <lastBuildDate>Wed, 02 Sep 2020 10:33:08 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -237,7 +237,7 @@ library(hoo)
 
 &lt;p&gt;I am a second-year economics Ph.D. student at University of Wisconsin-Madison. My fields of interest include econometrics and industrial organization.&lt;/p&gt;
 
-&lt;p&gt;Prior to my doctorate study, I double majored in economics and mathematics also at UW-Madison and graduated with Comprehensive Honors and Distinction.&lt;/p&gt;
+&lt;p&gt;Prior to my doctorate study, I studied economics and mathematics also at UW-Madison and graduated with Comprehensive Honors and Distinction.&lt;/p&gt;
 
 &lt;p&gt;Some quick access links:&lt;/p&gt;
 
