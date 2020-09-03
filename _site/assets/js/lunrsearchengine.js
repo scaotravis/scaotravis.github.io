@@ -3,7 +3,7 @@ var documents = [{
     "id": 0,
     "url": "http://localhost:4000/teaching/fa20-522",
     "title": "Teaching - Econ 522 (Fall 2020)",
-    "body": "Econ 522: Law and Economics (Fall 2020): Course Instructor: Prof. Dan Quint Lecture: Tuesday and Thursday, 2:30 - 3:45pm (online) Canvas course site How to attend lectures, discussions, and office hours online Office Hours: All office hours will take place online, on BBCollaborate Ultra  Monday, 8:00 - 9:00am Thursday, 4:15 - 5:15pm If you can’t attend either, feel free to send me an email to make an appointmentDiscussion Handouts:       Date   Content         Week 1 (9/3 &amp; 9/7)   NO DISCUSSION       Week 2 (9/11 &amp; 9/14)   General Info; Common vs. Cival Law; Efficiency Handout   (Available by midnight of 9/10)   "
+    "body": "Econ 522: Law and Economics (Fall 2020): Course Instructor: Prof. Dan Quint Lecture: Tuesday and Thursday, 2:30 - 3:45pm (online) Canvas course site How to attend lectures, discussions, and office hours online Office Hours: All office hours will take place online, on BBCollaborate Ultra  Monday, 8:00 - 9:00am Thursday, 4:15 - 5:15pm If you can’t attend either, feel free to send me an email to make an appointmentDiscussion Handouts:       Date   Content         Week 1 (9/3 &amp; 9/7)   NO DISCUSSION       Week 2 (9/11 &amp; 9/14)   General Info; Common vs. Civil Law; Efficiency Handout   (Available by midnight of 9/10)   "
     }, {
     "id": 1,
     "url": "http://localhost:4000/teaching/sp20-101",
