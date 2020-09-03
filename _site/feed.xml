@@ -5,8 +5,8 @@
     <description>Econ Ph.D. student at UW-Madison</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 02 Sep 2020 10:33:08 -0500</pubDate>
-    <lastBuildDate>Wed, 02 Sep 2020 10:33:08 -0500</lastBuildDate>
+    <pubDate>Thu, 03 Sep 2020 10:07:48 -0500</pubDate>
+    <lastBuildDate>Thu, 03 Sep 2020 10:07:48 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -42,8 +42,12 @@
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;9/11 &amp;amp; 9/14&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;General Info; Common vs. Cival Law; Efficiency&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Week 1 &lt;br /&gt; 9/3 &amp;amp; 9/7&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;NO DISCUSSION&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Week 2 &lt;br /&gt; 9/11 &amp;amp; 9/14&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;General Info; Common vs. Cival Law; Efficiency &lt;br /&gt; Handout   Solution&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;

@@ -945,6 +945,7 @@ table {
   border-collapse: collapse;
   border: 2px solid rgb(200,200,200);
   font-size: 15px;
+  width: 50%;
 }
 
 td, th {
@@ -960,8 +961,11 @@ tr td {
   background-color: rgb(250,250,250);
 }
 
-caption {
-  padding: 10px;
+tr td:first-child { /* fix first column width */
+  width: 8em;
+  min-width: 8em;
+  max-width: 8em;
+  word-break: break-all;
 }
 
 @media (prefers-color-scheme: dark) {
