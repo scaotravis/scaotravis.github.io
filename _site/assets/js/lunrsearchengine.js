@@ -3,17 +3,17 @@ var documents = [{
     "id": 0,
     "url": "http://localhost:4000/teaching/fa20-522",
     "title": "Teaching - Econ 522 (Fall 2020)",
-    "body": "Econ 522: Law and Economics (Fall 2020): Canvas course site Course Instructor: Prof. Dan Quint Lecture: Tuesday and Thursday, 2:30 - 3:45pm Discussion Sections:  Friday, 9:55 - 10:45am Friday, 11:00 - 11:50am Monday, 1:20 - 2:10pm Monday, 2:25 - 3:15pmOffice Hours:  Monday, 8:00 - 9:00am Thursday, 4:15 - 5:15pm Or by appointmentHow to attend lectures, discussions, and office hours online Discussion Handouts:       Date   Content         Week 1 (9/3 &amp; 9/7)   NO DISCUSSION       Week 2 (9/11 &amp; 9/14)   General Info; Common vs. Civil Law; Efficiency Handout   (Available by midnight of 9/10)   "
+    "body": "Econ 522: Law and Economics (Fall 2020): Canvas course site Course Instructor: Prof. Dan Quint Lecture: Tuesdays and Thursdays, 2:30 - 3:45pm Discussion Sections:  Fridays, 9:55 - 10:45am Fridays, 11:00 - 11:50am Mondays, 1:20 - 2:10pm Mondays, 2:25 - 3:15pmOffice Hours:  Mondays, 8:00 - 9:00am Thursdays, 4:15 - 5:15pm Or by appointmentHow to attend lectures, discussions, and office hours online Discussion Handouts:       Date   Content         Week 1 (9/3 &amp; 9/7)   NO DISCUSSION       Week 2 (9/11 &amp; 9/14)   General Info; Common vs. Civil Law; Efficiency Handout   (Available by midnight of 9/10)   "
     }, {
     "id": 1,
     "url": "http://localhost:4000/teaching/sp20-101",
     "title": "Teaching - Econ 101 (Spring 2020)",
-    "body": "Econ 101: Principles of Microeconomics (Spring 2020): End of semester TA performance evaluation available here Course Instructor: David Johnson Lecture: Monday and Wednesday, 8:25 - 9:40am Office Hours:  Tuesday, 2:30 - 3:30pm Wednesday, 2:30 - 3:30pm If you can’t attend either, feel free to send me an email to make an appointmentFinal Exam: May 3 (Sun) "
+    "body": "Econ 101: Principles of Microeconomics (Spring 2020): End of semester TA performance evaluation available here Course Instructor: David Johnson Lecture: Mondays and Wednesdays, 8:25 - 9:40am Office Hours:  Tuesdays, 2:30 - 3:30pm Wednesdays, 2:30 - 3:30pm If you can’t attend either, feel free to send me an email to make an appointmentFinal Exam: May 3 (Sun) "
     }, {
     "id": 2,
     "url": "http://localhost:4000/teaching/fa19-101",
     "title": "Teaching - Econ 101 (Fall 2019)",
-    "body": "Econ 101: Principles of Microeconomics (Fall 2019): End of semester TA performance evaluation available here Course Instructor: David Johnson Lecture: Monday and Wednesday, 8:25 - 9:40am @ Bascom 272 Office Hours: @ 7218 Social Sciences (7th floor TA resource room)  Tuesday, 9:15 - 10:15am Thursday, 2:00 - 3:00pm If you can’t attend either, feel free to send me an email to make an appointmentFinal Exam: Dec 13 (Fri), 7:45 - 9:45am "
+    "body": "Econ 101: Principles of Microeconomics (Fall 2019): End of semester TA performance evaluation available here Course Instructor: David Johnson Lecture: Mondays and Wednesdays, 8:25 - 9:40am @ Bascom 272 Office Hours: @ 7218 Social Sciences (7th floor TA resource room)  Tuesdays, 9:15 - 10:15am Thursdays, 2:00 - 3:00pm If you can’t attend either, feel free to send me an email to make an appointmentFinal Exam: Dec 13 (Fri), 7:45 - 9:45am "
     }, {
     "id": 3,
     "url": "http://localhost:4000/hoo/",
