@@ -3,7 +3,7 @@ var documents = [{
     "id": 0,
     "url": "http://localhost:4000/teaching/fa20-522",
     "title": "Teaching - Econ 522 (Fall 2020)",
-    "body": "Econ 522: Law and Economics (Fall 2020): Canvas course site Course Instructor: Prof. Dan Quint Lecture: Tuesdays and Thursdays, 2:30 - 3:45pm Discussion Sections:  Fridays, 9:55 - 10:45am Fridays, 11:00 - 11:50am Mondays, 1:20 - 2:10pm Mondays, 2:25 - 3:15pmOffice Hours:  Mondays, 8:00 - 9:00am Thursdays, 4:15 - 5:15pm Or by appointmentHow to attend lectures, discussions, and office hours online Discussion Handouts:       Date   Content         Week 1 (9/3 &amp; 9/7)   NO DISCUSSION       Week 2 (9/11 &amp; 9/14)   General Info; Common vs. Civil Law; Efficiency Handout   Solution   Recording       Week 3 (9/18 &amp; 9/21)   Coase Theorem; Bargaining Handout   "
+    "body": "Econ 522: Law and Economics (Fall 2020): Canvas course site Course Instructor: Prof. Dan Quint Lecture: Tuesdays and Thursdays, 2:30 - 3:45pm Discussion Sections:  Fridays, 9:55 - 10:45am Fridays, 11:00 - 11:50am Mondays, 1:20 - 2:10pm Mondays, 2:25 - 3:15pmOffice Hours:  Mondays, 8:00 - 9:00am Thursdays, 4:15 - 5:15pm Or by appointmentHow to attend lectures, discussions, and office hours online Discussion Handouts:       Date   Content         Week 1 (9/4 &amp; 9/7)   NO DISCUSSION       Week 2 (9/11 &amp; 9/14)   General Info; Common vs. Civil Law; Efficiency Handout   Solution   Recording       Week 3 (9/18 &amp; 9/21)   Coase Theorem; Bargaining Handout   "
     }, {
     "id": 1,
     "url": "http://localhost:4000/teaching/sp20-101",
