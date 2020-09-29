@@ -962,9 +962,9 @@ tr td {
 }
 
 tr td:first-child { /* fix first column width */
-  width: 8.5em;
-  min-width: 8.5em;
-  max-width: 8.5em;
+  width: 9.2em;
+  min-width: 9.2em;
+  max-width: 9.2em;
   word-break: break-all;
 }
 
