@@ -5,8 +5,8 @@
     <description>Econ Ph.D. student at UW-Madison</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 18 Dec 2020 17:06:19 -0600</pubDate>
-    <lastBuildDate>Fri, 18 Dec 2020 17:06:19 -0600</lastBuildDate>
+    <pubDate>Fri, 18 Dec 2020 17:08:04 -0600</pubDate>
+    <lastBuildDate>Fri, 18 Dec 2020 17:08:04 -0600</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -324,7 +324,7 @@ library(hoo)
 
 &lt;p&gt;My legal name is &lt;strong&gt;Shengyang Cao&lt;/strong&gt;; I go by &lt;strong&gt;Travis&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;I am a second-year economics Ph.D. student at University of Wisconsin-Madison. My fields of interest include econometrics and industrial organization.&lt;/p&gt;
+&lt;p&gt;I am a second-year economics Ph.D. student at University of Wisconsin-Madison. My fields of interest include industrial organization and econometrics.&lt;/p&gt;
 
 &lt;p&gt;Prior to my doctorate study, I studied economics and mathematics also at UW-Madison and graduated with Comprehensive Honors and Distinction.&lt;/p&gt;
 
