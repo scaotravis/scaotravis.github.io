@@ -5,9 +5,34 @@
     <description>Econ Ph.D. student at UW-Madison</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 15 Dec 2020 13:47:38 -0600</pubDate>
-    <lastBuildDate>Tue, 15 Dec 2020 13:47:38 -0600</lastBuildDate>
+    <pubDate>Fri, 18 Dec 2020 17:06:19 -0600</pubDate>
+    <lastBuildDate>Fri, 18 Dec 2020 17:06:19 -0600</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Econ 400 (Spring 2021)</title>
+        <description>&lt;h2 id=&quot;econ-400-introduction-to-applied-econometrics-spring-2021&quot;&gt;Econ 400: Introduction To Applied Econometrics (Spring 2021)&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Course Instructor&lt;/strong&gt;: Matt Friedman&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lecture&lt;/strong&gt;: online, asynchronous&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Discussion Sections&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;TBA&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Office Hours&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;TBA&lt;/p&gt;
+</description>
+        <pubDate>Fri, 18 Dec 2020 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/teaching/sp21-400</link>
+        <guid isPermaLink="true">http://localhost:4000/teaching/sp21-400</guid>
+        
+        
+        <category>Teaching</category>
+        
+      </item>
     
       <item>
         <title>Econ 522 (Fall 2020)</title>
@@ -307,7 +332,7 @@ library(hoo)
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://localhost:4000/downloads/cv_shengyang_cao.pdf&quot;&gt;Curriculum Vitae&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://localhost:4000/teaching/fa20-522&quot;&gt;Econ 522 for Fall 2020&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://localhost:4000/teaching/sp21-400&quot;&gt;Econ 400 for Spring 2021&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/scaotravis/&quot;&gt;GitHub profile&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
