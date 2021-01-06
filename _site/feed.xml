@@ -5,8 +5,8 @@
     <description>Econ Ph.D. student at UW-Madison</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 05 Jan 2021 10:39:26 -0600</pubDate>
-    <lastBuildDate>Tue, 05 Jan 2021 10:39:26 -0600</lastBuildDate>
+    <pubDate>Wed, 06 Jan 2021 14:17:44 -0600</pubDate>
+    <lastBuildDate>Wed, 06 Jan 2021 14:17:44 -0600</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -211,6 +211,18 @@
         <title>hoo</title>
         <description>&lt;p&gt;&lt;a href=&quot;https://github.com/scaotravis/hoo&quot;&gt;[View hoo on GitHub]&lt;/a&gt;&lt;/p&gt;
 
+&lt;html&gt;
+    &lt;!-- Import zero-md --&gt;
+    &lt;script type=&quot;module&quot; src=&quot;https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js&quot;&gt;&lt;/script&gt;
+
+    &lt;zero-md src=&quot;https://raw.githubusercontent.com/scaotravis/hoo/master/README.md&quot;&gt;
+        &lt;template&gt;
+            &lt;!-- Load external stylesheets with a `&lt;link rel=&quot;stylesheet&quot;&gt;` tag --&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/screen.css&quot; /&gt;
+        &lt;/template&gt;
+    &lt;/zero-md&gt;
+&lt;/html&gt;
+
 &lt;h1 id=&quot;horizon-of-observation-rena-model-for-multimodal-data-analysis&quot;&gt;Horizon of Observation rENA Model for Multimodal Data Analysis&lt;/h1&gt;
 
 &lt;ul&gt;
@@ -333,7 +345,7 @@ library(hoo)
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://localhost:4000/downloads/cv_shengyang_cao.pdf&quot;&gt;Curriculum Vitae&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://localhost:4000/teaching/sp21-400&quot;&gt;Econ 400 for Spring 2021&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/scaotravis/&quot;&gt;GitHub profile&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/scaotravis/&quot;&gt;GitHub Profile&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 28 Dec 2018 00:00:00 -0600</pubDate>
