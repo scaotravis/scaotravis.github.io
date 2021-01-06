@@ -1,18 +1,7 @@
 # Site
 name: "Travis Cao"
 description: "Econ Ph.D. student at UW-Madison"
-meta_description: "Econ Ph.D. student at UW-Madison"
 logo: 'assets/images/logo.png'
-baseurl: ''
-
-# Authors
-authors:
-  sal:
-    name: Travis Cao
-    display_name: Travis
-    gravatar: 'assets/images/avatar.jpg'
-    email: scaotravis@gmail.com
-    web: https://scaotravis.github.io
     
 # Plugins
 permalink: /:categories/:title/
