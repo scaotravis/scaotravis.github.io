@@ -969,11 +969,6 @@ tr td:first-child { /* fix first column width */
   word-break: break-all;
 }
 
-/* zero-md */
-zero-md {
-    font-family: "Lato";
-}
-
 @media (prefers-color-scheme: dark) {
     /* Overrides for Dark Mode. */
     body {

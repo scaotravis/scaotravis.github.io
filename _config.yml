@@ -15,16 +15,7 @@ authors:
     web: https://scaotravis.github.io
     
 # Plugins
-plugins:
-  - jekyll-paginate
-  - jekyll-archives
 permalink: /:categories/:title/
-
-# Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
 
 # Other
 markdown: kramdown

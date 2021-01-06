@@ -5,7 +5,7 @@
 <lastmod>2018-12-28T00:00:00-06:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/hoo/</loc>
+<loc>http://localhost:4000/hoo</loc>
 <lastmod>2019-02-24T00:00:00-06:00</lastmod>
 </url>
 <url>
@@ -26,15 +26,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/category/welcome/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/category/research/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/category/teaching/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/downloads/cao_fuel_economy.pdf</loc>

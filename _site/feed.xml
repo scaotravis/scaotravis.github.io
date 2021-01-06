@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title></title>
-    <description>Econ Ph.D. student at UW-Madison</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 06 Jan 2021 14:17:44 -0600</pubDate>
-    <lastBuildDate>Wed, 06 Jan 2021 14:17:44 -0600</lastBuildDate>
-    <generator>Jekyll v4.1.1</generator>
-    
-      <item>
-        <title>Econ 400 (Spring 2021)</title>
-        <description>&lt;h2 id=&quot;econ-400-introduction-to-applied-econometrics-spring-2021&quot;&gt;Econ 400: Introduction To Applied Econometrics (Spring 2021)&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-06T16:14:06-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Travis Cao</title><subtitle>Econ Ph.D. student at UW-Madison</subtitle><entry><title type="html">Econ 400 (Spring 2021)</title><link href="http://localhost:4000/teaching/sp21-400" rel="alternate" type="text/html" title="Econ 400 (Spring 2021)" /><published>2020-12-18T00:00:00-06:00</published><updated>2020-12-18T00:00:00-06:00</updated><id>http://localhost:4000/teaching/teaching-sp21-400</id><content type="html" xml:base="http://localhost:4000/teaching/sp21-400">&lt;h2 id=&quot;econ-400-introduction-to-applied-econometrics-spring-2021&quot;&gt;Econ 400: Introduction To Applied Econometrics (Spring 2021)&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Course Instructor&lt;/strong&gt;: Matt Friedman&lt;/p&gt;
 
@@ -23,20 +10,7 @@
 
 &lt;p&gt;&lt;strong&gt;Office Hours&lt;/strong&gt;:&lt;/p&gt;
 
-&lt;p&gt;TBA&lt;/p&gt;
-</description>
-        <pubDate>Fri, 18 Dec 2020 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/teaching/sp21-400</link>
-        <guid isPermaLink="true">http://localhost:4000/teaching/sp21-400</guid>
-        
-        
-        <category>Teaching</category>
-        
-      </item>
-    
-      <item>
-        <title>Econ 522 (Fall 2020)</title>
-        <description>&lt;h2 id=&quot;econ-522-law-and-economics-fall-2020&quot;&gt;Econ 522: Law and Economics (Fall 2020)&lt;/h2&gt;
+&lt;p&gt;TBA&lt;/p&gt;</content><author><name></name></author><category term="Teaching" /><summary type="html">Econ 400: Introduction To Applied Econometrics (Spring 2021)</summary></entry><entry><title type="html">Econ 522 (Fall 2020)</title><link href="http://localhost:4000/teaching/fa20-522" rel="alternate" type="text/html" title="Econ 522 (Fall 2020)" /><published>2020-08-04T00:00:00-05:00</published><updated>2020-08-04T00:00:00-05:00</updated><id>http://localhost:4000/teaching/teaching-fa20-522</id><content type="html" xml:base="http://localhost:4000/teaching/fa20-522">&lt;h2 id=&quot;econ-522-law-and-economics-fall-2020&quot;&gt;Econ 522: Law and Economics (Fall 2020)&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://canvas.wisc.edu/courses/218041&quot;&gt;Canvas course site&lt;/a&gt;&lt;/p&gt;
 
@@ -135,50 +109,7 @@
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Final Exam: 12/14 (Mon) 7:45am - 9:45am&lt;/strong&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        <pubDate>Tue, 04 Aug 2020 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/teaching/fa20-522</link>
-        <guid isPermaLink="true">http://localhost:4000/teaching/fa20-522</guid>
-        
-        
-        <category>Teaching</category>
-        
-      </item>
-    
-      <item>
-        <title>Econ 101 (Spring 2020)</title>
-        <description>&lt;h2 id=&quot;econ-101-principles-of-microeconomics-spring-2020&quot;&gt;Econ 101: Principles of Microeconomics (Spring 2020)&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;End of semester TA performance evaluation &lt;a href=&quot;http://localhost:4000/downloads/teaching/sp20-101/sp20_101-eval_shengyang_cao.pdf&quot;&gt;available here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Course Instructor: David Johnson&lt;/p&gt;
-
-&lt;p&gt;Lecture: Mondays and Wednesdays, 8:25 - 9:40am&lt;/p&gt;
-
-&lt;h4 id=&quot;office-hours&quot;&gt;Office Hours&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Tuesdays, 2:30 - 3:30pm&lt;/li&gt;
-  &lt;li&gt;Wednesdays, 2:30 - 3:30pm&lt;/li&gt;
-  &lt;li&gt;If you can’t attend either, feel free to send me an email to make an appointment&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;final-exam&quot;&gt;Final Exam&lt;/h4&gt;
-&lt;p&gt;May 3 (Sun)&lt;/p&gt;
-</description>
-        <pubDate>Tue, 09 Jul 2019 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/teaching/sp20-101</link>
-        <guid isPermaLink="true">http://localhost:4000/teaching/sp20-101</guid>
-        
-        
-        <category>Teaching</category>
-        
-      </item>
-    
-      <item>
-        <title>Econ 101 (Fall 2019)</title>
-        <description>&lt;h2 id=&quot;econ-101-principles-of-microeconomics-fall-2019&quot;&gt;Econ 101: Principles of Microeconomics (Fall 2019)&lt;/h2&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="Teaching" /><summary type="html">Econ 522: Law and Economics (Fall 2020)</summary></entry><entry><title type="html">Econ 101 (Fall 2019)</title><link href="http://localhost:4000/teaching/fa19-101" rel="alternate" type="text/html" title="Econ 101 (Fall 2019)" /><published>2019-07-09T00:00:00-05:00</published><updated>2019-07-09T00:00:00-05:00</updated><id>http://localhost:4000/teaching/teaching-fa19-101</id><content type="html" xml:base="http://localhost:4000/teaching/fa19-101">&lt;h2 id=&quot;econ-101-principles-of-microeconomics-fall-2019&quot;&gt;Econ 101: Principles of Microeconomics (Fall 2019)&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;End of semester TA performance evaluation &lt;a href=&quot;http://localhost:4000/downloads/teaching/fa19-101/fa19_101-eval_shengyang_cao.pdf&quot;&gt;available here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
@@ -196,20 +127,24 @@
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;final-exam&quot;&gt;Final Exam&lt;/h4&gt;
-&lt;p&gt;Dec 13 (Fri), 7:45 - 9:45am&lt;/p&gt;
-</description>
-        <pubDate>Tue, 09 Jul 2019 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/teaching/fa19-101</link>
-        <guid isPermaLink="true">http://localhost:4000/teaching/fa19-101</guid>
-        
-        
-        <category>Teaching</category>
-        
-      </item>
-    
-      <item>
-        <title>hoo</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://github.com/scaotravis/hoo&quot;&gt;[View hoo on GitHub]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Dec 13 (Fri), 7:45 - 9:45am&lt;/p&gt;</content><author><name></name></author><category term="Teaching" /><summary type="html">Econ 101: Principles of Microeconomics (Fall 2019)</summary></entry><entry><title type="html">Econ 101 (Spring 2020)</title><link href="http://localhost:4000/teaching/sp20-101" rel="alternate" type="text/html" title="Econ 101 (Spring 2020)" /><published>2019-07-09T00:00:00-05:00</published><updated>2019-07-09T00:00:00-05:00</updated><id>http://localhost:4000/teaching/teaching-sp20-101</id><content type="html" xml:base="http://localhost:4000/teaching/sp20-101">&lt;h2 id=&quot;econ-101-principles-of-microeconomics-spring-2020&quot;&gt;Econ 101: Principles of Microeconomics (Spring 2020)&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;End of semester TA performance evaluation &lt;a href=&quot;http://localhost:4000/downloads/teaching/sp20-101/sp20_101-eval_shengyang_cao.pdf&quot;&gt;available here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Course Instructor: David Johnson&lt;/p&gt;
+
+&lt;p&gt;Lecture: Mondays and Wednesdays, 8:25 - 9:40am&lt;/p&gt;
+
+&lt;h4 id=&quot;office-hours&quot;&gt;Office Hours&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tuesdays, 2:30 - 3:30pm&lt;/li&gt;
+  &lt;li&gt;Wednesdays, 2:30 - 3:30pm&lt;/li&gt;
+  &lt;li&gt;If you can’t attend either, feel free to send me an email to make an appointment&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;final-exam&quot;&gt;Final Exam&lt;/h4&gt;
+&lt;p&gt;May 3 (Sun)&lt;/p&gt;</content><author><name></name></author><category term="Teaching" /><summary type="html">Econ 101: Principles of Microeconomics (Spring 2020)</summary></entry><entry><title type="html">hoo</title><link href="http://localhost:4000/hoo" rel="alternate" type="text/html" title="hoo" /><published>2019-02-24T00:00:00-06:00</published><updated>2019-02-24T00:00:00-06:00</updated><id>http://localhost:4000/hoo</id><content type="html" xml:base="http://localhost:4000/hoo">&lt;p&gt;&lt;a href=&quot;https://github.com/scaotravis/hoo&quot;&gt;[View hoo on GitHub]&lt;/a&gt;&lt;/p&gt;
 
 &lt;html&gt;
     &lt;!-- Import zero-md --&gt;
@@ -218,7 +153,10 @@
     &lt;zero-md src=&quot;https://raw.githubusercontent.com/scaotravis/hoo/master/README.md&quot;&gt;
         &lt;template&gt;
             &lt;!-- Load external stylesheets with a `&lt;link rel=&quot;stylesheet&quot;&gt;` tag --&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css&quot; integrity=&quot;sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO&quot; crossorigin=&quot;anonymous&quot; /&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;https://use.fontawesome.com/releases/v5.0.13/css/all.css&quot; integrity=&quot;sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp&quot; crossorigin=&quot;anonymous&quot; /&gt;
             &lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/screen.css&quot; /&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i,900,900i&quot; /&gt;
         &lt;/template&gt;
     &lt;/zero-md&gt;
 &lt;/html&gt;
@@ -295,20 +233,7 @@ library(hoo)
   &lt;li&gt;&lt;del&gt;Directly generate appropriate ENA accumulated model for ENA set creation.&lt;/del&gt; &lt;strong&gt;(Available since v3.1)&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;&lt;del&gt;Use type data.table on dataset to increase performance.&lt;/del&gt; &lt;strong&gt;(Prototype available in v3.4.2)&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;Consider C version of hoo to increase loop performance.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 24 Feb 2019 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/hoo/</link>
-        <guid isPermaLink="true">http://localhost:4000/hoo/</guid>
-        
-        
-        <category>Research</category>
-        
-      </item>
-    
-      <item>
-        <title>Home</title>
-        <description>&lt;html&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="Research" /><summary type="html">[View hoo on GitHub]</summary></entry><entry><title type="html">Home</title><link href="http://localhost:4000/" rel="alternate" type="text/html" title="Home" /><published>2018-12-28T00:00:00-06:00</published><updated>2018-12-28T00:00:00-06:00</updated><id>http://localhost:4000/home</id><content type="html" xml:base="http://localhost:4000/">&lt;html&gt;
   &lt;body&gt;
     &lt;style&gt;
       @media only screen and (max-width: 767px) {
@@ -346,16 +271,4 @@ library(hoo)
   &lt;li&gt;&lt;a href=&quot;http://localhost:4000/downloads/cv_shengyang_cao.pdf&quot;&gt;Curriculum Vitae&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://localhost:4000/teaching/sp21-400&quot;&gt;Econ 400 for Spring 2021&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/scaotravis/&quot;&gt;GitHub Profile&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 28 Dec 2018 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/</link>
-        <guid isPermaLink="true">http://localhost:4000/</guid>
-        
-        
-        <category>Welcome</category>
-        
-      </item>
-    
-  </channel>
-</rss>
+&lt;/ul&gt;</content><author><name></name></author><category term="Welcome" /><summary type="html"></summary></entry></feed>
