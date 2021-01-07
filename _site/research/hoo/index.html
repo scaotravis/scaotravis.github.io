@@ -157,77 +157,79 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="article-post">
     <p><a href="https://github.com/scaotravis/hoo">[View hoo on GitHub]</a></p>
 
-<html>
-    <!-- Import zero-md -->
-    <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"></script>
+<h1 id="horizon-of-observation-rena-model-for-multimodal-data-analysis">Horizon of Observation rENA Model for Multimodal Data Analysis</h1>
 
-    <zero-md src="https://raw.githubusercontent.com/scaotravis/hoo/master/README.md">
-        <template>
-            <!-- Load external stylesheets with a `<link rel="stylesheet">` tag -->
-            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
-            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
-            <link rel="stylesheet" href="/assets/css/screen.css" />
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i,900,900i" />
-        </template>
-    </zero-md>
-</html>
+<ul>
+  <li><a href="#what-is-hoo">What is hoo?</a></li>
+  <li><a href="#install-hoo-in-r">Install hoo in R</a></li>
+  <li><a href="#whats-new">What’s new</a></li>
+  <li><a href="#upcoming-features">Upcoming features</a></li>
+</ul>
 
-<!-- # Horizon of Observation rENA Model for Multimodal Data Analysis
+<h2 id="what-is-hoo">What is hoo?</h2>
+<p>hoo is an R package used for multimodal data analysis. It is used alongside <a href="https://cran.r-project.org/web/packages/rENA/index.html">rENA</a>.</p>
 
-* [What is hoo?](#what-is-hoo)
-* [Install hoo in R](#install-hoo-in-r)
-* [What's new](#whats-new)
-* [Upcoming features](#upcoming-features)
+<p>hoo creates an appropriate ENA accumulated model that can be used by rENA to produce ENA set. You can call rENA plotting functions on such ENA set to generate points and network plots to analyze connections between player interactions.</p>
 
-## What is hoo?
-hoo is an R package used for multimodal data analysis. It is used alongside [rENA](https://cran.r-project.org/web/packages/rENA/index.html).
+<p>For more on how to interpret ENA model and plotted network, consult <a href="http://www.epistemicanalytics.org/">Epistemic Analytics Lab</a> at University of Wisconsin-Madison.</p>
 
-hoo creates an appropriate ENA accumulated model that can be used by rENA to produce ENA set. You can call rENA plotting functions on such ENA set to generate points and network plots to analyze connections between player interactions.
-
-For more on how to interpret ENA model and plotted network, consult [Epistemic Analytics Lab](http://www.epistemicanalytics.org/) at University of Wisconsin-Madison.
-
-## Install hoo in R
-To install this repository in R as a package, run the following commands:
-```{r}
-install.packages("devtools")
+<h2 id="install-hoo-in-r">Install hoo in R</h2>
+<p>To install this repository in R as a package, run the following commands:</p>
+<pre><code class="language-{r}">install.packages("devtools")
 devtools::install_github("scaotravis/hoo@v3.4.5")
 library(hoo)
-```
+</code></pre>
 
-## What's new
+<h2 id="whats-new">What’s new</h2>
 
-*Version 3.4.5* (May 29, 2019):
-* Included parameter `referenceMode` to customize what mode of data the reference line should be when calculating connections within a moving stanza window (defaults to include all modes of data). 
+<p><em>Version 3.4.5</em> (May 29, 2019):</p>
+<ul>
+  <li>Included parameter <code class="language-plaintext highlighter-rouge">referenceMode</code> to customize what mode of data the reference line should be when calculating connections within a moving stanza window (defaults to include all modes of data).</li>
+</ul>
 
-*Version 3.4.4* (May 15, 2019): 
-* Fixed a wording issue in `hoo.ena.accumulate.data()` help document. 
+<p><em>Version 3.4.4</em> (May 15, 2019):</p>
+<ul>
+  <li>Fixed a wording issue in <code class="language-plaintext highlighter-rouge">hoo.ena.accumulate.data()</code> help document.</li>
+</ul>
 
-*Version 3.4.3* (April 12, 2019): 
-* When replacing the adjacency vectors created by `rENA::ena.accumulate.data()` with hoo generated adjacency vectors, hoo now uses a more robust `grepl()` assisted subset method to avoid erroneous replacement.  
+<p><em>Version 3.4.3</em> (April 12, 2019):</p>
+<ul>
+  <li>When replacing the adjacency vectors created by <code class="language-plaintext highlighter-rouge">rENA::ena.accumulate.data()</code> with hoo generated adjacency vectors, hoo now uses a more robust <code class="language-plaintext highlighter-rouge">grepl()</code> assisted subset method to avoid erroneous replacement.</li>
+</ul>
 
-*Version 3.4.2* (March 24, 2019):
-* Cleaned up redundant codes.
-* Included `hoo.horizon.DT()` method that utilizes data.table structure and `lapply()` function in attempt to increase performance.
+<p><em>Version 3.4.2</em> (March 24, 2019):</p>
+<ul>
+  <li>Cleaned up redundant codes.</li>
+  <li>Included <code class="language-plaintext highlighter-rouge">hoo.horizon.DT()</code> method that utilizes data.table structure and <code class="language-plaintext highlighter-rouge">lapply()</code> function in attempt to increase performance.</li>
+</ul>
 
-~~*Version 3.3* (March 23, 2019)~~ (pulled on March 24 due to performance decrease)
+<p><del><em>Version 3.3</em> (March 23, 2019)</del> (pulled on March 24 due to performance decrease)</p>
 
-*Verison 3.2* (January 29, 2019):
-* Now, all methods from hoo comes with prefix `hoo.`, which helps you distinguish methods called by hoo class.
+<p><em>Verison 3.2</em> (January 29, 2019):</p>
+<ul>
+  <li>Now, all methods from hoo comes with prefix <code class="language-plaintext highlighter-rouge">hoo.</code>, which helps you distinguish methods called by hoo class.</li>
+</ul>
 
-*Version 3.1* (November 14, 2018):
-* Included function `hoo.ena.accumulate.data()` to directly generate ENA accumulated model for ENA set creation.
-* Reordered some arguments for a more logical ordering.
+<p><em>Version 3.1</em> (November 14, 2018):</p>
+<ul>
+  <li>Included function <code class="language-plaintext highlighter-rouge">hoo.ena.accumulate.data()</code> to directly generate ENA accumulated model for ENA set creation.</li>
+  <li>Reordered some arguments for a more logical ordering.</li>
+</ul>
 
-*Version 3.0* (November 11, 2018):
+<p><em>Version 3.0</em> (November 11, 2018):</p>
 
-* Included dataset `mock` for testing and example demonstration.
-* `windowSize` for whole conversation data now takes value 1 (uses the same standard as rENA).
+<ul>
+  <li>Included dataset <code class="language-plaintext highlighter-rouge">mock</code> for testing and example demonstration.</li>
+  <li><code class="language-plaintext highlighter-rouge">windowSize</code> for whole conversation data now takes value 1 (uses the same standard as rENA).</li>
+</ul>
 
-## Upcoming features
+<h2 id="upcoming-features">Upcoming features</h2>
 
-* ~~Directly generate appropriate ENA accumulated model for ENA set creation.~~ **(Available since v3.1)**
-* ~~Use type data.table on dataset to increase performance.~~ **(Prototype available in v3.4.2)**
-* Consider C version of hoo to increase loop performance. -->
+<ul>
+  <li><del>Directly generate appropriate ENA accumulated model for ENA set creation.</del> <strong>(Available since v3.1)</strong></li>
+  <li><del>Use type data.table on dataset to increase performance.</del> <strong>(Prototype available in v3.4.2)</strong></li>
+  <li>Consider C version of hoo to increase loop performance.</li>
+</ul>
 
     </div>
     
