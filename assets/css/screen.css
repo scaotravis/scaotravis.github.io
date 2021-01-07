@@ -193,6 +193,12 @@ section.recent-posts {
     font-weight: 500;
 }
 
+@media (min-width:576px) and (max-width:991px) {
+    .mediumnavigation .navbar-brand {
+        margin-left: 12px;
+    }
+}
+
 .mediumnavigation .dropdown-menu {
     border: 1px solid rgba(0, 0, 0, 0.08);
     margin: .5rem 0 0;
