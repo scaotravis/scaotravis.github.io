@@ -2,7 +2,6 @@
 layout: page
 title: "hoo"
 categories: Research
-permalink: /hoo
 ---
 
 [\[View hoo on GitHub\]](https://github.com/scaotravis/hoo)

@@ -1,7 +1,7 @@
 
 var documents = [{
     "id": 0,
-    "url": "/hoo",
+    "url": "/research/hoo/",
     "title": "Research - hoo",
     "body": "[View hoo on GitHub]                                               "
     }, {
