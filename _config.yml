@@ -3,8 +3,11 @@ name: "Travis Cao"
 description: "Econ Ph.D. student at UW-Madison"
 logo: 'assets/images/logo.png'
     
-# Plugins
-permalink: /:categories/:title/
+# Collections
+collections:
+  pages: 
+    output: true
+    permalink: /:categories/:title/
 
 # Other
 markdown: kramdown
