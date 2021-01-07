@@ -7,7 +7,7 @@ logo: 'assets/images/logo.png'
 collections:
   pages: 
     output: true
-    permalink: /:categories/:title/
+    permalink: /:path/
 
 # Other
 markdown: kramdown
