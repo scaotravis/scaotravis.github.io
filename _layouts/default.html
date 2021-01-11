@@ -103,10 +103,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     {% endif %}
                         <a class="nav-link">Teaching <i class="fa fa-caret-down"></i></a>
                         <div class="dropdown-content">
-                            <a href="{{ site.baseurl }}/teaching/sp21-400">Sp21: 400</a>
-                            <a href="{{ site.baseurl }}/teaching/fa20-522">Fa20: 522</a>
-                            <a href="{{ site.baseurl }}/teaching/sp20-101">Sp20: 101</a>
-                            <a href="{{ site.baseurl }}/teaching/fa19-101">Fa19: 101</a>
+                            <a href="{{ site.baseurl }}/teaching/sp21-400" {% if page.url contains "/teaching/sp21-400/" %} class="active" {% endif %}>Sp21: 400</a>
+                            <a href="{{ site.baseurl }}/teaching/fa20-522" {% if page.url contains "/teaching/fa20-522/" %} class="active" {% endif %}>Fa20: 522</a>
+                            <a href="{{ site.baseurl }}/teaching/sp20-101" {% if page.url contains "/teaching/sp20-101/" %} class="active" {% endif %}>Sp20: 101</a>
+                            <a href="{{ site.baseurl }}/teaching/fa19-101" {% if page.url contains "/teaching/fa19-101/" %} class="active" {% endif %}>Fa19: 101</a>
                         </div>
                     </li>
                 </div>
