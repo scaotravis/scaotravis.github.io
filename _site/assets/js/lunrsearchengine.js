@@ -23,7 +23,7 @@ var documents = [{
     "id": 4,
     "url": "/teaching/sp21-400/",
     "title": "Teaching - Econ 400 (Spring 2021)",
-    "body": "Econ 400: Intro to Applied Econometrics (Spring 2021): Course Instructor: Matt Friedman Lecture: online, asynchronous Discussion Sections: TBA Office Hours: TBA "
+    "body": "Econ 400: Intro to Applied Econometrics (Spring 2021): Course Instructor: Matt Friedman Lecture: online, asynchronous Discussion Sections:  Fridays, 9:55 - 10:45am Fridays, 11:00 - 11:50amOffice Hours: TBA Discussion Handouts:       Date   Content         Week 1 (1/29)   TBA   "
     }];
 
 var idx = lunr(function () {
