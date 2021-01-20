@@ -34,9 +34,9 @@ permalink: /
 
 My legal name is **Shengyang Cao**; I go by **Travis**.
 
-I am a second-year economics Ph.D. student at University of Wisconsin-Madison. My fields of interest include industrial organization and econometrics.  
+I am a second-year economics Ph.D. student at University of Wisconsin-Madison. My fields of interest include industrial organization and econometrics.
 
-Prior to my doctorate study, I studied economics and mathematics also at UW-Madison and graduated with Comprehensive Honors and Distinction.
+Prior to my doctoral study, I studied economics and mathematics also at UW-Madison and graduated with Comprehensive Honors and Distinction.
 
 Some quick access links:
 
