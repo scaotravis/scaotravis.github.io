@@ -23,7 +23,7 @@ var documents = [{
     "id": 4,
     "url": "/teaching/sp21-400/",
     "title": "Teaching - Econ 400 (Spring 2021)",
-    "body": "Econ 400: Intro to Applied Econometrics (Spring 2021): Course Instructor: Matt Friedman Lecture: Online, asynchronous Discussion Sections:  Fridays, 9:55 - 10:45am Fridays, 11:00 - 11:50amOffice Hours: TBA Discussion Handouts:       Date   Content         Week 1 (1/29)   General Info; Get Started with Stata Handout   (available by midnight of 1/28)   "
+    "body": "Econ 400: Intro to Applied Econometrics (Spring 2021): Canvas course site Course Instructor: Matt Friedman Lecture: Online, asynchronous (available on Canvas) Discussion Sections:  Fridays, 9:55 - 10:45am Fridays, 11:00 - 11:50amOffice Hours:  Mondays, 1:00 - 2:00pm Thursdays, 4:15 - 5:15pm Or by appointmentHow to attend discussion sections and office hours online Discussion Handouts:       Date   Content         Week 1 (1/29)   General Info; Get Started with Stata Handout   (available by midnight of 1/28)   "
     }];
 
 var idx = lunr(function () {
