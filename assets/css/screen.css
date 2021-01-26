@@ -949,6 +949,11 @@ tr td:first-child { /* fix first column width */
     display: block; 
 }
 
+/* Button without border */
+*:focus {
+    outline: 0 !important;
+}
+
 @media (prefers-color-scheme: dark) {
     /* Overrides for Dark Mode. */
     body {
