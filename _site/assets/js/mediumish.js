@@ -127,3 +127,35 @@ if (raf) raf(function () {
 window.setTimeout(loadDeferredStyles, 0);
 });
 else window.addEventListener('load', loadDeferredStyles);
+
+// full page tab
+function openPage(pageName, elmnt) {
+  // Hide all elements with class="tabcontent" by default */
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Remove the background color of all tablinks/buttons
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+    tablinks[i].classList.remove("active"); // remove all other links with active class
+  }
+
+  // Add the specific color to the button used to open the tab content
+  elmnt.classList.add("active"); 
+
+  // Show the specific tab content
+  document.getElementById(pageName).style.display = "block";
+}
+
+// Get the element with default id and click on it
+$(document).ready(function () {
+  if (window.location.href.indexOf('#default-Travis') > 0) {
+    document.getElementById("default-Travis").click();
+  } else if (window.location.href.indexOf('#default-Zhuoli') > 0) {
+    document.getElementById("default-Zhuoli").click();
+  }
+});
