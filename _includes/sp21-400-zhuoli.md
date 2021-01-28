@@ -17,4 +17,4 @@
 
 |     Date    |                     Content                     |
 |:-----------:|	:---------------------------------------------- |
-| Week 1 <br> (1/29) | General Info; Get Started with Stata <br> Handout (available by midnight of 1/28) |
+| Week 1 <br> (1/29) | General Info; Get Started with Stata <br> [Handout]({{ site.url }}/downloads/teaching/sp21-400/400_sp21_dis-1_handout_zhuoli.pdf) &nbsp; [Dataset]({{ site.url }}/downloads/teaching/sp21-400/datasets/400_sp21_dis-1_dataset.zip) |

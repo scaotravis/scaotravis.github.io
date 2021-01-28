@@ -941,14 +941,6 @@ tr td:first-child { /* fix first column width */
     background-color: #f1f1f1;
 }
 
-.tabcontent#default-Travis:target {
-    display: block; 
-}
-
-.tabcontent#default-Zhuoli:target {
-    display: block; 
-}
-
 /* Button without border */
 *:focus {
     outline: 0 !important;

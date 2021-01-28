@@ -153,9 +153,11 @@ function openPage(pageName, elmnt) {
 
 // Get the element with default id and click on it
 $(document).ready(function () {
-  if (window.location.href.indexOf('#default-Travis') > 0) {
-    document.getElementById("default-Travis").click();
-  } else if (window.location.href.indexOf('#default-Zhuoli') > 0) {
-    document.getElementById("default-Zhuoli").click();
+  if (window.location.href.indexOf('teaching/sp21-400/#default-Travis') > 0) {
+    var travisElmnt = document.getElementById("default-Travis"); 
+    openPage("For-Travis", travisElmnt); 
+  } else if (window.location.href.indexOf('teaching/sp21-400/#default-Zhuoli') > 0) {
+    var zhuoliElmnt = document.getElementById("default-Zhuoli"); 
+    openPage("For-Zhuoli", zhuoliElmnt); 
   }
 });
