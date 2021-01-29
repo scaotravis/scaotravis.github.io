@@ -40,6 +40,6 @@ Prior to my doctoral study, I studied economics and mathematics also at UW-Madis
 
 Some quick access links:
 
-* [Curriculum Vitae]({{ site.url }}/downloads/cv_shengyang_cao.pdf)
-* [Econ 400 for Spring 2021]({{ site.url }}/teaching/sp21-400)
+* [Curriculum Vitae]({{ site.baseurl }}/downloads/cv_shengyang_cao.pdf)
+* [Econ 400 for Spring 2021]({{ site.baseurl }}/teaching/sp21-400)
 * [GitHub Profile](https://github.com/scaotravis/)

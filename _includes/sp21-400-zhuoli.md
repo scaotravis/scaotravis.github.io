@@ -11,10 +11,10 @@
 * Wednesdays, noon - 1:00pm
 * Or by appointment
 
-[How to attend discussion sections and office hours online]({{ site.url }}/downloads/teaching/sp21-400/400_sp21_how-to-join-zoom.pdf)
+[How to attend discussion sections and office hours online]({{ site.baseurl }}/downloads/teaching/sp21-400/400_sp21_how-to-join-zoom.pdf)
 
 #### Discussion Handouts
 
 |     Date    |                     Content                     |
 |:-----------:|	:---------------------------------------------- |
-| Week 1 <br> (1/29) | General Info; Get Started with Stata <br> [Handout]({{ site.url }}/downloads/teaching/sp21-400/400_sp21_dis-1_handout_zhuoli.pdf) &nbsp; [Dataset]({{ site.url }}/downloads/teaching/sp21-400/datasets/400_sp21_dis-1_dataset.zip) |
+| Week 1 <br> (1/29) | General Info; Get Started with Stata <br> [Handout]({{ site.baseurl }}/downloads/teaching/sp21-400/400_sp21_dis-1_handout_zhuoli.pdf) &nbsp; [Dataset]({{ site.baseurl }}/downloads/teaching/sp21-400/datasets/400_sp21_dis-1_dataset.zip) &nbsp; [Solution]({{ site.baseurl }}/downloads/teaching/sp21-400/400_sp21_dis-1_sol_zhuoli.pdf) &nbsp; [Do-file]({{ site.baseurl }}/downloads/teaching/sp21-400/dofiles/400_sp21_dis-1_sol.do)  |
