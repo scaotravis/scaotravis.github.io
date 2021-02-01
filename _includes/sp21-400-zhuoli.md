@@ -13,7 +13,7 @@
 
 [How to attend discussion sections and office hours online]({{ site.baseurl }}/downloads/teaching/sp21-400/400_sp21_how-to-join-zoom.pdf)
 
-#### Discussion Handouts
+#### Discussion Materials
 
 |     Date    |                     Content                     |
 |:-----------:|	:---------------------------------------------- |
