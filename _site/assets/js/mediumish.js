@@ -107,10 +107,21 @@ jQuery(document).ready(function($){
   $('.site-content').css('margin-top', $('header').outerHeight() + 'px');  
   
   // spoilers
-   $(document).on('click', '.spoiler', function() {
-      $(this).removeClass('spoiler');
-   });
-  
+  $(document).on('click', '.spoiler', function() {
+    $(this).removeClass('spoiler');
+  }); 
+
+  // Get the element with default id and click on it
+  if (window.location.href.indexOf('teaching/sp21-400/#default-Travis') > 0) {
+    window.localStorage.setItem('activeTab', 'Travis');
+  } else if (window.location.href.indexOf('teaching/sp21-400/#default-Zhuoli') > 0) {
+    window.localStorage.setItem('activeTab', 'Zhuoli');
+  }
+
+  var activeTab = window.localStorage.getItem('activeTab');
+  if (activeTab) {
+      openPage("For-" + activeTab, document.getElementById("default-" + activeTab)); 
+  }
 });   
 
 // deferred style loading
@@ -130,34 +141,34 @@ else window.addEventListener('load', loadDeferredStyles);
 
 // full page tab
 function openPage(pageName, elmnt) {
-  // Hide all elements with class="tabcontent" by default */
+  // Hide all elements with class="tabcontent" by default
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
+    if (tabcontent[i].classList.contains("selected")) {
+      tabcontent[i].classList.remove("selected"); // remove all tabcontents with active class
+    }
   }
 
   // Remove the background color of all tablinks/buttons
   tablinks = document.getElementsByClassName("tablink");
   for (i = 0; i < tablinks.length; i++) {
     tablinks[i].style.backgroundColor = "";
-    tablinks[i].classList.remove("active"); // remove all other links with active class
+    if (tablinks[i].classList.contains("active")) {
+      tablinks[i].classList.remove("active"); // remove all other links with active class
+    }
   }
 
   // Add the specific color to the button used to open the tab content
   elmnt.classList.add("active"); 
 
-  // Show the specific tab content
-  document.getElementById(pageName).style.display = "block";
+  // Change tabcontent to selected
+  document.getElementById(pageName).classList.add("selected"); 
 }
 
-// Get the element with default id and click on it
-$(document).ready(function () {
-  if (window.location.href.indexOf('teaching/sp21-400/#default-Travis') > 0) {
-    var travisElmnt = document.getElementById("default-Travis"); 
-    openPage("For-Travis", travisElmnt); 
-  } else if (window.location.href.indexOf('teaching/sp21-400/#default-Zhuoli') > 0) {
-    var zhuoliElmnt = document.getElementById("default-Zhuoli"); 
-    openPage("For-Zhuoli", zhuoliElmnt); 
-  }
+// Save state of active tab
+$(function() {
+  $('button[data-toggle="tab"]').on('click', function(e) {
+    window.localStorage.setItem('activeTab', $(e.target).attr('href'));
+  });
 });
