@@ -910,8 +910,8 @@ tr td:first-child { /* fix first column width */
 /* full page tab */
 /* Style tab links */
 .tablink {
-    background-color: #9e9e9e;
-    color: black;
+    background-color: #fafafa;
+    color: rgb(182, 182, 182);
     float: left;
     border: none;
     outline: none;
@@ -923,14 +923,17 @@ tr td:first-child { /* fix first column width */
 
 .tablink.active {
     background-color: #f1f1f1;
+    color: black;
 }
 
 .tablink.active:hover {
     background-color: #f1f1f1;
+    color: black;
 }
 
 .tablink:hover {
-    background-color: #bfbfbf;
+    color: rgb(146, 146, 146);
+    background-color: #e2e2e2;
 }
 
 /* Style the tab content (and add height:100% for full page content) */
@@ -1172,7 +1175,7 @@ tr td:first-child { /* fix first column width */
     /* Style tab links */
     .tablink {
         background-color: #161616;
-        color: #6e6e6e;
+        color: #555555;
     }
 
     .tablink.active {
