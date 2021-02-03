@@ -18,4 +18,4 @@
 |     Date    |                     Content                     |
 |:-----------:|	:---------------------------------------------- |
 | Week 1 <br> (1/29) | General Info; Get Started with Stata <br> [Handout]({{ site.baseurl }}/downloads/teaching/sp21-400/400_sp21_dis-1_handout_travis.pdf) &nbsp; [Dataset]({{ site.baseurl }}/downloads/teaching/sp21-400/datasets/400_sp21_dis-1_dataset.zip) &nbsp; [Solution]({{ site.baseurl }}/downloads/teaching/sp21-400/400_sp21_dis-1_sol_travis.pdf) &nbsp; [Do-file]({{ site.baseurl }}/downloads/teaching/sp21-400/dofiles/400_sp21_dis-1_sol.do) &nbsp; [Recording](https://uwmadison.zoom.us/rec/share/PfjxhXCbfhOa1mHNvzTnQ1b269R1v33wzwfV-Wze6GIW3IEJjM1XG4L20sE7z_9P.ZOaVB4Qve5DOZUDf?startTime=1611939662000)  |
-| Week 2 <br> (2/5) | TBA <br> Handout (available by midnight of 2/4) |
+| Week 2 <br> (2/5) | Stats Review; More on Stata <br> Handout (available by midnight of 2/4) |
