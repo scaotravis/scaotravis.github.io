@@ -11,16 +11,9 @@ log using "400_sp21_dis-2_sol-log.log", replace
 
 
 
-
-
 /* 
 Question 2
 */
-
-// Calculate marginal distribution of X
-use "400_sp21_dis-2_dataset", clear
-collapse (sum) x1 x2 x3 x4
-save "marginal_x", replace
 
 // Calculate E(Y|X)
 use "400_sp21_dis-2_dataset", clear
@@ -33,11 +26,18 @@ forval i = 1/4 {
 collapse (sum) x1 x2 x3 x4
 save "E_Y_cond_X", replace
 
-// Calculate E(Y) = E[ E(Y|X) ]
-append using "marginal_x"
-xpose, clear // transpose the dataset, so that all conditional means are in one col (i.e. treated as a variable)
-rename (v1 v2) (E_Y_cond_X marginal_X)
-gen Y_weight = E_Y_cond_X * marginal_X
+// Calculate E(Y) = E[ E(Y|X) ] = \sum_i E(Y|X = x_i) f_X(x_i) <- using law of iterated expectation
+
+// First need to calculate marginal distribution of X
+use "400_sp21_dis-2_dataset", clear
+collapse (sum) x1 x2 x3 x4
+save "marginal_x", replace
+
+// Then we need to append the row of E(Y|X) to the marginal density of X
+append using "E_Y_cond_X"
+xpose, clear // transpose the dataset (rows now become columns), so that all conditional means are in one column (i.e. treated as a variable)
+rename (v1 v2) (marginal_X E_Y_cond_X)
+gen Y_weight = marginal_X * E_Y_cond_X
 collapse (sum) Y_weight
 rename Y_weight E_Y
 save "E_Y", replace
@@ -71,7 +71,7 @@ collapse (sum) Y2_weight
 rename Y2_weight E_Y2
 save "E_Y2", replace
 local E_Y2_local E_Y2
-display "E(Y^2) = " `E_Y2_local' // E(Y^2) = 4.65625, and Var(Y) can then be calculated
+display "E(Y^2) = " `E_Y2_local' // E(Y^2) = 4.65625, and Var(Y) can then be calculated by hand
 
 
 
@@ -84,7 +84,7 @@ Question 3 (Part of Problem #5 from this week's PS)
 clear all
 local n_obs = (800 - 300)/10 + 1 // need to set number of observations in Stata first before any data can be generated
 set obs `n_obs'
-gen math_SAT = 10 * (_n-1) + 300 // _n here records the row ID
+gen math_SAT = 10 * (_n-1) + 300 // _n here records each row's ID number
 
 // Generate normal density, using gen
 gen f_math_SAT = 1/sqrt(2 * _pi * 100^2) * exp(-1/2 * ( (math_SAT - 500)/100 )^2)
