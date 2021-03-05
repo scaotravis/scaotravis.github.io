@@ -11,7 +11,10 @@
 * Thursdays, 4:15 - 5:15pm
 * Or by appointment
 
-[How to attend discussion sections and office hours online]({{ site.baseurl }}/downloads/teaching/sp21-400/400_sp21_how-to-join-zoom.pdf)
+**Resources**: 
+* [How to attend discussion sections and office hours online]({{ site.baseurl }}/downloads/teaching/sp21-400/400_sp21_how-to-join-zoom.pdf)
+* [t-table]({{ site.baseurl }}/downloads/teaching/sp21-400/t-table.pdf)
+* [F-table](http://socr.ucla.edu/Applets.dir/F_Table.html)
 
 #### Discussion Materials
 
