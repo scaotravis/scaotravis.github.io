@@ -13,6 +13,7 @@
 
 **Resources**: 
 * [How to attend discussion sections and office hours online]({{ site.baseurl }}/downloads/teaching/sp21-400/400_sp21_how-to-join-zoom.pdf)
+* [z-table](http://www.z-table.com/)
 * [t-table]({{ site.baseurl }}/downloads/teaching/sp21-400/t-table.pdf)
 * [F-table](http://socr.ucla.edu/Applets.dir/F_Table.html)
 
@@ -30,4 +31,4 @@
 | Week 8 <br> (3/19) | (Section this week is covered by Dr. Friedman) <br> Data Formatting, Exploration, and Exposition <br> [Solution](https://canvas.wisc.edu/courses/243632/files/18975062?wrap=1) &nbsp; [Recording](https://uwmadison.zoom.us/rec/share/1-vWMSt8Hmlu4UCuXQjNyQotUmzeuZ96iUt5IkdemsHKtr6IFD8nl9OUhmgoUfJ3.agkymtAyy1IVgxL_) |
 | Week 9 <br> (3/26) | Binary Response; Panel Data; Instrumental Variable <br> [Handout]({{ site.baseurl }}/downloads/teaching/sp21-400/400_sp21_dis-9_handout.pdf) &nbsp; [Solution]({{ site.baseurl }}/downloads/teaching/sp21-400/400_sp21_dis-9_sol.pdf) &nbsp; [Do-file]({{ site.baseurl }}/downloads/teaching/sp21-400/dofiles/400_sp21_dis-9_do-sol.do) &nbsp; [Recording](https://uwmadison.zoom.us/rec/share/XT88eNe-s_wRMcpAU7Kv8PCkH1-LExj471W6IHuhkTBk1q-PjK9WQsAdt9x1Ynyf.RzFaaM-6Bq-2QRox) |
 | Week 10 <br> (4/2) | **NO DISCUSSION (No class on 4/2 per academic calendar)** |
-| Week 11 <br> (4/9) | TBA <br> Handout (available by midnight of 4/8) | 
+| Week 11 <br> (4/9) | Experiment & Quasi-Experiment; Big Data <br> Handout (available by midnight of 4/8) | 
