@@ -23,7 +23,7 @@ var documents = [{
     "id": 4,
     "url": "http://0.0.0.0:4000/teaching/sp21-400/",
     "title": "Teaching - Econ 400 (Spring 2021)",
-    "body": "Econ 400: Intro to Applied Econometrics (Spring 2021): End of semester TA performance evaluation for Travis available here Canvas course site Course Instructor: Dr. Matthew Friedman Lecture: Online, asynchronous (available on Canvas)           Passphrase Required                                                              Passphrase Required         If you&#39;re a former student of mine / Zhuoli&#39;s, email me (travis. cao@wisc. edu) for the passphrase. &nbsp;                                                               Created with StatiCrypt               "
+    "body": "Econ 400: Intro to Applied Econometrics (Spring 2021): End of semester TA performance evaluation for Travis available here Canvas course site Course Instructor: Dr. Matthew Friedman Lecture: Online, asynchronous (available on Canvas) Resources:  How to attend discussion sections and office hours online z-table t-table F-table          Passphrase Required                                                              Passphrase Required         If you&#39;re a former student of mine / Zhuoli&#39;s, email me (travis. cao@wisc. edu) for the passphrase. &nbsp;                                                               Created with StatiCrypt               "
     }];
 
 var idx = lunr(function () {
