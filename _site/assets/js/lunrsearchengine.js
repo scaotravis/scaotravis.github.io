@@ -13,7 +13,7 @@ var documents = [{
     "id": 2,
     "url": "http://0.0.0.0:4000/teaching/fa20-522/",
     "title": "Teaching - Econ 522 (Fall 2020)",
-    "body": "Econ 522: Law and Economics (Fall 2020): End of semester TA performance evaluation available here Canvas course site Course Instructor: Prof. Dan Quint Lecture: Tuesdays and Thursdays, 2:30 - 3:45pm Discussion Sections:  Fridays, 9:55 - 10:45am Fridays, 11:00 - 11:50amOffice Hours:  Mondays, 8:00 - 9:00am Mondays, 1:45 - 2:45pm Thursdays, 4:15 - 5:15pm Or by appointmentHow to attend lectures, discussions, and office hours online Discussion Materials:           Passphrase Required                                                              Passphrase Required         If you&#39;re a former student of mine, email me (travis. cao@wisc. edu) for the passphrase.                                                                Created with StatiCrypt               "
+    "body": "Econ 522: Law and Economics (Fall 2020): End of semester TA performance evaluation available here Canvas course site Course Instructor: Prof. Dan Quint Lecture: Tuesdays and Thursdays, 2:30 - 3:45pm Discussion Sections:  Fridays, 9:55 - 10:45am Fridays, 11:00 - 11:50amOffice Hours:  Mondays, 8:00 - 9:00am Mondays, 1:45 - 2:45pm Thursdays, 4:15 - 5:15pm Or by appointmentHow to attend lectures, discussions, and office hours online Discussion Materials:           Passphrase Required                                                              Passphrase Required         If you&#39;re a former student of mine, email me (travis. cao@wisc. edu) for the passphrase.                                                                      "
     }, {
     "id": 3,
     "url": "http://0.0.0.0:4000/teaching/sp20-101/",
@@ -23,7 +23,7 @@ var documents = [{
     "id": 4,
     "url": "http://0.0.0.0:4000/teaching/sp21-400/",
     "title": "Teaching - Econ 400 (Spring 2021)",
-    "body": "Econ 400: Intro to Applied Econometrics (Spring 2021): End of semester TA performance evaluation for Travis available here Canvas course site Course Instructor: Dr. Matthew Friedman Lecture: Online, asynchronous (available on Canvas) Resources:  How to attend discussion sections and office hours online z-table t-table F-table          Passphrase Required                                                              Passphrase Required         If you&#39;re a former student of mine / Zhuoli&#39;s, email me (travis. cao@wisc. edu) for the passphrase. &nbsp;                                                               Created with StatiCrypt               "
+    "body": "Econ 400: Intro to Applied Econometrics (Spring 2021): End of semester TA performance evaluation for Travis available here Canvas course site Course Instructor: Dr. Matthew Friedman Lecture: Online, asynchronous (available on Canvas) Resources:  How to attend discussion sections and office hours online z-table t-table F-table          Passphrase Required                                                              Passphrase Required         If you&#39;re a former student of mine / Zhuoli&#39;s, email me (travis. cao@wisc. edu) for the passphrase. &nbsp;                                                                     "
     }];
 
 var idx = lunr(function () {
