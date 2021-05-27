@@ -52,7 +52,7 @@
             .staticrypt-form .staticrypt-decrypt-button {
                 text-transform: uppercase;
                 outline: 0;
-                background: #4CAF50;
+                background: #7995c4;
                 width: 100%;
                 border: 0;
                 padding: 15px;
@@ -62,7 +62,7 @@
             }
     
             .staticrypt-form .staticrypt-decrypt-button:hover, .staticrypt-form .staticrypt-decrypt-button:active, .staticrypt-form .staticrypt-decrypt-button:focus {
-                background: #43A047;
+                background: #94acd6;
             }
     
             .staticrypt-html {
@@ -71,11 +71,11 @@
     
             .staticrypt-body {
                 margin-bottom: 1em;
-                background: #76b852; /* fallback for old browsers */
-                background: -webkit-linear-gradient(right, #76b852, #8DC26F);
-                background: -moz-linear-gradient(right, #76b852, #8DC26F);
-                background: -o-linear-gradient(right, #76b852, #8DC26F);
-                background: linear-gradient(to left, #76b852, #8DC26F);
+                background: #7995c4; /* fallback for old browsers */
+                background: -webkit-linear-gradient(right, #7995c4, #94acd6);
+                background: -moz-linear-gradient(right, #7995c4, #94acd6);
+                background: -o-linear-gradient(right, #7995c4, #94acd6);
+                background: linear-gradient(to left, #7995c4, #94acd6);
                 font-family: "Arial", sans-serif;
                 -webkit-font-smoothing: antialiased;
                 -moz-osx-font-smoothing: grayscale;
@@ -109,6 +109,23 @@
     
             .staticrypt-footer a {
                 text-decoration: none;
+            }
+
+            @media (prefers-color-scheme: dark) {
+                /* Overrides for Dark Mode. */
+
+                .staticrypt-form {
+                    background: #252525;
+                }
+
+                .staticrypt-form input {
+                    background: #414141;
+                    color: #d3d3d3;  
+                }
+
+                .staticrypt-hr {
+                    border-top: 1px solid rgb(165, 165, 165);
+                }
             }
         </style>
     </head>
