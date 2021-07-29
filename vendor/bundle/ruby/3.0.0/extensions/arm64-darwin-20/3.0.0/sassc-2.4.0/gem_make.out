@@ -1,5 +1,5 @@
 current directory: /Users/travis/Documents/GitHub/scaotravis.github.io/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
-/Users/travis/.rbenv/versions/3.0.1/bin/ruby -I /Users/travis/.rbenv/versions/3.0.1/lib/ruby/3.0.0 -r ./siteconf20210519-56681-vwywf6.rb extconf.rb
+/Users/travis/.rbenv/versions/3.0.2/bin/ruby -I /Users/travis/.rbenv/versions/3.0.2/lib/ruby/3.0.0 -r ./siteconf20210729-74745-9okglq.rb extconf.rb
 creating Makefile
 
 current directory: /Users/travis/Documents/GitHub/scaotravis.github.io/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
@@ -77,4 +77,4 @@ linking shared-object sassc/libsass.bundle
 
 current directory: /Users/travis/Documents/GitHub/scaotravis.github.io/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 libsass.bundle ./.gem.20210519-56681-ryiw6s/sassc
+/usr/bin/install -c -m 0755 libsass.bundle ./.gem.20210729-74745-a239rt/sassc
