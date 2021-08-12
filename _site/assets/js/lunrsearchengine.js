@@ -8,22 +8,27 @@ var documents = [{
     "id": 1,
     "url": "/teaching/fa19-101/",
     "title": "Teaching - Econ 101 (Fall 2019)",
-    "body": "Econ 101: Principles of Microeconomics (Fall 2019): End of semester TA performance evaluation available here Course Instructor: Dr. David Johnson Lecture: Mondays and Wednesdays, 8:25 - 9:40am @ Bascom 272 Office Hours: @ 7218 Social Sciences (7th floor TA resource room)  Tuesdays, 9:15 - 10:15am Thursdays, 2:00 - 3:00pm Or by appointmentFinal Exam: Dec 13 (Fri), 7:45 - 9:45am "
+    "body": "Econ 101: Principles of Microeconomics (Fall 2019): End of semester TA performance evaluation available here Modality: In person Course Instructor: Dr. David Johnson Lecture: Mondays and Wednesdays, 8:25 - 9:40am @ Bascom 272 Office Hours: @ 7218 Social Sciences (7th floor TA resource room)  Tuesdays, 9:15 - 10:15am Thursdays, 2:00 - 3:00pm Or by appointmentFinal Exam: Dec 13 (Fri), 7:45 - 9:45am "
     }, {
     "id": 2,
     "url": "/teaching/fa20-522/",
     "title": "Teaching - Econ 522 (Fall 2020)",
-    "body": "Econ 522: Law and Economics (Fall 2020): End of semester TA performance evaluation available here Canvas course site Course Instructor: Prof. Dan Quint Lecture: Tuesdays and Thursdays, 2:30 - 3:45pm Discussion Sections:  Fridays, 9:55 - 10:45am Fridays, 11:00 - 11:50amOffice Hours:  Mondays, 8:00 - 9:00am Mondays, 1:45 - 2:45pm Thursdays, 4:15 - 5:15pm Or by appointmentHow to attend lectures, discussions, and office hours online Discussion Materials:           Passphrase Required                                                              Passphrase Required         If you&#39;re a former student of mine, email me (travis. cao@wisc. edu) for the passphrase.                                                                      "
+    "body": "Econ 522: Law and Economics (Fall 2020): End of semester TA performance evaluation available here Modality: Online Canvas course site Course Instructor: Prof. Dan Quint Lecture: Tuesdays and Thursdays, 2:30 - 3:45pm Discussion Sections:  Fridays, 9:55 - 10:45am Fridays, 11:00 - 11:50amOffice Hours:  Mondays, 8:00 - 9:00am Mondays, 1:45 - 2:45pm Thursdays, 4:15 - 5:15pm Or by appointmentHow to attend lectures, discussions, and office hours online Discussion Materials:           Passphrase Required                                                              Passphrase Required         If you&#39;re a former student of mine, email me (travis. cao@wisc. edu) for the passphrase.                                                                      "
     }, {
     "id": 3,
-    "url": "/teaching/sp20-101/",
-    "title": "Teaching - Econ 101 (Spring 2020)",
-    "body": "Econ 101: Principles of Microeconomics (Spring 2020): End of semester TA performance evaluation available here Course Instructor: Dr. David Johnson Lecture: Mondays and Wednesdays, 8:25 - 9:40am Office Hours:  Tuesdays, 2:30 - 3:30pm Wednesdays, 2:30 - 3:30pm Or by appointmentFinal Exam: May 3 (Sun) "
+    "url": "/teaching/fa21-310/",
+    "title": "Teaching - Econ 310 (Fall 2021)",
+    "body": "Econ 310: Statistics: Measurement in Economics (Fall 2021): Modality: In person Course Instructor: Dr. Gregory Pac Lecture: Tuesdays and Thursdays, 9:30 - 10:45am @ L196 Education Building Discussion Sections:  TBAOffice Hours:  TBAFinal Exam Schedule: Dec 18, 2021 from 7:25 - 9:25pm Discussion Materials:       Date   Content         Week 1 (9/9 &amp; 9/10)   TBA   "
     }, {
     "id": 4,
+    "url": "/teaching/sp20-101/",
+    "title": "Teaching - Econ 101 (Spring 2020)",
+    "body": "Econ 101: Principles of Microeconomics (Spring 2020): End of semester TA performance evaluation available here Modality: In person until Mar 13, 2020; Online for the rest of the semester Course Instructor: Dr. David Johnson Lecture: Mondays and Wednesdays, 8:25 - 9:40am Office Hours:  Tuesdays, 2:30 - 3:30pm Wednesdays, 2:30 - 3:30pm Or by appointmentFinal Exam: May 3 (Sun) "
+    }, {
+    "id": 5,
     "url": "/teaching/sp21-400/",
     "title": "Teaching - Econ 400 (Spring 2021)",
-    "body": "Econ 400: Intro to Applied Econometrics (Spring 2021): End of semester TA performance evaluation for Travis available here Canvas course site Course Instructor: Dr. Matthew Friedman Lecture: Online, asynchronous (available on Canvas) Resources:  How to attend discussion sections and office hours online z-table t-table F-table          Passphrase Required                                                              Passphrase Required         If you&#39;re a former student of mine / Zhuoli&#39;s, email me (travis. cao@wisc. edu) for the passphrase. &nbsp;                                                                     "
+    "body": "Econ 400: Intro to Applied Econometrics (Spring 2021): End of semester TA performance evaluation for Travis available here Modality: Online Canvas course site Course Instructor: Dr. Matthew Friedman Lecture: Online, asynchronous (available on Canvas) Resources:  How to attend discussion sections and office hours online z-table t-table F-table          Passphrase Required                                                              Passphrase Required         If you&#39;re a former student of mine / Zhuoli&#39;s, email me (travis. cao@wisc. edu) for the passphrase. &nbsp;                                                                     "
     }];
 
 var idx = lunr(function () {
