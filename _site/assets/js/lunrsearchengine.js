@@ -18,7 +18,7 @@ var documents = [{
     "id": 3,
     "url": "/teaching/fa21-310/",
     "title": "Teaching - Econ 310 (Fall 2021)",
-    "body": "Econ 310: Statistics: Measurement in Economics (Fall 2021): Modality: In person Course Instructor: Dr. Gregory Pac Lecture: Tuesdays and Thursdays, 9:30 - 10:45am @ L196 Education Building Discussion Sections:  TBAOffice Hours:  TBAFinal Exam Schedule: Dec 18, 2021 from 7:25 - 9:25pm Discussion Materials:       Date   Content         Week 1 (9/9 &amp; 9/10)   TBA   "
+    "body": "Econ 310: Statistics: Measurement in Economics (Fall 2021): Modality: In person Course Instructor: Dr. Gregory Pac Lecture: Tuesdays and Thursdays, 9:30 - 10:45am @ L196 Education Building Discussion Sections:  TBAOffice Hours:  TBADiscussion Materials:       Date   Content         Week 1 (9/9 &amp; 9/10)   TBA   "
     }, {
     "id": 4,
     "url": "/teaching/sp20-101/",
