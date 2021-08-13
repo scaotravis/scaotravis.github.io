@@ -105,7 +105,12 @@ jQuery(document).ready(function($){
       
   $('.site-content').css('margin-top', $('header').outerHeight() + 'px');  
   
-  // Add dots-active class to certain webpages
+  // Spoilers
+  $(document).on('click', '.spoiler', function() {
+    $(this).removeClass('spoiler');
+  }); 
+
+  // Dots modification
   if (window.location.href.indexOf('teaching/fa20-522') > 0) {
     var urlLink = '<a href="{{ site.baseurl }}/teaching/fa20-522" class="active">Fa20: 522</a> <a id="dots-text" onmouseenter="expandingMenu()">More...</a>'
     document.getElementById("dots").innerHTML = urlLink; 
