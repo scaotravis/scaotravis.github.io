@@ -959,25 +959,25 @@ tr td:first-child { /* fix first column width */
 }
 
 /* Expand menu text */
-#dots a {
+#dots {
     cursor: pointer;
     color: #999999;
     text-decoration: none;
 }
 
-#dots a:hover {
+#dots:hover {
     color: black;
 }
 
-#dots a.active {
+#dots.active {
     color: black;
 }
 
-#dots.dots-active a {
+#dots.dots-active {
     color: black;
 }
 
-#dots.dots-active a:hover {
+#dots.dots-active:hover {
     color: #655eff;
 }
 
@@ -1228,24 +1228,24 @@ tr td:first-child { /* fix first column width */
     }
 
     /* Expand menu text */
-    #dots a {
+    #dots {
         color: #787878;
         text-decoration: none;
     }
 
-    #dots a:hover {
+    #dots:hover {
         color: #fcfcfc;
     }
 
-    #dots a:active {
+    #dots:active {
         color: #fcfcfc;
     }
 
-    #dots.dots-active a {
+    #dots.dots-active {
         color: #fcfcfc;
     }
     
-    #dots.dots-active a:hover {
+    #dots.dots-active:hover {
         color: #9cb8e4;
     }
 }

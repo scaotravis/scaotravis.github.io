@@ -122,17 +122,6 @@ jQuery(document).ready(function($){
   if (activeTab) {
       openPage("For-" + activeTab, document.getElementById("default-" + activeTab)); 
   }
-
-  var dots = document.getElementById("dots"); 
-
-  // Make "more" text for expanding menu active at certain webpages
-  if (window.location.href.indexOf('teaching/fa20-522') > 0) {
-    dots.classList.add("dots-active"); 
-  } else if (window.location.href.indexOf('teaching/sp20-101') > 0) {
-    dots.classList.add("dots-active"); 
-  } else if (window.location.href.indexOf('teaching/fa19-101') > 0) {
-    dots.classList.add("dots-active"); 
-  } 
 });   
 
 // deferred style loading
