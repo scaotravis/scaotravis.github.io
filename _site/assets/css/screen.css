@@ -960,6 +960,7 @@ tr td:first-child { /* fix first column width */
 
 /* Expand menu text */
 #dots a {
+    cursor: pointer;
     color: #999999;
     text-decoration: none;
 }
