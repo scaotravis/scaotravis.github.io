@@ -183,6 +183,13 @@ function openPage(pageName, elmnt) {
   document.close(); 
 }
 
+// Save state of active tab
+$(function() {
+  $('button[data-toggle="tab"]').on('click', function(e) {
+    window.localStorage.setItem('activeTab', $(e.target).attr('href'));
+  });
+});
+
 // Expand menu
 function expandingMenu() {
   var dots = document.getElementById("dots");
