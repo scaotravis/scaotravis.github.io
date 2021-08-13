@@ -181,3 +181,12 @@ function expandingMenu() {
   dots.style.display = "none";
   moreText.style.display = "inline";
 }
+
+// Close menu
+function closingExpandedMenu() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+
+  dots.style.display = "block";
+  moreText.style.display = "none";
+}
