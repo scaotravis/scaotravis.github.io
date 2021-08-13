@@ -973,6 +973,14 @@ tr td:first-child { /* fix first column width */
     color: black;
 }
 
+#dots.dots-active a {
+    color: black;
+}
+
+#dots.dots-active a:hover {
+    color: #655eff;
+}
+
 @media (prefers-color-scheme: dark) {
     /* Overrides for Dark Mode. */
     body {
@@ -1231,5 +1239,13 @@ tr td:first-child { /* fix first column width */
 
     #dots a:active {
         color: #fcfcfc;
+    }
+
+    #dots.dots-active a {
+        color: #fcfcfc;
+    }
+    
+    #dots.dots-active a:hover {
+        color: #9cb8e4;
     }
 }
