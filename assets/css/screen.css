@@ -965,20 +965,8 @@ tr td:first-child { /* fix first column width */
     text-decoration: none;
 }
 
-#dots:hover {
-    color: black;
-}
-
-#dots.active {
-    color: black;
-}
-
 #dots.dots-active {
     color: black;
-}
-
-#dots.dots-active:hover {
-    color: #655eff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1233,19 +1221,7 @@ tr td:first-child { /* fix first column width */
         text-decoration: none;
     }
 
-    #dots:hover {
-        color: #fcfcfc;
-    }
-
-    #dots:active {
-        color: #fcfcfc;
-    }
-
     #dots.dots-active {
         color: #fcfcfc;
-    }
-    
-    #dots.dots-active:hover {
-        color: #9cb8e4;
     }
 }
