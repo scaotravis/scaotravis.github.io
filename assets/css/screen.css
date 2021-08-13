@@ -959,14 +959,10 @@ tr td:first-child { /* fix first column width */
 }
 
 /* Expand menu text */
-#dots {
+#dots-text {
     cursor: pointer;
     color: #999999;
     text-decoration: none;
-}
-
-#dots.dots-active {
-    color: black;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1216,12 +1212,9 @@ tr td:first-child { /* fix first column width */
     }
 
     /* Expand menu text */
-    #dots {
+    #dots-text {
         color: #787878;
         text-decoration: none;
     }
 
-    #dots.dots-active {
-        color: #fcfcfc;
-    }
 }

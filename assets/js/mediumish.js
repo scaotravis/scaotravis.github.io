@@ -122,6 +122,19 @@ jQuery(document).ready(function($){
   if (activeTab) {
       openPage("For-" + activeTab, document.getElementById("default-" + activeTab)); 
   }
+
+  // Add dots-active class to certain webpages
+  if (window.location.href.indexOf('teaching/fa20-522') > 0) {
+    var urlLink = '<a href="{{ site.baseurl }}/teaching/fa20-522" class="active">Fa20: 522</a> <a id="dots-text" onmouseenter="expandingMenu()">More...</a>'
+    document.getElementById("dots").innerHTML = urlLink; 
+  } else if (window.location.href.indexOf('teaching/sp20-101') > 0) {
+    var urlLink = '<a href="{{ site.baseurl }}/teaching/sp20-101" class="active">Sp20: 101</a> <a id="dots-text" onmouseenter="expandingMenu()">More...</a>'
+    document.getElementById("dots").innerHTML = urlLink; 
+  } else if (window.location.href.indexOf('teaching/fa19-101') > 0) {
+    var urlLink = '<a href="{{ site.baseurl }}/teaching/fa19-101" class="active">Fa19: 101</a> <a id="dots-text" onmouseenter="expandingMenu()">More...</a>'
+    document.getElementById("dots").innerHTML = urlLink; 
+  }
+  
 });   
 
 // deferred style loading
