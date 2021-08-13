@@ -61,7 +61,6 @@ jQuery(document).ready(function($){
     }
   });
   
-  
   // Hide Header on on scroll down
   var didScroll;
   var lastScrollTop = 0;
@@ -106,10 +105,20 @@ jQuery(document).ready(function($){
       
   $('.site-content').css('margin-top', $('header').outerHeight() + 'px');  
   
-  // spoilers
-  $(document).on('click', '.spoiler', function() {
-    $(this).removeClass('spoiler');
-  }); 
+  // Add dots-active class to certain webpages
+  if (window.location.href.indexOf('teaching/fa20-522') > 0) {
+    var urlLink = '<a href="{{ site.baseurl }}/teaching/fa20-522" class="active">Fa20: 522</a> <a id="dots-text" onmouseenter="expandingMenu()">More...</a>'
+    document.getElementById("dots").innerHTML = urlLink; 
+    document.close(); 
+  } else if (window.location.href.indexOf('teaching/sp20-101') > 0) {
+    var urlLink = '<a href="{{ site.baseurl }}/teaching/sp20-101" class="active">Sp20: 101</a> <a id="dots-text" onmouseenter="expandingMenu()">More...</a>'
+    document.getElementById("dots").innerHTML = urlLink; 
+    document.close(); 
+  } else if (window.location.href.indexOf('teaching/fa19-101') > 0) {
+    var urlLink = '<a href="{{ site.baseurl }}/teaching/fa19-101" class="active">Fa19: 101</a> <a id="dots-text" onmouseenter="expandingMenu()">More...</a>'
+    document.getElementById("dots").innerHTML = urlLink; 
+    document.close(); 
+  }
 
   // Get the element with default id and click on it
   if (window.location.href.indexOf('teaching/sp21-400/#default-Travis') > 0) {
@@ -123,18 +132,6 @@ jQuery(document).ready(function($){
       openPage("For-" + activeTab, document.getElementById("default-" + activeTab)); 
   }
 
-  // Add dots-active class to certain webpages
-  if (window.location.href.indexOf('teaching/fa20-522') > 0) {
-    var urlLink = '<a href="{{ site.baseurl }}/teaching/fa20-522" class="active">Fa20: 522</a> <a id="dots-text" onmouseenter="expandingMenu()">More...</a>'
-    document.getElementById("dots").innerHTML = urlLink; 
-  } else if (window.location.href.indexOf('teaching/sp20-101') > 0) {
-    var urlLink = '<a href="{{ site.baseurl }}/teaching/sp20-101" class="active">Sp20: 101</a> <a id="dots-text" onmouseenter="expandingMenu()">More...</a>'
-    document.getElementById("dots").innerHTML = urlLink; 
-  } else if (window.location.href.indexOf('teaching/fa19-101') > 0) {
-    var urlLink = '<a href="{{ site.baseurl }}/teaching/fa19-101" class="active">Fa19: 101</a> <a id="dots-text" onmouseenter="expandingMenu()">More...</a>'
-    document.getElementById("dots").innerHTML = urlLink; 
-  }
-  
 });   
 
 // deferred style loading
@@ -177,14 +174,9 @@ function openPage(pageName, elmnt) {
 
   // Change tabcontent to selected
   document.getElementById(pageName).classList.add("selected"); 
-}
 
-// Save state of active tab
-$(function() {
-  $('button[data-toggle="tab"]').on('click', function(e) {
-    window.localStorage.setItem('activeTab', $(e.target).attr('href'));
-  });
-});
+  document.close(); 
+}
 
 // Expand menu
 function expandingMenu() {
