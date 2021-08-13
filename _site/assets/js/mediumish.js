@@ -122,6 +122,15 @@ jQuery(document).ready(function($){
   if (activeTab) {
       openPage("For-" + activeTab, document.getElementById("default-" + activeTab)); 
   }
+
+  // Make "more" text for expanding menu active at certain webpages
+  if (window.location.href.indexOf('teaching/fa20-522') > 0) {
+    expandingMenu(); 
+  } else if (window.location.href.indexOf('teaching/sp20-101') > 0) {
+    expandingMenu(); 
+  } else if (window.location.href.indexOf('teaching/fa19-101') > 0) {
+    expandingMenu(); 
+  } 
 });   
 
 // deferred style loading
@@ -172,3 +181,12 @@ $(function() {
     window.localStorage.setItem('activeTab', $(e.target).attr('href'));
   });
 });
+
+// Expand menu
+function expandingMenu() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+
+  dots.style.display = "none";
+  moreText.style.display = "inline";
+}

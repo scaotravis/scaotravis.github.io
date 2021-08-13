@@ -953,6 +953,25 @@ tr td:first-child { /* fix first column width */
     outline: 0 !important;
 }
 
+/* Hide menu before expansion */
+#more {
+    display: none;
+}
+
+/* Expand menu text */
+#dots a {
+    color: #999999;
+    text-decoration: none;
+}
+
+#dots a:hover {
+    color: black;
+}
+
+#dots a.active {
+    color: black;
+}
+
 @media (prefers-color-scheme: dark) {
     /* Overrides for Dark Mode. */
     body {
@@ -1197,5 +1216,19 @@ tr td:first-child { /* fix first column width */
     .tabcontent {
         color: #bfbfbf;
         background-color: #292929;
+    }
+
+    /* Expand menu text */
+    #dots a {
+        color: #787878;
+        text-decoration: none;
+    }
+
+    #dots a:hover {
+        color: #fcfcfc;
+    }
+
+    #dots a:active {
+        color: #fcfcfc;
     }
 }

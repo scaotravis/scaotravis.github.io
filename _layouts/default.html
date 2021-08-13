@@ -102,12 +102,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <li class="nav-item">
                     {% endif %}
                         <a class="nav-link">Teaching <i class="fa fa-caret-down"></i></a>
-                        <div class="dropdown-content">
+                        <div class="dropdown-content" class="nav-link">
                             <a href="{{ site.baseurl }}/teaching/fa21-310" {% if page.url contains "/teaching/fa21-310/" %} class="active" {% endif %}>Fa21: 310</a>
                             <a href="{{ site.baseurl }}/teaching/sp21-400" {% if page.url contains "/teaching/sp21-400/" %} class="active" {% endif %}>Sp21: 400</a>
-                            <a href="{{ site.baseurl }}/teaching/fa20-522" {% if page.url contains "/teaching/fa20-522/" %} class="active" {% endif %}>Fa20: 522</a>
-                            <a href="{{ site.baseurl }}/teaching/sp20-101" {% if page.url contains "/teaching/sp20-101/" %} class="active" {% endif %}>Sp20: 101</a>
-                            <a href="{{ site.baseurl }}/teaching/fa19-101" {% if page.url contains "/teaching/fa19-101/" %} class="active" {% endif %}>Fa19: 101</a>
+                            <span id="dots">
+                                <a onclick="expandingMenu()">More...</a>
+                            </span>
+                            <span id="more">
+                                <a href="{{ site.baseurl }}/teaching/fa20-522" {% if page.url contains "/teaching/fa20-522/" %} class="active" {% endif %}>Fa20: 522</a>
+                                <a href="{{ site.baseurl }}/teaching/sp20-101" {% if page.url contains "/teaching/sp20-101/" %} class="active" {% endif %}>Sp20: 101</a>
+                                <a href="{{ site.baseurl }}/teaching/fa19-101" {% if page.url contains "/teaching/fa19-101/" %} class="active" {% endif %}>Fa19: 101</a>
+                            </span>
                         </div>
                     </li>
                 </div>
