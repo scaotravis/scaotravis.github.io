@@ -23,12 +23,12 @@ var documents = [{
     "id": 4,
     "url": "http://0.0.0.0:4000/teaching/sp20-101/",
     "title": "Teaching - Econ 101 (Spring 2020)",
-    "body": "Econ 101: Principles of Microeconomics (Spring 2020): End of semester TA performance evaluation available here Modality: In-person until Mar 13, 2020; Online for the rest of the semester Course Instructor: Dr. David Johnson Lecture: Mondays and Wednesdays, 8:25 - 9:40am Office Hours:  Tuesdays, 2:30 - 3:30pm Wednesdays, 2:30 - 3:30pm Or by appointmentFinal Exam: May 3 (Sun) "
+    "body": "Econ 101: Principles of Microeconomics (Spring 2020): End of semester TA performance evaluation available here Modality: In-person until Mar 13, 2020; online for the rest of the semester Course Instructor: Dr. David Johnson Lecture: Mondays and Wednesdays, 8:25 - 9:40am Office Hours:  Tuesdays, 2:30 - 3:30pm Wednesdays, 2:30 - 3:30pm Or by appointmentFinal Exam: May 3 (Sun) "
     }, {
     "id": 5,
     "url": "http://0.0.0.0:4000/teaching/sp21-400/",
     "title": "Teaching - Econ 400 (Spring 2021)",
-    "body": "Econ 400: Intro to Applied Econometrics (Spring 2021): End of semester TA performance evaluation for Travis available here Modality: Online Canvas course site Course Instructor: Dr. Matthew Friedman Lecture: Online, asynchronous (available on Canvas) Resources:  How to attend discussion sections and office hours online z-table t-table F-table          Passphrase Required                                                              Passphrase Required         If you&#39;re a former student of mine / Zhuoli&#39;s, email me (travis. cao@wisc. edu) for passphrase to access discussion materials. &nbsp;                                                                     "
+    "body": "Econ 400: Intro to Applied Econometrics (Spring 2021): End of semester TA performance evaluation for Travis available here Modality: Online Canvas course site Course Instructor: Dr. Matthew Friedman Lecture: Asynchronous recordings (available on Canvas) Resources:  How to attend discussion sections and office hours online z-table t-table F-table          Passphrase Required                                                              Passphrase Required         If you&#39;re a former student of mine / Zhuoli&#39;s, email me (travis. cao@wisc. edu) for passphrase to access discussion materials. &nbsp;                                                                     "
     }];
 
 var idx = lunr(function () {
