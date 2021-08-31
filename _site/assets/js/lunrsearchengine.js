@@ -8,7 +8,7 @@ var documents = [{
     "id": 1,
     "url": "http://0.0.0.0:4000/teaching/fa19-101/",
     "title": "Teaching - Econ 101 (Fall 2019)",
-    "body": "Econ 101: Principles of Microeconomics (Fall 2019): End of semester TA performance evaluation available here Modality: In-person Course Instructor: Dr. David Johnson Lecture: Mondays and Wednesdays, 8:25 - 9:40am @ Bascom 272 Office Hours: @ 7218 Social Sciences (7th floor TA resource room)  Tuesdays, 9:15 - 10:15am Thursdays, 2:00 - 3:00pm Or by appointmentFinal Exam: Dec 13 (Fri), 7:45 - 9:45am "
+    "body": "Econ 101: Principles of Microeconomics (Fall 2019): End of semester TA performance evaluation available here Modality: In-person Course Instructor: Dr. David Johnson Lecture: Mondays and Wednesdays, 8:25 - 9:40am @ 272 Bascom Office Hours: @ 7218 Social Sciences (7th floor TA resource room)  Tuesdays, 9:15 - 10:15am Thursdays, 2:00 - 3:00pm Or by appointmentFinal Exam: Dec 13 (Fri), 7:45 - 9:45am "
     }, {
     "id": 2,
     "url": "http://0.0.0.0:4000/teaching/fa20-522/",
