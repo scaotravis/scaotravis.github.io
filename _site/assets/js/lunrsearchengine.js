@@ -18,7 +18,7 @@ var documents = [{
     "id": 3,
     "url": "http://0.0.0.0:4000/teaching/fa21-310/",
     "title": "Teaching - Econ 310 (Fall 2021)",
-    "body": "Econ 310: Statistics: Measurement in Economics (Fall 2021): Modality: In-person Canvas course site Course Instructor: Dr. Gregory Pac Lecture: Tuesdays and Thursdays, 9:30 - 10:45am @ L196 Education Discussion Sections:  Thursdays, 2:25 - 3:15pm @ 490 Van Hise Fridays, 1:20 - 2:10pm @ L159 Education Fridays, 2:25 - 3:15pm @ 6240 Social SciencesOffice Hours:  Mondays, 9:00 - 10:00am, online via Zoom (link on Canvas) Fridays, 11:45am - 12:45pm, in-person @ 6439 Social Sciences Or by appointmentDiscussion Materials: The following is also available on Canvas       Date   Content         Week 1 (9/9 &amp; 9/10)   General Info; Sample vs. Population; Statistics Handout   Supplement   "
+    "body": "Econ 310: Statistics: Measurement in Economics (Fall 2021): Modality: In-person Canvas course site Course Instructor: Dr. Gregory Pac Lecture: Tuesdays and Thursdays, 9:30 - 10:45am @ L196 Education Discussion Sections:  Thursdays, 2:25 - 3:15pm @ 490 Van Hise Fridays, 1:20 - 2:10pm @ L159 Education Fridays, 2:25 - 3:15pm @ 6240 Social SciencesOffice Hours:  Mondays, 9:00 - 10:00am, online via Zoom (link on Canvas) Fridays, 11:45am - 12:45pm, in-person @ 6439 Social Sciences Or by appointmentDiscussion Materials: The following is also available on Canvas       Date   Content         Week 1 (9/9 &amp; 9/10)   General Info; Population vs. Sample Handout   Supplement   "
     }, {
     "id": 4,
     "url": "http://0.0.0.0:4000/teaching/sp20-101/",
