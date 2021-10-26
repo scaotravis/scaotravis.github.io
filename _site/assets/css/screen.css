@@ -1018,7 +1018,7 @@ tr td:first-child { /* fix first column width */
     }
     /* navigation bar */
     .navbar {
- 		background-color: #1a1a1a !important; 
+ 		background: #1a1a1a !important; 
 	}
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 0.8rem;
