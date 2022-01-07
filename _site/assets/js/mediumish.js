@@ -111,7 +111,11 @@ jQuery(document).ready(function($){
   }); 
 
   // Dots modification
-  if (window.location.href.indexOf('teaching/fa20-522') > 0) {
+  if (window.location.href.indexOf('teaching/sp21-400') > 0) {
+    var urlLink = '<a href="{{ site.baseurl }}/teaching/sp21-400" class="active">Sp21: 400</a> <a id="dots-text" onmouseenter="expandingMenu()">More...</a>'
+    document.getElementById("dots").innerHTML = urlLink; 
+    document.close(); 
+  } else if (window.location.href.indexOf('teaching/fa20-522') > 0) {
     var urlLink = '<a href="{{ site.baseurl }}/teaching/fa20-522" class="active">Fa20: 522</a> <a id="dots-text" onmouseenter="expandingMenu()">More...</a>'
     document.getElementById("dots").innerHTML = urlLink; 
     document.close(); 
