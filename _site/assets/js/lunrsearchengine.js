@@ -18,7 +18,7 @@ var documents = [{
     "id": 3,
     "url": "http://0.0.0.0:4000/teaching/fa21-310/",
     "title": "Teaching - Econ 310 (Fall 2021)",
-    "body": "Econ 310: Statistics: Measurement in Economics (Fall 2021): Modality: In-person Canvas course site Course Instructor: Dr. Gregory Pac Lecture: Tuesdays and Thursdays, 9:30 - 10:45am @ L196 Education Discussion Sections:  Thursdays, 2:25 - 3:15pm @ 490 Van Hise Fridays, 1:20 - 2:10pm @ L159 Education Fridays, 2:25 - 3:15pm @ 6240 Social SciencesLast Week Office Hours:  Monday (12/13), 9:00 - 10:00am, online via Zoom (link on Canvas) Tuesday (12/14), 2:30 - 3:30pm, online via Zoom (link on Canvas) Thursday (12/16), 10:00 - 11:30am, online via Zoom (link on Canvas) Friday (12/17), 1:30 - 3:00pm, online via Zoom (link on Canvas)Discussion Materials: The following is also available on Canvas If you need any help installing Stata, here’s a quick installation guide Probability tables from the textbook           Passphrase Required                                                              Passphrase Required         If you&#39;re a former student of mine, email me (travis. cao@wisc. edu) for passphrase to access discussion materials. &nbsp;                                                                     "
+    "body": "Econ 310: Statistics: Measurement in Economics (Fall 2021): Modality: In-person Canvas course site Course Instructor: Dr. Gregory Pac Lecture: Tuesdays and Thursdays, 9:30 - 10:45am @ L196 Education Discussion Sections:  Thursdays, 2:25 - 3:15pm @ 490 Van Hise Fridays, 1:20 - 2:10pm @ L159 Education Fridays, 2:25 - 3:15pm @ 6240 Social SciencesOffice Hours:  Mondays, 9:00 - 10:00am, online via Zoom (link on Canvas) Fridays, 11:45am - 12:45pm, in person @ 6439 Social SciencesDiscussion Materials: The following is also available on Canvas If you need any help installing Stata, here’s a quick installation guide Probability tables from the textbook           Passphrase Required                                                              Passphrase Required         If you&#39;re a former student of mine, email me (travis. cao@wisc. edu) for passphrase to access discussion materials. &nbsp;                                                                     "
     }, {
     "id": 4,
     "url": "http://0.0.0.0:4000/teaching/sp20-101/",
@@ -29,6 +29,11 @@ var documents = [{
     "url": "http://0.0.0.0:4000/teaching/sp21-400/",
     "title": "Teaching - Econ 400 (Spring 2021)",
     "body": "Econ 400: Intro to Applied Econometrics (Spring 2021): End of semester TA performance evaluation for Travis available here Modality: Online Canvas course site Course Instructor: Dr. Matthew Friedman Lecture: Asynchronous recordings (available on Canvas) Resources:  How to attend discussion sections and office hours online z-table t-table F-table          Passphrase Required                                                              Passphrase Required         If you&#39;re a former student of mine / Zhuoli&#39;s, email me (travis. cao@wisc. edu) for passphrase to access discussion materials. &nbsp;                                                                     "
+    }, {
+    "id": 6,
+    "url": "http://0.0.0.0:4000/teaching/sp22-310/",
+    "title": "Teaching - Econ 310 (Spring 2022)",
+    "body": "Econ 310: Statistics: Measurement in Economics (Spring 2022): Canvas course site: TBA Course Instructor: Dr. Gregory Pac Lecture: Tuesdays and Thursdays, 11:00am - 12:15pm @ 180 Science Hall Discussion Sections: TBA Office Hours: TBA Discussion Materials: The following will also be made available on Canvas If you need any help installing Stata, here’s a quick installation guide Probability tables from the textbook       Date   Content         Week 1   TBA   "
     }];
 
 var idx = lunr(function () {
