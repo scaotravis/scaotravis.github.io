@@ -33,7 +33,7 @@ var documents = [{
     "id": 6,
     "url": "http://0.0.0.0:4000/teaching/sp22-310/",
     "title": "Teaching - Econ 310 (Spring 2022)",
-    "body": "Econ 310: Statistics: Measurement in Economics (Spring 2022): Canvas course site: TBA Course Instructor: Dr. Gregory Pac Lecture: Tuesdays and Thursdays, 11:00am - 12:15pm @ 180 Science Hall Discussion Sections: TBA Office Hours: TBA Discussion Materials: The following will also be made available on Canvas If you need any help installing Stata, here’s a quick installation guide Probability tables from the textbook       Date   Content         Week 1 (1/28)   General Info; Data; Population vs. Sample Handout (available by 1/27)   "
+    "body": "Econ 310: Statistics: Measurement in Economics (Spring 2022): Canvas course site: TBA Course Instructor: Dr. Gregory Pac Lecture: Tuesdays and Thursdays, 11:00am - 12:15pm @ 180 Science Discussion Sections:  Fridays, 9:55 - 10:45am @ 387 Van Hise Fridays, 11:00 - 11:50am @ 1335 Sterling Fridays, 12:05 - 12:55pm @ B223 Van VleckOffice Hours: TBA Discussion Materials: The following will also be made available on Canvas If you need any help installing Stata, here’s a quick installation guide Probability tables from the textbook       Date   Content         Week 1 (1/28)   General Info; Data; Population vs. Sample Handout (available by 1/27)   "
     }];
 
 var idx = lunr(function () {
