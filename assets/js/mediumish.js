@@ -62,21 +62,21 @@ jQuery(document).ready(function($){
   });
   
   // Hide Header on on scroll down
-  // var didScroll;
-  // var lastScrollTop = 0;
-  // var delta = 5;
-  // var navbarHeight = $('nav').outerHeight();
+  var didScroll;
+  var lastScrollTop = 0;
+  var delta = 5;
+  var navbarHeight = $('nav').outerHeight();
 
-  // $(window).scroll(function(event){
-  //     didScroll = true;
-  // });
+  $(window).scroll(function(event){
+      didScroll = true;
+  });
 
-  // setInterval(function() {
-  //     if (didScroll) {
-  //         hasScrolled();
-  //         didScroll = false;
-  //     }
-  // }, 250);
+  setInterval(function() {
+      if (didScroll) {
+          hasScrolled();
+          didScroll = false;
+      }
+  }, 25);
 
   function hasScrolled() {
       var st = $(this).scrollTop();
