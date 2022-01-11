@@ -3,6 +3,14 @@
     font-family: "Lato";
 }
 
+html, 
+body {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch; 
+}
+
 .lead {
     font-family: "Lato";
     font-weight: 400;
