@@ -1,0 +1,16 @@
+current directory: /Users/travis/Documents/GitHub/scaotravis.github.io/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/Users/travis/.rbenv/versions/3.1.1/bin/ruby -I /Users/travis/.rbenv/versions/3.1.1/lib/ruby/3.1.0 -r ./siteconf20220407-57254-jcyhmx.rb extconf.rb
+creating Makefile
+
+current directory: /Users/travis/Documents/GitHub/scaotravis.github.io/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make DESTDIR\= clean
+
+current directory: /Users/travis/Documents/GitHub/scaotravis.github.io/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make DESTDIR\=
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.bundle
+
+current directory: /Users/travis/Documents/GitHub/scaotravis.github.io/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20220407-57254-kb6zwk
