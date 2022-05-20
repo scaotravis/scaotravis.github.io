@@ -34,7 +34,7 @@ permalink: /
 
 My legal name is **Shengyang Cao**; I go by **Travis**.
 
-I'm a third-year economics Ph.D. student at University of Wisconsin-Madison. I'm interested in industrial organization and health economics. 
+I'm an economics Ph.D. student at University of Wisconsin-Madison. I'm interested in industrial organization and health economics. 
 
 Prior to my doctoral study, I studied economics and mathematics also at UW-Madison and graduated with Comprehensive Honors and Distinction.
 
