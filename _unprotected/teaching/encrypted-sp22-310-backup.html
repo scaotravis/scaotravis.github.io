@@ -179,8 +179,8 @@
      */
     var CryptoJS = CryptoJS || (function (Math, undefined) {
         /*
-	     * Local polyfil of Object.create
-	     */
+         * Local polyfil of Object.create
+         */
         var create = Object.create || (function () {
             function F() {};
 
@@ -226,11 +226,11 @@
                  * @example
                  *
                  *     var MyType = CryptoJS.lib.Base.extend({
-	             *         field: 'value',
-	             *
-	             *         method: function () {
-	             *         }
-	             *     });
+                 *         field: 'value',
+                 *
+                 *         method: function () {
+                 *         }
+                 *     });
                  */
                 extend: function (overrides) {
                     // Spawn
@@ -283,10 +283,10 @@
                  * @example
                  *
                  *     var MyType = CryptoJS.lib.Base.extend({
-	             *         init: function () {
-	             *             // ...
-	             *         }
-	             *     });
+                 *         init: function () {
+                 *             // ...
+                 *         }
+                 *     });
                  */
                 init: function () {
                 },
@@ -299,8 +299,8 @@
                  * @example
                  *
                  *     MyType.mixIn({
-	             *         field: 'value'
-	             *     });
+                 *         field: 'value'
+                 *     });
                  */
                 mixIn: function (properties) {
                     for (var propertyName in properties) {
@@ -3941,16 +3941,16 @@
              * @example
              *
              *     var cipherParams = CryptoJS.lib.CipherParams.create({
-	         *         ciphertext: ciphertextWordArray,
-	         *         key: keyWordArray,
-	         *         iv: ivWordArray,
-	         *         salt: saltWordArray,
-	         *         algorithm: CryptoJS.algo.AES,
-	         *         mode: CryptoJS.mode.CBC,
-	         *         padding: CryptoJS.pad.PKCS7,
-	         *         blockSize: 4,
-	         *         formatter: CryptoJS.format.OpenSSL
-	         *     });
+             *         ciphertext: ciphertextWordArray,
+             *         key: keyWordArray,
+             *         iv: ivWordArray,
+             *         salt: saltWordArray,
+             *         algorithm: CryptoJS.algo.AES,
+             *         mode: CryptoJS.mode.CBC,
+             *         padding: CryptoJS.pad.PKCS7,
+             *         blockSize: 4,
+             *         formatter: CryptoJS.format.OpenSSL
+             *     });
              */
             init: function (cipherParams) {
                 this.mixIn(cipherParams);
