@@ -107,12 +107,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     {% endif %}
                         <a class="nav-link">Teaching <i class="fa fa-caret-down"></i></a>
                         <div class="dropdown-content" class="nav-link">
+                            <a href="{{ site.baseurl }}/teaching/fa22-310" {% if page.url contains "/teaching/fa22-310/" %} class="active" {% endif %}>Fa22: 310</a>
+                            <a href="{{ site.baseurl }}/teaching/su22-phd-stats" {% if page.url contains "/teaching/su22-phd-stats/" %} class="active" {% endif %}>Su22: Boot Camp</a>
                             <a href="{{ site.baseurl }}/teaching/sp22-310" {% if page.url contains "/teaching/sp22-310/" %} class="active" {% endif %}>Sp22: 310</a>
-                            <a href="{{ site.baseurl }}/teaching/fa21-310" {% if page.url contains "/teaching/fa21-310/" %} class="active" {% endif %}>Fa21: 310</a>
                             <span id="dots">
                                 <a id="dots-text" onmouseenter="expandingMenu()">More...</a>
                             </span>
                             <span id="more">
+                                <a href="{{ site.baseurl }}/teaching/fa21-310" {% if page.url contains "/teaching/fa21-310/" %} class="active" {% endif %}>Fa21: 310</a>
                                 <a href="{{ site.baseurl }}/teaching/sp21-400" {% if page.url contains "/teaching/sp21-400/" %} class="active" {% endif %}>Sp21: 400</a>
                                 <a href="{{ site.baseurl }}/teaching/fa20-522" {% if page.url contains "/teaching/fa20-522/" %} class="active" {% endif %}>Fa20: 522</a>
                                 <a href="{{ site.baseurl }}/teaching/sp20-101" {% if page.url contains "/teaching/sp20-101/" %} class="active" {% endif %}>Sp20: 101</a>

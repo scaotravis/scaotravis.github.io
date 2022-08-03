@@ -21,19 +21,29 @@ var documents = [{
     "body": "Econ 310: Statistics: Measurement in Economics (Fall 2021): End of semester TA performance evaluation available here Modality: In-person Canvas course site Course Instructor: Dr. Gregory Pac Lecture: Tuesdays and Thursdays, 9:30 - 10:45am @ L196 Education Discussion Sections:  Thursdays, 2:25 - 3:15pm @ 490 Van Hise Fridays, 1:20 - 2:10pm @ L159 Education Fridays, 2:25 - 3:15pm @ 6240 Social SciencesOffice Hours:  Mondays, 9:00 - 10:00am, online via Zoom (link on Canvas) Fridays, 11:45am - 12:45pm, in person @ 6439 Social Sciences Or by appointmentDiscussion Materials: The following is also available on Canvas If you need any help installing Stata, here’s a quick installation guide Probability tables from the textbook           Passphrase Required                                                              Passphrase Required         If you&#39;re a former student of mine, email me (travis. cao@wisc. edu) for passphrase to access discussion materials. &nbsp;                                                                     "
     }, {
     "id": 4,
+    "url": "http://0.0.0.0:4000/teaching/fa22-310/",
+    "title": "Teaching - Econ 310 (Fall 2022)",
+    "body": "Econ 310: Statistics: Measurement in Economics (Fall 2022): Modality: In-person Course Instructor: Dr. Gregory Pac Lecture: Tuesdays and Thursdays, 9:30am - 10:45am @ 5206 Social Science Discussion Sections: TBA Office Hours: TBA Discussion Materials: If you need any help installing Stata, here’s a quick installation guide Probability tables from the textbook TBA "
+    }, {
+    "id": 5,
     "url": "http://0.0.0.0:4000/teaching/sp20-101/",
     "title": "Teaching - Econ 101 (Spring 2020)",
     "body": "Econ 101: Principles of Microeconomics (Spring 2020): End of semester TA performance evaluation available here Modality: In-person until Mar 13, 2020; online for the rest of the semester Course Instructor: Dr. David Johnson Lecture: Mondays and Wednesdays, 8:25 - 9:40am Office Hours:  Tuesdays, 2:30 - 3:30pm Wednesdays, 2:30 - 3:30pm Or by appointmentFinal Exam: May 3 (Sun) "
     }, {
-    "id": 5,
+    "id": 6,
     "url": "http://0.0.0.0:4000/teaching/sp21-400/",
     "title": "Teaching - Econ 400 (Spring 2021)",
     "body": "Econ 400: Intro to Applied Econometrics (Spring 2021): End of semester TA performance evaluation for Travis available here Modality: Online Canvas course site Course Instructor: Dr. Matthew Friedman Lecture: Asynchronous recordings (available on Canvas) Resources:  How to attend discussion sections and office hours online z-table t-table F-table          Passphrase Required                                                              Passphrase Required         If you&#39;re a former student of mine / Zhuoli&#39;s, email me (travis. cao@wisc. edu) for passphrase to access discussion materials. &nbsp;                                                                     "
     }, {
-    "id": 6,
+    "id": 7,
     "url": "http://0.0.0.0:4000/teaching/sp22-310/",
     "title": "Teaching - Econ 310 (Spring 2022)",
     "body": "Econ 310: Statistics: Measurement in Economics (Spring 2022): End of semester TA performance evaluation available here Modality: In-person Canvas course site Course Instructor: Dr. Gregory Pac Lecture: Tuesdays and Thursdays, 11:00am - 12:15pm @ 180 Science Discussion Sections:  Fridays, 9:55 - 10:45am @ 387 Van Hise Fridays, 11:00 - 11:50am @ 1335 Sterling Fridays, 12:05 - 12:55pm @ B223 Van VleckOffice Hours:  Mondays, 4:00 - 5:00pm, online via Zoom (Zoom link available on Canvas) Fridays, 2:30 - 3:30pm, online via Zoom (Zoom link available on Canvas) Or by appointmentDiscussion Materials: The following is also available on Canvas If you need any help installing Stata, here’s a quick installation guide Probability tables from the textbook           Passphrase Required                                                                      Passphrase Required           If you&#39;re a former student of mine, email me (travis. cao@wisc. edu) for passphrase to access discussion materials.                                                                                            "
+    }, {
+    "id": 8,
+    "url": "http://0.0.0.0:4000/teaching/su22-phd-stats/",
+    "title": "Teaching - Ph.D. Statistics Boot Camp (Summer 2022)",
+    "body": "Statistics Boot Camp for First-Year Social Work Ph. D. Students (Summer 2022): Modality: In-person Instructor: Travis Cao Syllabus: TBA Schedule and Materials: TBA "
     }];
 
 var idx = lunr(function () {
