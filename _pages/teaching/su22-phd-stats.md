@@ -14,6 +14,10 @@ categories: Teaching
 
 #### Schedule and Materials
 
+If you need any help installing Stata, here's a quick [installation guide]({{ site.baseurl }}/downloads/teaching/su22-phd-stats/stata-installation-guide.pdf)
+
+If you need any help installing R, here's a quick [video](https://youtu.be/3s57Swwoj-A)
+
 All lectures and office hours take place at **SSW 220**. 
 
 |     Date    |                     Content                     |
