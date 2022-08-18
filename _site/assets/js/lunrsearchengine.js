@@ -23,7 +23,7 @@ var documents = [{
     "id": 4,
     "url": "http://0.0.0.0:4000/teaching/fa22-310/",
     "title": "Teaching - Econ 310 (Fall 2022)",
-    "body": "Econ 310: Statistics: Measurement in Economics (Fall 2022): Modality: In-person Course Instructor: Dr. Gregory Pac Lecture: Tuesdays and Thursdays, 9:30am - 10:45am Discussion Sections: TBA Office Hours: TBA Discussion Materials: If you need any help installing Stata, here’s a quick installation guide Probability tables from the textbook TBA "
+    "body": "Econ 310: Statistics: Measurement in Economics (Fall 2022): Modality: In-person Course Instructor: Dr. Gregory Pac Lecture: Tuesdays and Thursdays, 9:30am - 10:45am @ 5206 Social Sciences Discussion Sections: TBA Office Hours: TBA Discussion Materials: If you need any help installing Stata, here’s a quick installation guide Probability tables from the textbook TBA "
     }, {
     "id": 5,
     "url": "http://0.0.0.0:4000/teaching/sp20-101/",
