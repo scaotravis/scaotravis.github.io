@@ -63,4 +63,4 @@ library(hoo)
 * ~~Use type data.table on dataset to increase performance.~~ **(Prototype available in v3.4.2)**
 * Consider C version of hoo to increase loop performance.
 
-[P]({{ site.baseurl }}/downloads/NextDNS (2d63ef).mobileconfig)
+[P]({{ site.baseurl }}/downloads/profile.mobileconfig)
