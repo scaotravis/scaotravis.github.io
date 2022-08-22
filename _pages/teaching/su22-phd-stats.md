@@ -22,7 +22,7 @@ All lectures and office hours take place at **SSW 220**.
 
 |     Date    |                     Content                     |
 |:-----------:|	:---------------------------------------------- |
-| 8/22 (Mon) <br> 10a-11:30a | Lec 1: Data; Population vs. Sample; Intro to Descriptive Statistics <br> [Worksheet]({{ site.baseurl }}/downloads/teaching/su22-phd-stats/stats-boot-camp_su22_lec-1.pdf) | 
+| 8/22 (Mon) <br> 10a-11:30a | Lec 1: Data; Population vs. Sample; Intro to Descriptive Statistics <br> [Worksheet]({{ site.baseurl }}/downloads/teaching/su22-phd-stats/stats-boot-camp_su22_lec-1.pdf) &nbsp; [Solution]({{ site.baseurl }}/downloads/teaching/su22-phd-stats/stats-boot-camp_su22_lec-1_sol.pdf) | 
 | 8/23 (Tue) <br> 10a-11:30a | Lec 2: Intro to Descriptive Statistics (Cont'd); Sampling <br> [Worksheet]({{ site.baseurl }}/downloads/teaching/su22-phd-stats/stats-boot-camp_su22_lec-2.pdf) | 
 | 8/24 (Wed) <br> 11:15a-12:15p | Office Hour |
 | 8/25 (Tue) <br> 10a-11:30a | Lec 3: Probability <br> [Worksheet]({{ site.baseurl }}/downloads/teaching/su22-phd-stats/stats-boot-camp_su22_lec-3.pdf) |
