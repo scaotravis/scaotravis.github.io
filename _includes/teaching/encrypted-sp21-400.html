@@ -2,7 +2,7 @@
 <html class="staticrypt-html">
     <head>
         <meta charset="utf-8">
-        <title>Passphrase Required</title>
+        <title>Password Required</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
     
         <!-- do not cache this page -->
@@ -134,8 +134,8 @@
     <div class="staticrypt-page" id="class-1">
         <div class="staticrypt-form">
             <div class="staticrypt-instructions">
-                <p class="staticrypt-title">Passphrase Required</p>
-                <p><p>If you&#39;re a former student of mine / Zhuoli&#39;s, email me (travis.cao@wisc.edu) for passphrase to access discussion materials.&nbsp;</p>
+                <p class="staticrypt-title">Password Required</p>
+                <p><p>If you&#39;re a former student of mine / Zhuoli&#39;s, email me (travis.cao@wisc.edu) for password to access discussion materials.&nbsp;</p>
     </p>
             </div>
     
@@ -6203,7 +6203,7 @@
                 decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
     
             if (decryptedHMAC !== encryptedHMAC) {
-                alert('Bad passphrase!');
+                alert('Bad password!');
                 return;
             } else {
                 window.localStorage.setItem('sp21-400-stored-passphrase', passphrase); 
