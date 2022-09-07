@@ -43,7 +43,7 @@ var documents = [{
     "id": 8,
     "url": "http://0.0.0.0:4000/teaching/su22-phd-stats/",
     "title": "Teaching - Ph.D. Statistics Boot Camp (Summer 2022)",
-    "body": "Statistics Boot Camp for First-Year Social Work Ph. D. Students (Summer 2022): Modality: In-person Instructor: Travis Cao Syllabus Schedule and Materials: If you need any help installing Stata, here’s a quick installation guide If you need any help installing R and R Studio, here’s a quick video All lectures and office hours take place at SSW 220.           Password Required                                                                      Password Required           If you&#39;re a former student of mine, email me (travis. cao@wisc. edu) for password to access discussion materials.                                                                                            "
+    "body": "Statistics Boot Camp for First-Year Social Work Ph. D. Students (Summer 2022): Modality: In-person Instructor: Travis Cao Syllabus Schedule and Materials: If you need any help installing Stata, here’s a quick installation guide If you need any help installing R and R Studio, here’s a quick video All lectures and office hours take place at SSW 220.           Password Required                                                                      Password Required           If you&#39;re a former student of mine, email me (travis. cao@wisc. edu) for password to access the materials.                                                                                            "
     }];
 
 var idx = lunr(function () {
