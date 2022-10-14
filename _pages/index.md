@@ -42,5 +42,4 @@ Some quick access links:
 
 * [Curriculum Vitae]({{ site.baseurl }}/downloads/cv_shengyang_cao.pdf)
 * [GitHub Profile](https://github.com/scaotravis/)
-* [Stats Boot Camp for Summer 2022]({{ site.baseurl }}/teaching/su22-phd-stats)
 * [Econ 310 for Fall 2022]({{ site.baseurl }}/teaching/fa22-310)
