@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Safari Tab Color -->
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#161616" media="(prefers-color-scheme: dark)">
+
+<!-- Clicky Analytics -->
+<script async src="//static.getclicky.com/101166235.js"></script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101166235ns.gif" /></p></noscript>
+<!-- End Clicky Analytics -->
+
+<!-- Active Link Highlighter -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script>
+$(function(){
+  $('a').each(function() {
+    if ($(this).prop('href') == window.location.href) {
+      $(this).addClass('active');
+    }
+  });
+});
+</script>
+<!-- End Active Link Highlighter -->
+
+<!-- W3.CSS icons -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<title>Econ 310 (Fall 2022) | Travis Cao</title>
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<link rel="stylesheet" href="/assets/css/screen.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i,900,900i">
+
+
+<!-- Favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#313833">
+<meta name="apple-mobile-web-app-title" content="Travis Cao">
+<meta name="application-name" content="Travis Cao">
+<meta name="msapplication-TileColor" content="#2b5797">
+<meta name="theme-color" content="#ffffff">
+
+</head>
+
+
+<body class="layout-page">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJZT232"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Begin Menu Navigation
+================================================== -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
+
+    <div class="container pr-0">
+
+    <!-- Begin Logo -->
+    <a class="navbar-brand" href="/">
+    <img src="/assets/images/logo.png" alt="Travis Cao">
+    </a>
+    <!-- End Logo -->
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse" id="navbarMediumish">
+
+        <!-- Begin Menu -->
+
+            <ul class="navbar-nav ml-auto">
+
+                
+                <li class="nav-item">
+                
+                <a class="nav-link" href="/">Home</a>    
+                </li>   
+
+                <li class="nav-item">
+                <a class="nav-link" href="/downloads/cv_shengyang_cao.pdf">CV</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link" href="https://github.com/scaotravis/">GitHub</a>
+                </li>
+
+                <div class="dropdown" onmouseleave="closingExpandedMenu()">
+                    
+                    <li class="nav-item active">
+                    
+                        <a class="nav-link">Teaching <i class="fa fa-caret-down"></i></a>
+                        <div class="dropdown-content" class="nav-link">
+                            <a href="/teaching/fa22-310"  class="active" >Fa22: 310</a>
+                            <a href="/teaching/su22-phd-stats" >Su22: Boot Camp</a>
+                            <a href="/teaching/sp22-310" >Sp22: 310</a>
+                            <span id="dots">
+                                <a id="dots-text" onmouseenter="expandingMenu()">More...</a>
+                            </span>
+                            <span id="more">
+                                <a href="/teaching/fa21-310" >Fa21: 310</a>
+                                <a href="/teaching/sp21-400" >Sp21: 400</a>
+                                <a href="/teaching/fa20-522" >Fa20: 522</a>
+                                <a href="/teaching/sp20-101" >Sp20: 101</a>
+                                <a href="/teaching/fa19-101" >Fa19: 101</a>
+                            </span>
+                        </div>
+                    </li>
+                </div>
+
+                <li class="nav-item">
+                <a class="nav-link" href="https://philknight93.github.io/Recipe-Site/tp.html">Recipes</a>
+                </li>
+
+                <script src="/assets/js/lunr.js"></script>
+<script src="/assets/js/lunrsearchengine.js"></script>
+
+<form class="bd-search" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+    <input type="text" class="form-control text-small launch-modal-search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Type and enter..."/>
+</form>
+
+<div id="lunrsearchresults">
+</div>
+
+            </ul>
+
+        <!-- End Menu -->
+
+    </div>
+
+    </div>
+</nav>
+<!-- End Navigation
+================================================== -->
+
+<div class="site-content">
+<div class="container">
+
+<!-- Site Title
+================================================== -->
+<div class="mainheading">
+    <h1 class="sitetitle"><a class="sitetitlelink" href="/">Travis Cao</h1>
+    <p class="lead">
+         Econ Ph.D. student at UW-Madison
+    </a></p>
+</div>
+
+
+
+<!-- Content
+================================================== -->
+<div class="main-content">
+    <section>
+    <div class="section-title">
+        <h2><span>Teaching</span></h2>
+    </div>
+    
+    <div class="article-post">
+    <h2 id="econ-310-statistics-measurement-in-economics-fall-2022">Econ 310: Statistics: Measurement in Economics (Fall 2022)</h2>
+
+<p><strong>End of semester TA performance evaluation available soon</strong></p>
+
+<p><strong>Modality</strong>: In-person</p>
+
+<p><a href="https://canvas.wisc.edu/courses/308015">Canvas course site</a></p>
+
+<p><strong>Course Instructor</strong>: Dr. Gregory Pac</p>
+
+<p><strong>Lecture</strong>: Tuesdays and Thursdays, 9:30am - 10:45am @ 5206 <a href="https://map.wisc.edu/s/6hlqixeh">Social Sciences</a></p>
+
+<p><strong>Discussion Sections</strong>:</p>
+
+<ul>
+  <li>Thursdays, 2:25 - 3:15pm @ 586 <a href="https://map.wisc.edu/s/dcumacyz">Van Hise</a></li>
+  <li>Thursdays, 3:30 - 4:20pm @ 590 <a href="https://map.wisc.edu/s/dcumacyz">Van Hise</a></li>
+  <li>Thursdays, 4:35 - 5:25pm @ 590 <a href="https://map.wisc.edu/s/dcumacyz">Van Hise</a></li>
+</ul>
+
+<p><strong>Office Hours</strong>:</p>
+
+<ul>
+  <li>Mondays, 9:30 - 10:30am, online via Zoom (Zoom link available on <a href="https://canvas.wisc.edu/courses/308015/pages/ta-resources-for-traviss-students?module_item_id=4967822">Canvas</a>)</li>
+  <li>Thursdays, 1:00 - 2:00pm, in person @ 7226 Social Sciences</li>
+  <li>Or by appointment</li>
+</ul>
+
+<h4 id="discussion-materials">Discussion Materials</h4>
+
+<p>The following is also available on <a href="https://canvas.wisc.edu/courses/308015/pages/ta-resources-for-traviss-students?module_item_id=4967822">Canvas</a></p>
+
+<p>If you need any help installing Stata, here’s a quick <a href="/downloads/teaching/fa22-310/310_fa22_stata-installation-guide.pdf">installation guide</a></p>
+
+<p><a href="/downloads/teaching/fa22-310/310_fa22_book-tables.pdf">Probability tables from the textbook</a></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Date</th>
+      <th style="text-align: left">Content</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Week 1 <br /> (9/8)</td>
+      <td style="text-align: left">General Info; Data; Population vs. Sample <br /> <a href="/downloads/teaching/fa22-310/310_fa22_handout-1.pdf">Handout</a>   <a href="/downloads/teaching/fa22-310/310_fa22_handout-1_sol.pdf">Solution</a>   <a href="https://youtu.be/Dnt3Gp5g5PE">Recording</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Week 2 <br /> (9/15)</td>
+      <td style="text-align: left">Descriptive Statistics; Sampling <br /> <a href="/downloads/teaching/fa22-310/310_fa22_handout-2.pdf">Handout</a>   <a href="/downloads/teaching/fa22-310/310_fa22_handout-2_sol.pdf">Solution</a>   <a href="https://youtu.be/EINdTls42xI">Recording</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Week 3 <br /> (9/22)</td>
+      <td style="text-align: left">Sampling (Cont’d); Stata Review <br /> <a href="/downloads/teaching/fa22-310/310_fa22_handout-3.pdf">Handout</a>   <a href="/downloads/teaching/fa22-310/310_fa22_handout-3_sol.pdf">Solution</a>   <a href="https://youtu.be/38nqBRGwCr4">Recording</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Week 4 <br /> (9/29)</td>
+      <td style="text-align: left">Probability <br /> <a href="/downloads/teaching/fa22-310/310_fa22_handout-4.pdf">Handout</a>   <a href="/downloads/teaching/fa22-310/310_fa22_handout-4_sol.pdf">Solution</a>   <a href="https://youtu.be/_80YNyL-y4s">Recording</a> <br /> <strong>Exam 1: Opens at 3:30pm on 9/30 (Fri)</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Week 5 <br /> (10/6)</td>
+      <td style="text-align: left">Random Variables; Discrete Probability Distributions <br /> <a href="/downloads/teaching/fa22-310/310_fa22_handout-5.pdf">Handout</a>   <a href="/downloads/teaching/fa22-310/310_fa22_handout-5_sol.pdf">Solution</a>   <a href="https://youtu.be/sIUbdtm-1qM">Recording</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Week 6 <br /> (10/13)</td>
+      <td style="text-align: left">Continuous Probability Distributions <br /> <a href="/downloads/teaching/fa22-310/310_fa22_handout-6.pdf">Handout</a>   <a href="/downloads/teaching/fa22-310/310_fa22_handout-6_sol.pdf">Solution</a>   <a href="https://youtu.be/92MemENT_no">Recording</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Week 7 <br /> (10/20)</td>
+      <td style="text-align: left"><strong>Exam 2: Opens at 3:30pm on 10/19 (Wed)</strong> <br /> Stata Q&amp;A <br /> <a href="/downloads/teaching/fa22-310/310_fa22_handout-7.pdf">Handout</a>   <a href="/downloads/teaching/fa22-310/310_fa22_handout-7_sol.pdf">Solution</a>   <a href="https://youtu.be/GPXNNXMpI2k">Recording</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Week 8 <br /> (10/27)</td>
+      <td style="text-align: left">Sampling Distributions <br /> <a href="/downloads/teaching/fa22-310/310_fa22_handout-8.pdf">Handout</a>   <a href="/downloads/teaching/fa22-310/310_fa22_handout-8_sol.pdf">Solution</a>   <a href="https://youtu.be/izeSKINaDs0">Recording</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Week 9 <br /> (11/3)</td>
+      <td style="text-align: left">Intro to Estimation <br /> <a href="/downloads/teaching/fa22-310/310_fa22_handout-9.pdf">Handout</a>   <a href="/downloads/teaching/fa22-310/310_fa22_handout-9_sol.pdf">Solution</a>   <a href="https://youtu.be/WkdRKB-dBDo">Recording</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Week 10 <br /> (11/10)</td>
+      <td style="text-align: left">Hypothesis Testing <br /> <a href="/downloads/teaching/fa22-310/310_fa22_handout-10.pdf">Handout</a>   <a href="/downloads/teaching/fa22-310/310_fa22_handout-10_sol.pdf">Solution</a>   <a href="https://youtu.be/jSym_8E1bTg">Recording</a> <br /> <strong>Exam 3: Opens at 3:30pm on 11/11 (Fri)</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Week 11 <br /> (11/17)</td>
+      <td style="text-align: left">Inference about a Population <br /> <a href="/downloads/teaching/fa22-310/310_fa22_handout-11.pdf">Handout</a>   <a href="/downloads/teaching/fa22-310/310_fa22_handout-11_sol.pdf">Solution</a>   <a href="https://youtu.be/UYnnp80xSzc">Recording</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Week 12 <br /> (11/24)</td>
+      <td style="text-align: left"><strong>NO DISCUSSION (Thanksgiving Break)</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Week 13 <br /> (12/1)</td>
+      <td style="text-align: left">Inference about Two Populations <br /> <a href="/downloads/teaching/fa22-310/310_fa22_handout-12.pdf">Handout</a>   <a href="/downloads/teaching/fa22-310/310_fa22_handout-12_sol.pdf">Solution</a>   <a href="https://youtu.be/sVSgIpsrwkY">Recording</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Week 14 <br /> (12/8)</td>
+      <td style="text-align: left">Simple Linear Regression <br /> <a href="/downloads/teaching/fa22-310/310_fa22_handout-13.pdf">Handout</a>   <a href="/downloads/teaching/fa22-310/310_fa22_handout-13_sol.pdf">Solution</a>   <a href="https://youtu.be/F1HzDCHK_Xk">Recording</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Week 15 <br /> (12/15)</td>
+      <td style="text-align: left"><strong>Exam 4: Opens at 3:30pm on 12/14 (Wed)</strong> <br /> <strong>NO DISCUSSION (See email for extra office hours)</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Week 16 <br /> (12/19)</td>
+      <td style="text-align: left"><strong>Final Exam: 12/19 (Mon), 10:05am - 12:05pm</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+    </div>
+    
+</section>
+</div>
+
+
+<!-- Begin Footer
+================================================== -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 text-center text-lg-left">
+                 Copyright &copy; <script>document.write(new Date().getFullYear())</script> Shengyang Cao
+            </div>
+            <div class="col-md-6 col-sm-6 text-center text-lg-right">
+                Made with <a target="_blank" href="https://jekyllrb.com/">Jekyll</a> <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll/">Mediumish Theme</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer -->
+
+
+</div> <!-- /.site-content -->
+
+<!-- Bootstrap core JavaScript -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+<script src="/assets/js/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<script src="/assets/js/ie10-viewport-bug-workaround.js"></script>
+
+<script src="/assets/js/mediumish.js"></script>
+
+</body>
+</html>
