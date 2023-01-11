@@ -112,23 +112,23 @@ jQuery(document).ready(function($){
 
   // Dots modification
   if (window.location.href.indexOf('teaching/fa21-310') > 0) {
-    var urlLink = '<a href="{{ site.baseurl }}/teaching/fa21-310" class="active">Fa21: 310</a> <a id="dots-text" onmouseenter="expandingMenu()">More...</a>'
+    var urlLink = '<a href="/teaching/fa21-310" class="active">Fa21: 310</a> <a id="dots-text" onmouseenter="expandingMenu()">More...</a>'
     document.getElementById("dots").innerHTML = urlLink; 
     document.close(); 
   } else if (window.location.href.indexOf('teaching/sp21-400') > 0) {
-    var urlLink = '<a href="{{ site.baseurl }}/teaching/sp21-400" class="active">Sp21: 400</a> <a id="dots-text" onmouseenter="expandingMenu()">More...</a>'
+    var urlLink = '<a href="/teaching/sp21-400" class="active">Sp21: 400</a> <a id="dots-text" onmouseenter="expandingMenu()">More...</a>'
     document.getElementById("dots").innerHTML = urlLink; 
     document.close(); 
   } else if (window.location.href.indexOf('teaching/fa20-522') > 0) {
-    var urlLink = '<a href="{{ site.baseurl }}/teaching/fa20-522" class="active">Fa20: 522</a> <a id="dots-text" onmouseenter="expandingMenu()">More...</a>'
+    var urlLink = '<a href="/teaching/fa20-522" class="active">Fa20: 522</a> <a id="dots-text" onmouseenter="expandingMenu()">More...</a>'
     document.getElementById("dots").innerHTML = urlLink; 
     document.close(); 
   } else if (window.location.href.indexOf('teaching/sp20-101') > 0) {
-    var urlLink = '<a href="{{ site.baseurl }}/teaching/sp20-101" class="active">Sp20: 101</a> <a id="dots-text" onmouseenter="expandingMenu()">More...</a>'
+    var urlLink = '<a href="/teaching/sp20-101" class="active">Sp20: 101</a> <a id="dots-text" onmouseenter="expandingMenu()">More...</a>'
     document.getElementById("dots").innerHTML = urlLink; 
     document.close(); 
   } else if (window.location.href.indexOf('teaching/fa19-101') > 0) {
-    var urlLink = '<a href="{{ site.baseurl }}/teaching/fa19-101" class="active">Fa19: 101</a> <a id="dots-text" onmouseenter="expandingMenu()">More...</a>'
+    var urlLink = '<a href="/teaching/fa19-101" class="active">Fa19: 101</a> <a id="dots-text" onmouseenter="expandingMenu()">More...</a>'
     document.getElementById("dots").innerHTML = urlLink; 
     document.close(); 
   }

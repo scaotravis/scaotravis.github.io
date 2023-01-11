@@ -27,7 +27,7 @@ permalink: /
     </style>
     <div class="attributes">
       <img alt="Profile Image"
-        src="{{ site.baseurl }}/assets/images/avatar.jpg">
+        src="{{ site.url }}/assets/images/avatar.jpg">
     </div>
   </body>
 </html>
@@ -40,6 +40,6 @@ Prior to my doctoral study, I studied economics and mathematics also at UW-Madis
 
 Some quick access links:
 
-* [Curriculum Vitae]({{ site.baseurl }}/downloads/cv_shengyang_cao.pdf)
+* [Curriculum Vitae]({{ site.url }}/downloads/cv_shengyang_cao.pdf)
 * [GitHub Profile](https://github.com/scaotravis/)
-* [Econ 310 for Fall 2022]({{ site.baseurl }}/teaching/fa22-310)
+* [Econ 310 for Fall 2022]({{ site.url }}/teaching/fa22-310)
