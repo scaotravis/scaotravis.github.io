@@ -1,0 +1,11 @@
+current directory: /Users/travis/Documents/GitHub/scaotravis.github.io/vendor/bundle/ruby/3.1.0/gems/wdm-0.1.1/ext/wdm
+/Users/travis/.rbenv/versions/3.1.2/bin/ruby -I /Users/travis/.rbenv/versions/3.1.2/lib/ruby/3.1.0 -r ./siteconf20230303-8946-mm15ii.rb extconf.rb
+
+current directory: /Users/travis/Documents/GitHub/scaotravis.github.io/vendor/bundle/ruby/3.1.0/gems/wdm-0.1.1/ext/wdm
+make DESTDIR\= clean
+
+current directory: /Users/travis/Documents/GitHub/scaotravis.github.io/vendor/bundle/ruby/3.1.0/gems/wdm-0.1.1/ext/wdm
+make DESTDIR\=
+
+current directory: /Users/travis/Documents/GitHub/scaotravis.github.io/vendor/bundle/ruby/3.1.0/gems/wdm-0.1.1/ext/wdm
+make DESTDIR\= install
