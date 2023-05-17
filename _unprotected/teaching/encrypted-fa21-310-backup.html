@@ -6203,7 +6203,7 @@
                 decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
     
             if (decryptedHMAC !== encryptedHMAC) {
-                alert('Bad password!');
+                alert('Incorrect password. Try again.');
                 return;
             } else {
                 window.localStorage.setItem('fa21-310-stored-passphrase', passphrase); 
