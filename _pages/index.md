@@ -18,10 +18,10 @@ permalink: /
       }
       @media only screen and (min-width: 768px) {
         .attributes {
-          margin: 15px 1px 1px 30px;
+          margin: 5px 1px 1px 30px;
           float: right;
-          height: 280px;
-          width: 280px;
+          height: 250px;
+          width: 250px;
         }
       }
     </style>
@@ -32,14 +32,13 @@ permalink: /
   </body>
 </html>
 
-My legal name is **Shengyang Cao**; I go by **Travis**.
+My legal name is **Shengyang Cao**; I go by **Travis**. 
 
-I'm an economics Ph.D. student at University of Wisconsin-Madison. I'm interested in industrial organization and health economics. 
+I am a Technical Solutions Engineer at [Epic Systems Co.](https://epic.com)
 
-Prior to my doctoral study, I studied economics and mathematics also at UW-Madison and graduated with Comprehensive Honors and Distinction.
+If you are a former student of mine and want to access past teaching materials, please visit the [Teaching](/teaching) page to find the class you took with me, and follow the instruction. 
 
-Some quick access links:
+Some quick access links: 
 
-* [Curriculum Vitae](/downloads/cv_shengyang_cao.pdf)
+* [LinkedIn Profile](https://www.linkedin.com/in/travis-cao)
 * [GitHub Profile](https://github.com/scaotravis/)
-* [Econ 310 for Spring 2023](/teaching/sp23-310)
