@@ -2,7 +2,7 @@
 layout: page
 title: "Teaching"
 categories: Teaching
-permalink: /teaching
+permalink: /teaching/
 ---
 
 ## Teaching Materials
