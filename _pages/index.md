@@ -38,7 +38,7 @@ I am a Team Lead in the Technical Solutions division at [Epic Systems Co.](https
 
 If you are a former student of mine and want to access past teaching materials, please visit the [Teaching](/teaching) page to find the class you took with me, and follow the instruction there. 
 
-Some quick access links: 
+Quick access links: 
 
 * [LinkedIn Profile](https://www.linkedin.com/in/travis-cao)
 * [GitHub Profile](https://github.com/scaotravis/)
