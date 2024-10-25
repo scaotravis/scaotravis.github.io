@@ -16,7 +16,7 @@ categories: Research
 ## What is hoo?
 hoo is an R package used for multimodal data analysis. It is used alongside [rENA](https://cran.r-project.org/web/packages/rENA/index.html).
 
-hoo creates an appropriate ENA accumulated model that can be used by rENA to produce ENA set. You can call rENA plotting functions on such ENA set to generate points and network plots to analyze connections between player interactions.
+hoo creates a ENA accumulated model that can be used by rENA to produce an ENA set. You can call rENA plotting functions on such ENA set to generate points and network plots to analyze connections between player interactions.
 
 For more on how to interpret ENA model and plotted network, consult [Epistemic Analytics Lab](http://www.epistemicanalytics.org/) at University of Wisconsin-Madison.
 
