@@ -34,7 +34,7 @@ permalink: /
 
 My legal name is **Shengyang Cao**; I go by **Travis**. 
 
-I am a Technical Solutions Engineer at [Epic Systems Co.](https://epic.com)
+I am a Team Lead in the Technical Solutions division at [Epic Systems Co.](https://epic.com)
 
 If you are a former student of mine and want to access past teaching materials, please visit the [Teaching](/teaching) page to find the class you took with me, and follow the instruction. 
 
