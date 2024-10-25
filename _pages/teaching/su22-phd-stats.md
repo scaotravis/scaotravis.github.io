@@ -6,7 +6,7 @@ categories: Teaching
 
 ## Statistics Boot Camp for First-Year Social Work Ph.D. Students (Summer 2022)
 
-**Modality**: In-person
+**Modality**: In person
 
 **Instructor**: Travis Cao
 
